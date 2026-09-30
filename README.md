@@ -59,7 +59,7 @@ Copy `.env.example` to create your environment configurations:
 | Variable | Description | Default (Local) | Production Example |
 | :--- | :--- | :--- | :--- |
 | `VITE_API_URL` | Base REST API endpoint URL | `http://127.0.0.1:8001/api` | `https://varsha-ai-api.onrender.com/api` |
-| `ALLOWED_ORIGINS` | Comma-separated CORS whitelist | `http://localhost:5173,http://localhost:5174` | `https://varsha-ai.vercel.app,http://localhost:5173` |
+| `ALLOWED_ORIGINS` | Comma-separated CORS whitelist | `http://localhost:5173,http://localhost:5174` | `https://varsha-ai-six.vercel.app,http://localhost:5173` |
 
 ---
 
