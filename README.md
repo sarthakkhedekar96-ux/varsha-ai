@@ -74,7 +74,7 @@ Copy `.env.example` to create your environment configurations:
 - **Health Check Path:** `/health`
 - **Instance Type:** Free tier (512 MB RAM) / Starter
 - **Environment Variables:**
-  - `ALLOWED_ORIGINS`: `https://varsha-ai.vercel.app`
+  - `ALLOWED_ORIGINS`: `varsha-ai-six.vercel.app`
 
 ### 2. Frontend on Vercel (SPA)
 - **Project Name:** `varsha-ai`
