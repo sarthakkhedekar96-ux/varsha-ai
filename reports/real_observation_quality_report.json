@@ -1,0 +1,16 @@
+{
+  "audit_timestamp": "2026-09-29T19:47:09.980811",
+  "total_observations": 10317,
+  "unique_districts": 57,
+  "unique_dates": 181,
+  "date_range_min": "2026-04-02",
+  "date_range_max": "2026-09-29",
+  "negative_rainfall_records": 0,
+  "missing_or_nan_records": 0,
+  "duplicate_records": 0,
+  "extreme_heavy_records_gt_204mm": 3,
+  "dry_days_zero_mm": 2228,
+  "dry_day_percentage": 21.6,
+  "source": "ECMWF_ERA5_LAND_REANALYSIS",
+  "quality_status": "PASS (Zero duplicates, zero negatives, zero NaNs, physically valid range)"
+}

@@ -1,0 +1,7 @@
+feature,source,timestamp,available_at_prediction_time,future_leakage,status
+terrain,District Master,Static,YES,NO,PASS
+elevation,SRTM DEM,Static,YES,NO,PASS
+day_of_year,Forecast Valid Date,Forecast Day,YES,NO,PASS
+raw_forecast_rainfall_mm,NWP GFS 0.25°,T-24h Initialization,YES,NO,PASS
+previous_1day_rainfall,IMD shift(1),T-1 Day,YES,NO,PASS
+rolling_3day_mean,IMD shift(1).rolling(3),T-3 to T-1 Days,YES,NO,PASS

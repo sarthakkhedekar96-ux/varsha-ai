@@ -1,0 +1,98 @@
+{
+  "architecture": "Two-Stage Gated Occurrence + Conditional Amount",
+  "gate_threshold": 0.6,
+  "heavy_rain_decision_threshold": 0.2,
+  "base_features": [
+    "raw_gfs_rainfall_mm",
+    "previous_1day_rainfall",
+    "previous_3day_rainfall",
+    "previous_7day_rainfall",
+    "rolling_3day_mean",
+    "rolling_7day_mean",
+    "latitude",
+    "longitude",
+    "elevation",
+    "day_of_year",
+    "month"
+  ],
+  "regime_features": [
+    "raw_gfs_rainfall_mm",
+    "previous_1day_rainfall",
+    "previous_3day_rainfall",
+    "previous_7day_rainfall",
+    "rolling_3day_mean",
+    "rolling_7day_mean",
+    "latitude",
+    "longitude",
+    "elevation",
+    "day_of_year",
+    "month",
+    "regime_encoded"
+  ],
+  "test_results": {
+    "raw_gfs": {
+      "model": "Raw GFS",
+      "rmse": 8.743280269709231,
+      "mae": 4.03796992481203,
+      "bias": -0.09147869674185456,
+      "corr": 0.6882119147682862,
+      "tp": 4,
+      "fp": 11,
+      "fn": 1,
+      "tn": 1580,
+      "csi": 0.25,
+      "pod": 0.8,
+      "far": 0.7333333333333333,
+      "precision": 0.26666666666666666,
+      "recall": 0.8,
+      "f1": 0.4
+    },
+    "v1_regime_aware": {
+      "model": "V1 Regime-Aware",
+      "rmse": 7.921033059719137,
+      "mae": 4.897418095075715,
+      "bias": 2.990077163448106,
+      "corr": 0.717888823651342,
+      "tp": 1,
+      "fp": 10,
+      "fn": 4,
+      "tn": 1581,
+      "csi": 0.06666666666666667,
+      "pod": 0.2,
+      "far": 0.9090909090909091,
+      "precision": 0.09090909090909091,
+      "recall": 0.2,
+      "f1": 0.12500000000000003
+    },
+    "v2_two_stage": {
+      "model": "V2 Two-Stage",
+      "rmse": 7.842805341930792,
+      "mae": 4.7963129666785145,
+      "bias": 2.8382161465323668,
+      "corr": 0.7248082582661317,
+      "tp": 4,
+      "fp": 6,
+      "fn": 1,
+      "tn": 1585,
+      "csi": 0.36363636363636365,
+      "pod": 0.8,
+      "far": 0.6,
+      "precision": 0.4,
+      "recall": 0.8,
+      "f1": 0.5333333333333333
+    }
+  },
+  "dry_day_metrics": {
+    "test_dry_samples": 177,
+    "raw_false_rain_pct": 12.994350282485875,
+    "v1_false_rain_pct": 96.045197740113,
+    "v2_false_rain_pct": 49.717514124293785,
+    "v2_avg_on_dry": 1.7997741234521971,
+    "v2_median_on_dry": 0.29943216195924577
+  },
+  "heavy_classifier_metrics": {
+    "roc_auc": 0.9517284726587052,
+    "brier_score": 0.0031873142956242275,
+    "pr_auc": 0.18770685935069498
+  }
+}

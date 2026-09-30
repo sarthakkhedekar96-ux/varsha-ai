@@ -1,0 +1,15 @@
+{
+  "forecast_source": "NOAA GFS 0.25\u00b0 / ECMWF IFS Seamless Atmospheric Model",
+  "forecast_row_count": 10317,
+  "district_count": 57,
+  "forecast_date_min": "2026-04-02",
+  "forecast_date_max": "2026-09-29",
+  "missing_forecasts": 0,
+  "duplicate_forecasts": 0,
+  "lead_time_distribution": {
+    "24_hours": 10317
+  },
+  "spatial_units": "District-Polygon Centroids",
+  "retrieved_at": "2026-09-29T15:51:48.638765",
+  "status": "PASS"
+}

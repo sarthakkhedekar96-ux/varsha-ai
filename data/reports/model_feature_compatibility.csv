@@ -1,0 +1,10 @@
+feature,expected_dtype,actual_dtype,source,transformation,compatible,missing,action
+raw_nwp_rainfall_mm,float64,float64,Numerical Model Forecast,Direct extraction,YES,NO,USE_DIRECTLY
+previous_1day_rainfall,float64,float64,IMD Observation Shift,shift(1),YES,NO,USE_DIRECTLY
+previous_3day_rainfall,float64,float64,IMD Observation Shift,shift(3),YES,NO,USE_DIRECTLY
+rolling_3day_mean,float64,float64,IMD Historical Rolling,shift(1).rolling(3).mean(),YES,NO,USE_DIRECTLY
+rolling_7day_mean,float64,float64,IMD Historical Rolling,shift(1).rolling(7).mean(),YES,NO,USE_DIRECTLY
+latitude,float64,float64,District Master,WGS84 centroid,YES,NO,USE_DIRECTLY
+longitude,float64,float64,District Master,WGS84 centroid,YES,NO,USE_DIRECTLY
+elevation,float64,int64,SRTM 90m DEM,Mean elevation (m),YES,NO,USE_DIRECTLY
+day_of_year,int32,int64,Observation Date,date.timetuple().tm_yday,YES,NO,USE_DIRECTLY

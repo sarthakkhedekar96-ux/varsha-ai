@@ -1,0 +1,58 @@
+district_key,district,state,observed_rainfall_mm,raw_forecast_rainfall_mm,normal_rainfall_mm,latitude,longitude,elevation,terrain
+ahmedabad,Ahmedabad,Gujarat,739.0,618.5,3402.8,23.0225,72.5714,53,Plains
+amritsar,Amritsar,Punjab,482.1,246.9,3402.8,31.634,74.8723,234,Plains
+aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,628.7,622.1,3402.8,19.8762,75.3433,568,Plateau
+bengaluru urban,Bengaluru Urban,Karnataka,575.9,448.1,3402.8,12.9716,77.5946,920,Plateau
+bhopal,Bhopal,Madhya Pradesh,863.5,1024.7,3402.8,23.2599,77.4126,500,Plateau
+cachar,Cachar (Silchar),Assam,2806.7,2263.6,3402.8,24.8333,92.7789,22,Plains
+chennai,Chennai,Tamil Nadu,427.6,208.5,6117.799999999999,13.0827,80.2707,6,Coastal
+coimbatore,Coimbatore,Tamil Nadu,572.5,305.8,3402.8,11.0168,76.9558,411,Plains
+cuttack,Cuttack,Odisha,2324.1,1265.0,3402.8,20.4625,85.8828,36,Plains
+dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,2370.3,2107.3,6117.799999999999,12.9141,74.856,22,Coastal
+darjeeling,Darjeeling,West Bengal,1947.0,2896.0,3402.8,27.041,88.2663,2045,Himalayan
+dehradun,Dehradun,Uttarakhand,1090.8,992.3,3402.8,30.3165,78.0322,640,Himalayan
+east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,2570.0,2633.3,9231.0,25.2986,91.7324,1484,Orographic/Ghats
+east sikkim,East Sikkim (Gangtok),Sikkim,2885.7,2230.4,3402.8,27.3389,88.6065,1650,Himalayan
+ernakulam,Ernakulam (Kochi),Kerala,1686.9,1590.5,6117.799999999999,9.9816,76.2999,4,Coastal
+hyderabad,Hyderabad,Telangana,377.0,412.1,3402.8,17.385,78.4867,542,Plateau
+idukki,Idukki,Kerala,2296.4,1172.0,9231.0,9.8497,76.9806,1200,Orographic/Ghats
+jaipur,Jaipur,Rajasthan,368.1,361.9,3402.8,26.9124,75.7873,431,Plains
+jodhpur,Jodhpur,Rajasthan,270.6,128.5,3402.8,26.2389,73.0243,231,Arid Plains
+kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,2104.9,1939.9,3402.8,26.1445,91.7362,55,Plains
+khordha,Khordha (Bhubaneswar),Odisha,2655.8,1392.0,3402.8,20.2961,85.8245,45,Plains
+kolhapur,Kolhapur,Maharashtra,676.8,309.8,9231.0,16.705,74.2433,545,Orographic/Ghats
+kolkata,Kolkata,West Bengal,1851.9,924.2,6117.799999999999,22.5726,88.3639,9,Coastal
+kozhikode,Kozhikode,Kerala,2145.8,1353.6,6117.799999999999,11.2588,75.7804,1,Coastal
+kullu,Kullu (Manali),Himachal Pradesh,868.8,935.0,3402.8,31.9579,77.1095,1279,Himalayan
+kutch,Kutch (Bhuj),Gujarat,287.3,234.60000000000002,3402.8,23.242,69.6669,110,Arid Plains
+lucknow,Lucknow,Uttar Pradesh,1057.0,687.8000000000001,3402.8,26.8467,80.9462,123,Plains
+madurai,Madurai,Tamil Nadu,378.1,585.6,3402.8,9.9252,78.1198,101,Plains
+mumbai city,Mumbai City,Maharashtra,1957.3,2318.6,6117.799999999999,18.9388,72.8353,10,Coastal
+mumbai suburban,Mumbai Suburban,Maharashtra,1944.4,1901.7,6117.799999999999,19.076,72.8777,14,Coastal
+nagpur,Nagpur,Maharashtra,756.7,1090.5,3402.8,21.1458,79.0882,310,Plains
+nainital,Nainital,Uttarakhand,1485.5,1326.0,3402.8,29.3919,79.4542,2084,Himalayan
+nashik,Nashik,Maharashtra,842.0,864.4,9231.0,19.9975,73.7898,600,Orographic/Ghats
+new delhi,New Delhi,Delhi,699.0,453.3,3402.8,28.6139,77.209,216,Plains
+nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,882.4,1391.6,9231.0,11.4102,76.695,2240,Orographic/Ghats
+north goa,North Goa (Panaji),Goa,2245.4,1932.2,6117.799999999999,15.4909,73.8278,7,Coastal
+palakkad,Palakkad,Kerala,1624.2,594.3,3402.8,10.7867,76.6548,84,Plains
+patna,Patna,Bihar,860.9,493.3,3402.8,25.5941,85.1376,53,Plains
+pune,Pune,Maharashtra,731.3,660.5,9231.0,18.5204,73.8567,560,Orographic/Ghats
+puri,Puri,Odisha,2153.4,1349.8,6117.799999999999,19.8135,85.8312,10,Coastal
+raigad,Raigad,Maharashtra,2087.7,2190.5,6117.799999999999,18.5158,73.1812,30,Coastal
+ranchi,Ranchi,Jharkhand,1049.7,1066.4,3402.8,23.3441,85.3096,651,Plateau
+ratnagiri,Ratnagiri,Maharashtra,2464.4,2039.0,6117.799999999999,16.9902,73.312,11,Coastal
+satara,Satara,Maharashtra,544.6,432.9,9231.0,17.6805,74.0183,742,Orographic/Ghats
+shimla,Shimla,Himachal Pradesh,868.9,820.8000000000001,3402.8,31.1048,77.1734,2276,Himalayan
+shivamogga,Shivamogga (Agumbe),Karnataka,579.5,366.2,9231.0,13.9299,75.5681,580,Orographic/Ghats
+sindhudurg,Sindhudurg,Maharashtra,2236.1,2398.1,6117.799999999999,16.1265,73.6993,25,Coastal
+solapur,Solapur,Maharashtra,531.5,514.4,3402.8,17.6599,75.9064,458,Plateau
+srinagar,Srinagar,Jammu & Kashmir,531.6,553.5,3402.8,34.0837,74.7973,1585,Himalayan
+surat,Surat,Gujarat,1288.0,1413.3,6117.799999999999,21.1702,72.8311,13,Coastal
+thane,Thane,Maharashtra,1665.3,1912.6,6117.799999999999,19.2183,72.9781,15,Coastal
+thiruvananthapuram,Thiruvananthapuram,Kerala,1191.6,1019.0,6117.799999999999,8.5241,76.9366,10,Coastal
+uttara kannada,Uttara Kannada (Karwar),Karnataka,2197.3,2399.9,6117.799999999999,14.8185,74.1416,10,Coastal
+varanasi,Varanasi,Uttar Pradesh,871.0,667.0,3402.8,25.3176,82.9739,81,Plains
+vijayawada,NTR (Vijayawada),Andhra Pradesh,391.9,489.9,3402.8,16.5062,80.648,23,Plains
+visakhapatnam,Visakhapatnam,Andhra Pradesh,1012.7,642.5,6117.799999999999,17.6868,83.2185,11,Coastal
+wayanad,Wayanad,Kerala,814.3,996.3,9231.0,11.6854,76.132,950,Orographic/Ghats

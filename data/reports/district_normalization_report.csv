@@ -1,0 +1,67 @@
+original_name,normalized_key,normalized_name,state,normalization_status,method,confidence_score,audited_at
+ahmedabad,ahmedabad,Ahmedabad,Gujarat,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+amritsar,amritsar,Amritsar,Punjab,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+aurangabad,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+bangalore,bengaluru urban,Bengaluru Urban,Karnataka,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682940
+bengaluru urban,bengaluru urban,Bengaluru Urban,Karnataka,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+bhopal,bhopal,Bhopal,Madhya Pradesh,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+bombay,mumbai city,Mumbai City,Maharashtra,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682436
+cachar,cachar,Cachar (Silchar),Assam,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+calcutta,kolkata,Kolkata,West Bengal,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682436
+chennai,chennai,Chennai,Tamil Nadu,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+cherrapunji,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682436
+cochin,ernakulam,Ernakulam (Kochi),Kerala,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682436
+coimbatore,coimbatore,Coimbatore,Tamil Nadu,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+cuttack,cuttack,Cuttack,Odisha,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+dakshina kannada,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+darjeeling,darjeeling,Darjeeling,West Bengal,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+dehradun,dehradun,Dehradun,Uttarakhand,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+east khasi hills,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+east sikkim,east sikkim,East Sikkim (Gangtok),Sikkim,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+ernakulam,ernakulam,Ernakulam (Kochi),Kerala,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+hyderabad,hyderabad,Hyderabad,Telangana,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+idukki,idukki,Idukki,Kerala,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+jaipur,jaipur,Jaipur,Rajasthan,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+jodhpur,jodhpur,Jodhpur,Rajasthan,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+kamrup metropolitan,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+khordha,khordha,Khordha (Bhubaneswar),Odisha,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+kolhapur,kolhapur,Kolhapur,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+kolkata,kolkata,Kolkata,West Bengal,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+kozhikode,kozhikode,Kozhikode,Kerala,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+kullu,kullu,Kullu (Manali),Himachal Pradesh,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+kutch,kutch,Kutch (Bhuj),Gujarat,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+lucknow,lucknow,Lucknow,Uttar Pradesh,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+madras,chennai,Chennai,Tamil Nadu,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682940
+madurai,madurai,Madurai,Tamil Nadu,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+manali,kullu,Kullu (Manali),Himachal Pradesh,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682436
+mumbai city,mumbai city,Mumbai City,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+mumbai suburban,mumbai suburban,Mumbai Suburban,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+nagpur,nagpur,Nagpur,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+nainital,nainital,Nainital,Uttarakhand,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+nashik,nashik,Nashik,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+new delhi,new delhi,New Delhi,Delhi,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+nilgiris,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+north goa,north goa,North Goa (Panaji),Goa,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+ooty,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682940
+palakkad,palakkad,Palakkad,Kerala,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+patna,patna,Patna,Bihar,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+pune,pune,Pune,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+puri,puri,Puri,Odisha,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+raigad,raigad,Raigad,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+ranchi,ranchi,Ranchi,Jharkhand,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+ratnagiri,ratnagiri,Ratnagiri,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+satara,satara,Satara,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+shimla,shimla,Shimla,Himachal Pradesh,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+shivamogga,shivamogga,Shivamogga (Agumbe),Karnataka,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+sindhudurg,sindhudurg,Sindhudurg,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+solapur,solapur,Solapur,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+srinagar,srinagar,Srinagar,Jammu & Kashmir,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+surat,surat,Surat,Gujarat,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682940
+thane,thane,Thane,Maharashtra,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+thiruvananthapuram,thiruvananthapuram,Thiruvananthapuram,Kerala,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+trivandrum,thiruvananthapuram,Thiruvananthapuram,Kerala,RESOLVED,ALIAS_FUZZY_MATCH,95,2026-09-29T15:50:08.682436
+uttara kannada,uttara kannada,Uttara Kannada (Karwar),Karnataka,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+varanasi,varanasi,Varanasi,Uttar Pradesh,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+vijayawada,vijayawada,NTR (Vijayawada),Andhra Pradesh,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+visakhapatnam,visakhapatnam,Visakhapatnam,Andhra Pradesh,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436
+wayanad,wayanad,Wayanad,Kerala,RESOLVED,EXACT_MATCH,100,2026-09-29T15:50:08.682436

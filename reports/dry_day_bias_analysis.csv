@@ -1,0 +1,62 @@
+category,identifier,total_samples,dry_samples,raw_gfs_avg_on_dry,v1_model_avg_on_dry,false_rain_count,false_rain_pct
+regime,NORMAL_BACKGROUND,2308,97,3.12,2.76,97,100.0
+regime,ACTIVE_MONSOON,699,3,17.5,7.8,3,100.0
+regime,BREAK_MONSOON,3884,1804,0.03,0.51,496,27.5
+regime,OROGRAPHIC_RAINFALL,866,29,0.67,1.42,22,75.9
+regime,WESTERN_DISTURBANCE,397,118,0.21,0.66,38,32.2
+district,Ahmedabad,153,65,0.04,0.36,8,12.3
+district,Amritsar,153,57,0.23,0.89,25,43.9
+district,Bengaluru Urban,153,39,0.08,0.55,12,30.8
+district,Bhopal,153,61,0.1,0.42,11,18.0
+district,Cachar (Silchar),153,8,0.21,2.7,8,100.0
+district,Chennai,153,42,0.1,0.74,16,38.1
+district,Chhatrapati Sambhaji Nagar (Aurangabad),153,64,0.2,0.35,12,18.8
+district,Coimbatore,153,32,0.1,1.03,15,46.9
+district,Cuttack,153,24,0.69,1.6,20,83.3
+district,Dakshina Kannada (Mangaluru),153,12,0.02,0.65,4,33.3
+district,Darjeeling,153,1,10.7,5.03,1,100.0
+district,Dehradun,153,38,0.0,0.42,8,21.1
+district,East Sikkim (Gangtok),153,1,0.4,3.71,1,100.0
+district,Ernakulam (Kochi),153,3,0.47,1.09,2,66.7
+district,Hyderabad,153,50,0.35,0.69,20,40.0
+district,Idukki,153,9,2.63,2.33,9,100.0
+district,Jaipur,153,66,0.47,0.75,25,37.9
+district,Jodhpur,153,89,0.04,0.67,36,40.4
+district,Kamrup Metropolitan (Guwahati),153,2,0.05,2.77,2,100.0
+district,Khordha (Bhubaneswar),153,28,0.14,0.91,15,53.6
+district,Kolhapur,153,32,0.0,0.25,4,12.5
+district,Kolkata,153,19,1.07,2.01,18,94.7
+district,Kozhikode,153,4,0.0,2.38,4,100.0
+district,Kullu (Manali),153,16,0.0,0.7,7,43.8
+district,Kutch (Bhuj),153,92,0.03,0.57,30,32.6
+district,Lucknow,153,49,0.04,0.61,17,34.7
+district,Madurai,153,35,0.53,1.45,20,57.1
+district,Mumbai City,153,46,0.08,0.31,6,13.0
+district,Mumbai Suburban,153,51,0.05,0.31,5,9.8
+district,NTR (Vijayawada),153,37,0.8,0.9,18,48.6
+district,Nagpur,153,64,0.15,0.42,16,25.0
+district,Nainital,153,23,0.0,0.41,6,26.1
+district,Nashik,153,50,0.15,0.27,5,10.0
+district,New Delhi,153,51,0.09,0.6,14,27.5
+district,Nilgiris (Udhagamandalam),153,29,0.94,1.28,18,62.1
+district,North Goa (Panaji),153,27,0.01,0.36,4,14.8
+district,Palakkad,153,11,0.65,1.17,9,81.8
+district,Patna,153,47,0.11,0.64,14,29.8
+district,Pune,153,48,0.06,0.3,8,16.7
+district,Puri,153,41,0.15,0.67,18,43.9
+district,Raigad,153,37,0.01,0.29,4,10.8
+district,Ranchi,153,34,0.62,0.85,9,26.5
+district,Ratnagiri,153,44,0.05,0.35,8,18.2
+district,Satara,153,48,0.06,0.26,6,12.5
+district,Shimla,153,28,0.01,0.53,6,21.4
+district,Shivamogga (Agumbe),153,33,0.18,0.62,13,39.4
+district,Sindhudurg,153,27,0.0,0.31,4,14.8
+district,Solapur,153,58,0.26,0.47,19,32.8
+district,Srinagar,153,48,0.83,1.53,37,77.1
+district,Surat,153,56,0.08,0.41,6,10.7
+district,Thane,153,41,0.06,0.38,8,19.5
+district,Thiruvananthapuram,153,2,0.05,1.6,2,100.0
+district,Uttara Kannada (Karwar),153,26,0.05,0.49,6,23.1
+district,Varanasi,153,53,0.02,0.65,15,28.3
+district,Visakhapatnam,153,39,0.56,0.78,10,25.6
+district,Wayanad,153,14,2.19,1.83,12,85.7

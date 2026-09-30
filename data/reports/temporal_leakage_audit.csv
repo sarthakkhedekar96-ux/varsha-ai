@@ -1,0 +1,11 @@
+feature,source,timestamp,available_at_prediction_time,uses_future_data,leakage_audit_status,notes
+raw_forecast_rainfall_mm,NOAA GFS 0.25° NWP,T-24h initialization,YES,NO,PASS,Forecast issued ahead of valid time
+previous_1day_rainfall,Observation shift(1),T-1 day,YES,NO,PASS,Strict shift(1) lag
+previous_3day_rainfall,Observation shift(3),T-3 day,YES,NO,PASS,Strict shift(3) lag
+rolling_3day_mean,Observation shift(1).rolling(3),T-3 to T-1 days,YES,NO,PASS,Rolling mean over shifted history only
+rolling_7day_mean,Observation shift(1).rolling(7),T-7 to T-1 days,YES,NO,PASS,Rolling mean over shifted history only
+latitude,District metadata,Static,YES,NO,PASS,Static geographical invariant
+longitude,District metadata,Static,YES,NO,PASS,Static geographical invariant
+elevation,SRTM 90m DEM,Static,YES,NO,PASS,Static terrain invariant
+day_of_year,Forecast calendar day,Forecast valid day,YES,NO,PASS,Known calendar day integer (1-366)
+regime_encoded,Synoptic circulation classifier,Forecast issue time,YES,NO,PASS,Conditioned on forecast-time circulation features

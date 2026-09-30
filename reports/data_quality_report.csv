@@ -1,0 +1,23 @@
+metric,value
+title,IMD Real-Data Quality & Validation Audit Report
+source_name,India Meteorological Department (IMD MAUSAM)
+source_url,https://mausam.imd.gov.in/responsive/rainfallinformation.php
+retrieved_at,2026-09-29T19:47:10.038812
+data_quality_status,PASS
+total_records,10317
+total_columns,42
+date_range_start,2026-04-02
+date_range_end,2026-09-29
+unique_districts,57
+unique_states,23
+missing_values_count,0
+missing_values_pct,0.0
+duplicate_rows,0
+zero_rainfall_count,2228
+heavy_rainfall_count_gte_64_5mm,105
+very_heavy_rainfall_count_gte_115_6mm,18
+extreme_rainfall_count_gte_204_5mm,3
+min_rainfall_mm,0.0
+max_rainfall_mm,237.4
+mean_rainfall_mm,7.15
+std_rainfall_mm,13.66

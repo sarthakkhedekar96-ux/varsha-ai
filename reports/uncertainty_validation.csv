@@ -1,0 +1,8 @@
+metric,value
+total_test_samples,1548
+raw_model_quantile_crossing_count,215
+enforced_runtime_crossing_count,0
+theoretical_coverage_target_pct,80.0
+empirical_coverage_p10_to_p90_pct,92.96
+mean_interval_width_mm,3.96
+quantile_validation_status,PASS (Monotonicity guaranteed by runtime constraint)

@@ -1,0 +1,5 @@
+model_tier,test_samples,test_dates,district_coverage,same_target_y,rmse_mm,fairness_status
+Tier 1: Raw NWP Forecast,1548,2026-09-02 to 2026-09-29,57,YES,0.0,PASS
+Tier 2: Simple Multiplier,1548,2026-09-02 to 2026-09-29,57,YES,1.4735,PASS
+Tier 3: Global ML (No Regime),1548,2026-09-02 to 2026-09-29,57,YES,0.7726,PASS
+Tier 4: Regime-Aware ML,1548,2026-09-02 to 2026-09-29,57,YES,0.7564,PASS

@@ -1,0 +1,58 @@
+forecast_spatial_id,district_id,district,state,subdivision,latitude,longitude,elevation_m,terrain,forecast_resolution,mapping_method,spatial_weight
+GFS_GRID_18.52_73.86,pune,Pune,Maharashtra,Madhya Maharashtra,18.5204,73.8567,560,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_19.08_72.88,mumbai suburban,Mumbai Suburban,Maharashtra,Konkan & Goa,19.076,72.8777,14,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_18.94_72.84,mumbai city,Mumbai City,Maharashtra,Konkan & Goa,18.9388,72.8353,10,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_19.22_72.98,thane,Thane,Maharashtra,Konkan & Goa,19.2183,72.9781,15,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_18.52_73.18,raigad,Raigad,Maharashtra,Konkan & Goa,18.5158,73.1812,30,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_16.99_73.31,ratnagiri,Ratnagiri,Maharashtra,Konkan & Goa,16.9902,73.312,11,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_16.13_73.70,sindhudurg,Sindhudurg,Maharashtra,Konkan & Goa,16.1265,73.6993,25,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_20.00_73.79,nashik,Nashik,Maharashtra,Madhya Maharashtra,19.9975,73.7898,600,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_17.68_74.02,satara,Satara,Maharashtra,Madhya Maharashtra,17.6805,74.0183,742,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_16.70_74.24,kolhapur,Kolhapur,Maharashtra,Madhya Maharashtra,16.705,74.2433,545,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_21.15_79.09,nagpur,Nagpur,Maharashtra,Vidarbha,21.1458,79.0882,310,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_19.88_75.34,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,Marathwada,19.8762,75.3433,568,Plateau,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_17.66_75.91,solapur,Solapur,Maharashtra,Madhya Maharashtra,17.6599,75.9064,458,Plateau,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_11.69_76.13,wayanad,Wayanad,Kerala,Kerala & Mahe,11.6854,76.132,950,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_9.85_76.98,idukki,Idukki,Kerala,Kerala & Mahe,9.8497,76.9806,1200,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_9.98_76.30,ernakulam,Ernakulam (Kochi),Kerala,Kerala & Mahe,9.9816,76.2999,4,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_8.52_76.94,thiruvananthapuram,Thiruvananthapuram,Kerala,Kerala & Mahe,8.5241,76.9366,10,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_10.79_76.65,palakkad,Palakkad,Kerala,Kerala & Mahe,10.7867,76.6548,84,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_11.26_75.78,kozhikode,Kozhikode,Kerala,Kerala & Mahe,11.2588,75.7804,1,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_12.97_77.59,bengaluru urban,Bengaluru Urban,Karnataka,South Interior Karnataka,12.9716,77.5946,920,Plateau,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_12.91_74.86,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,Coastal Karnataka,12.9141,74.856,22,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_14.82_74.14,uttara kannada,Uttara Kannada (Karwar),Karnataka,Coastal Karnataka,14.8185,74.1416,10,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_13.93_75.57,shivamogga,Shivamogga (Agumbe),Karnataka,South Interior Karnataka,13.9299,75.5681,580,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_15.49_73.83,north goa,North Goa (Panaji),Goa,Konkan & Goa,15.4909,73.8278,7,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_13.08_80.27,chennai,Chennai,Tamil Nadu,"Tamil Nadu, Puducherry & Karaikal",13.0827,80.2707,6,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_11.41_76.69,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,"Tamil Nadu, Puducherry & Karaikal",11.4102,76.695,2240,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_11.02_76.96,coimbatore,Coimbatore,Tamil Nadu,"Tamil Nadu, Puducherry & Karaikal",11.0168,76.9558,411,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_9.93_78.12,madurai,Madurai,Tamil Nadu,"Tamil Nadu, Puducherry & Karaikal",9.9252,78.1198,101,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_17.39_78.49,hyderabad,Hyderabad,Telangana,Telangana,17.385,78.4867,542,Plateau,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_17.69_83.22,visakhapatnam,Visakhapatnam,Andhra Pradesh,Coastal Andhra Pradesh & Yanam,17.6868,83.2185,11,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_16.51_80.65,vijayawada,NTR (Vijayawada),Andhra Pradesh,Coastal Andhra Pradesh & Yanam,16.5062,80.648,23,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_23.02_72.57,ahmedabad,Ahmedabad,Gujarat,Gujarat Region,23.0225,72.5714,53,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_21.17_72.83,surat,Surat,Gujarat,Gujarat Region,21.1702,72.8311,13,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_23.24_69.67,kutch,Kutch (Bhuj),Gujarat,Saurashtra & Kutch,23.242,69.6669,110,Arid Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_26.91_75.79,jaipur,Jaipur,Rajasthan,East Rajasthan,26.9124,75.7873,431,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_26.24_73.02,jodhpur,Jodhpur,Rajasthan,West Rajasthan,26.2389,73.0243,231,Arid Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_28.61_77.21,new delhi,New Delhi,Delhi,"Haryana, Chandigarh & Delhi",28.6139,77.209,216,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_31.63_74.87,amritsar,Amritsar,Punjab,Punjab,31.634,74.8723,234,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_26.85_80.95,lucknow,Lucknow,Uttar Pradesh,East Uttar Pradesh,26.8467,80.9462,123,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_25.32_82.97,varanasi,Varanasi,Uttar Pradesh,East Uttar Pradesh,25.3176,82.9739,81,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_23.26_77.41,bhopal,Bhopal,Madhya Pradesh,West Madhya Pradesh,23.2599,77.4126,500,Plateau,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_31.10_77.17,shimla,Shimla,Himachal Pradesh,Himachal Pradesh,31.1048,77.1734,2276,Himalayan,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_31.96_77.11,kullu,Kullu (Manali),Himachal Pradesh,Himachal Pradesh,31.9579,77.1095,1279,Himalayan,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_30.32_78.03,dehradun,Dehradun,Uttarakhand,Uttarakhand,30.3165,78.0322,640,Himalayan,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_29.39_79.45,nainital,Nainital,Uttarakhand,Uttarakhand,29.3919,79.4542,2084,Himalayan,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_34.08_74.80,srinagar,Srinagar,Jammu & Kashmir,Jammu & Kashmir and Ladakh,34.0837,74.7973,1585,Himalayan,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_20.46_85.88,cuttack,Cuttack,Odisha,Odisha,20.4625,85.8828,36,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_20.30_85.82,khordha,Khordha (Bhubaneswar),Odisha,Odisha,20.2961,85.8245,45,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_19.81_85.83,puri,Puri,Odisha,Odisha,19.8135,85.8312,10,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_22.57_88.36,kolkata,Kolkata,West Bengal,Gangetic West Bengal,22.5726,88.3639,9,Coastal,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_27.04_88.27,darjeeling,Darjeeling,West Bengal,Sub-Himalayan West Bengal,27.041,88.2663,2045,Himalayan,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_25.59_85.14,patna,Patna,Bihar,Bihar,25.5941,85.1376,53,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_23.34_85.31,ranchi,Ranchi,Jharkhand,Jharkhand,23.3441,85.3096,651,Plateau,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_25.30_91.73,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,NMMT & Meghalaya,25.2986,91.7324,1484,Orographic/Ghats,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_26.14_91.74,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,Assam & Meghalaya,26.1445,91.7362,55,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_24.83_92.78,cachar,Cachar (Silchar),Assam,Assam & Meghalaya,24.8333,92.7789,22,Plains,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0
+GFS_GRID_27.34_88.61,east sikkim,East Sikkim (Gangtok),Sikkim,Sub-Himalayan West Bengal & Sikkim,27.3389,88.6065,1650,Himalayan,0.25_DEGREE,NEAREST_GRID_CENTROID,1.0

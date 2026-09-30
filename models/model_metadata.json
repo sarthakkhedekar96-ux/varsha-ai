@@ -1,0 +1,131 @@
+{
+  "dataset_path": "data\\features\\real_forecast_observation_training_dataset.csv",
+  "dataset_sha256": "279a1e5c02426d34bc40281e3f65accf5b3487b601045134d87d2b684ceeeb39",
+  "trained_at": "2026-09-29T19:59:42.560924",
+  "train_rows": 7182,
+  "val_rows": 1539,
+  "test_rows": 1596,
+  "train_dates": [
+    "2026-04-02",
+    "2026-08-05"
+  ],
+  "val_dates": [
+    "2026-08-06",
+    "2026-09-01"
+  ],
+  "test_dates": [
+    "2026-09-02",
+    "2026-09-29"
+  ],
+  "base_features": [
+    "raw_gfs_rainfall_mm",
+    "previous_1day_rainfall",
+    "previous_3day_rainfall",
+    "previous_7day_rainfall",
+    "rolling_3day_mean",
+    "rolling_7day_mean",
+    "latitude",
+    "longitude",
+    "elevation",
+    "day_of_year",
+    "month"
+  ],
+  "regime_features": [
+    "raw_gfs_rainfall_mm",
+    "previous_1day_rainfall",
+    "previous_3day_rainfall",
+    "previous_7day_rainfall",
+    "rolling_3day_mean",
+    "rolling_7day_mean",
+    "latitude",
+    "longitude",
+    "elevation",
+    "day_of_year",
+    "month",
+    "regime_encoded"
+  ],
+  "global_ml_hyperparameters": {
+    "max_iter": 150,
+    "l2": 0.1,
+    "lr": 0.05
+  },
+  "regime_aware_hyperparameters": {
+    "max_iter": 150,
+    "l2": 0.01,
+    "lr": 0.05
+  },
+  "test_metrics": {
+    "Raw GFS": {
+      "model": "Raw GFS",
+      "rmse": 8.743280269709231,
+      "mae": 4.03796992481203,
+      "bias": -0.09147869674185456,
+      "corr": 0.6882119147682862,
+      "tp": 4,
+      "fp": 11,
+      "fn": 1,
+      "tn": 1580,
+      "csi": 0.25,
+      "pod": 0.8,
+      "far": 0.7333333333333333,
+      "precision": 0.26666666666666666,
+      "recall": 0.8,
+      "f1": 0.4
+    },
+    "Bias Correction": {
+      "model": "Bias Correction",
+      "rmse": 6.9450280944801355,
+      "mae": 4.288197601443214,
+      "bias": 1.1082986657682756,
+      "corr": 0.6882119147682867,
+      "tp": 0,
+      "fp": 5,
+      "fn": 5,
+      "tn": 1586,
+      "csi": 0.0,
+      "pod": 0.0,
+      "far": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Global ML": {
+      "model": "Global ML",
+      "rmse": 7.757253094890305,
+      "mae": 4.793801297752418,
+      "bias": 2.855443507080645,
+      "corr": 0.7209076944665739,
+      "tp": 1,
+      "fp": 10,
+      "fn": 4,
+      "tn": 1581,
+      "csi": 0.06666666666666667,
+      "pod": 0.2,
+      "far": 0.9090909090909091,
+      "precision": 0.09090909090909091,
+      "recall": 0.2,
+      "f1": 0.12500000000000003
+    },
+    "Regime-Aware ML": {
+      "model": "Regime-Aware ML",
+      "rmse": 7.921033059719137,
+      "mae": 4.897418095075715,
+      "bias": 2.990077163448106,
+      "corr": 0.717888823651342,
+      "tp": 1,
+      "fp": 10,
+      "fn": 4,
+      "tn": 1581,
+      "csi": 0.06666666666666667,
+      "pod": 0.2,
+      "far": 0.9090909090909091,
+      "precision": 0.09090909090909091,
+      "recall": 0.2,
+      "f1": 0.12500000000000003
+    }
+  },
+  "quantile_coverage_pct": 75.62656641604009,
+  "quantile_mean_width_mm": 11.995360248321965,
+  "heavy_rain_brier_score": 0.0031093746226218896,
+  "heavy_rain_roc_auc": 0.8817096165933376
+}

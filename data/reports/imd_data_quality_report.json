@@ -1,0 +1,20 @@
+{
+  "title": "IMD Real-Data Quality & Validation Report",
+  "source_name": "India Meteorological Department (IMD MAUSAM)",
+  "source_url": "https://mausam.imd.gov.in/responsive/rainfallinformation.php",
+  "retrieved_at": "2026-09-29T15:03:54.166924",
+  "total_records": 4114,
+  "unique_districts": 34,
+  "unique_states": 14,
+  "date_range_start": "2026-06-01",
+  "date_range_end": "2026-09-29",
+  "missing_rainfall_pct": 0.0,
+  "duplicate_rows": 0,
+  "min_rainfall_mm": 0.0,
+  "max_rainfall_mm": 380.4,
+  "mean_rainfall_mm": 24.86,
+  "median_rainfall_mm": 12.7,
+  "std_rainfall_mm": 34.22,
+  "heavy_rain_events_count": 401,
+  "data_quality_status": "PASS"
+}

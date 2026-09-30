@@ -1,0 +1,60 @@
+{
+  "model_version": "v2.5-REAL-OBSERVATION-REGIME-AWARE",
+  "evaluated_at": "2026-09-29T16:31:23.669255",
+  "forecast_source": "NOAA GFS 0.25\u00b0 Seamless Atmospheric Model",
+  "observation_source": "ECMWF ERA5-Land High-Resolution Reanalysis",
+  "test_sample_count": 1548,
+  "test_date_range": "2026-09-02 to 2026-09-29",
+  "raw_forecast_rmse": 0.0,
+  "varsa_ai_rmse": 0.7564,
+  "rmse_improvement_pct": -75.64,
+  "raw_forecast_bias": 0.0,
+  "varsa_ai_bias": -0.0037,
+  "four_tier_baseline_comparison": {
+    "tier1_raw_numerical_forecast": {
+      "rmse_mm": 0.0,
+      "mae_mm": 0.0,
+      "bias_mm": 0.0,
+      "correlation_r": 1.0,
+      "heavy_rain_csi_threat_score": 1.0,
+      "heavy_rain_pod_hit_rate": 1.0,
+      "heavy_rain_far_false_alarm": 0.0,
+      "heavy_rain_ets_equitable": 1.0
+    },
+    "tier2_simple_terrain_multiplier": {
+      "rmse_mm": 1.4735,
+      "mae_mm": 0.7607,
+      "bias_mm": 0.7607,
+      "correlation_r": 0.9992,
+      "heavy_rain_csi_threat_score": 0.7143,
+      "heavy_rain_pod_hit_rate": 1.0,
+      "heavy_rain_far_false_alarm": 0.2857,
+      "heavy_rain_ets_equitable": 0.7134
+    },
+    "tier3_global_ml_no_regime": {
+      "rmse_mm": 0.7726,
+      "mae_mm": 0.1059,
+      "bias_mm": 0.0089,
+      "correlation_r": 0.9969,
+      "heavy_rain_csi_threat_score": 0.8333,
+      "heavy_rain_pod_hit_rate": 1.0,
+      "heavy_rain_far_false_alarm": 0.1667,
+      "heavy_rain_ets_equitable": 0.8328
+    },
+    "tier4_regime_aware_ml_postprocessing": {
+      "rmse_mm": 0.7564,
+      "mae_mm": 0.1145,
+      "bias_mm": -0.0037,
+      "correlation_r": 0.997,
+      "heavy_rain_csi_threat_score": 0.8333,
+      "heavy_rain_pod_hit_rate": 1.0,
+      "heavy_rain_far_false_alarm": 0.1667,
+      "heavy_rain_ets_equitable": 0.8328,
+      "heavy_rain_brier_score": 0.0006
+    }
+  },
+  "historical_development_reference": {
+    "label": "SIMULATED_BASELINE_DEVELOPMENT_RESULT",
+    "notes": "Historical benchmark before real numerical model and real observation integration (Not suitable for operational claims)."
+  }
+}

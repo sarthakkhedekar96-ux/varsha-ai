@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "raw_gfs_rainfall_mm",
+    "importance_mean": 0.46808195884442305,
+    "importance_std": 0.05967442357899059
+  },
+  {
+    "feature": "previous_1day_rainfall",
+    "importance_mean": 0.16693263533978403,
+    "importance_std": 0.01463986077465323
+  },
+  {
+    "feature": "latitude",
+    "importance_mean": 0.06569953980090155,
+    "importance_std": 0.019891519666092476
+  },
+  {
+    "feature": "previous_7day_rainfall",
+    "importance_mean": 0.04911942064357884,
+    "importance_std": 0.008902009601497058
+  },
+  {
+    "feature": "rolling_3day_mean",
+    "importance_mean": 0.04378760288890393,
+    "importance_std": 0.008084895416265427
+  },
+  {
+    "feature": "rolling_7day_mean",
+    "importance_mean": 0.022256530495835092,
+    "importance_std": 0.003348660063280819
+  },
+  {
+    "feature": "previous_3day_rainfall",
+    "importance_mean": 0.017705538354517623,
+    "importance_std": 0.0025448617450621147
+  },
+  {
+    "feature": "regime_encoded",
+    "importance_mean": 0.00627693080195193,
+    "importance_std": 0.00481797672278909
+  },
+  {
+    "feature": "elevation",
+    "importance_mean": 0.002320377144350205,
+    "importance_std": 0.007852362012784159
+  },
+  {
+    "feature": "longitude",
+    "importance_mean": 0.001166454601731881,
+    "importance_std": 0.017967860830487577
+  },
+  {
+    "feature": "day_of_year",
+    "importance_mean": 0.0,
+    "importance_std": 0.0
+  },
+  {
+    "feature": "month",
+    "importance_mean": 0.0,
+    "importance_std": 0.0
+  }
+]

@@ -1,0 +1,1540 @@
+year,week,district_key,district,state,observed_rainfall_mm,raw_forecast_rainfall_mm,normal_rainfall_mm,latitude,longitude,elevation,terrain
+2026,14,ahmedabad,Ahmedabad,Gujarat,0.7,1.3,75.2,23.0225,72.5714,53,Plains
+2026,14,amritsar,Amritsar,Punjab,19.9,4.0,75.2,31.634,74.8723,234,Plains
+2026,14,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,0.8999999999999999,12.2,75.2,19.8762,75.3433,568,Plateau
+2026,14,bengaluru urban,Bengaluru Urban,Karnataka,0.6,0.1,75.2,12.9716,77.5946,920,Plateau
+2026,14,bhopal,Bhopal,Madhya Pradesh,1.7,5.1000000000000005,75.2,23.2599,77.4126,500,Plateau
+2026,14,cachar,Cachar (Silchar),Assam,51.7,6.4,75.2,24.8333,92.7789,22,Plains
+2026,14,chennai,Chennai,Tamil Nadu,2.7,0.0,135.2,13.0827,80.2707,6,Coastal
+2026,14,coimbatore,Coimbatore,Tamil Nadu,15.200000000000001,7.2,75.2,11.0168,76.9558,411,Plains
+2026,14,cuttack,Cuttack,Odisha,0.1,6.9,75.2,20.4625,85.8828,36,Plains
+2026,14,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,12.7,2.3,135.2,12.9141,74.856,22,Coastal
+2026,14,darjeeling,Darjeeling,West Bengal,11.0,9.2,75.2,27.041,88.2663,2045,Himalayan
+2026,14,dehradun,Dehradun,Uttarakhand,3.2,3.8,75.2,30.3165,78.0322,640,Himalayan
+2026,14,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,19.6,8.4,204.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,14,east sikkim,East Sikkim (Gangtok),Sikkim,26.3,38.400000000000006,75.2,27.3389,88.6065,1650,Himalayan
+2026,14,ernakulam,Ernakulam (Kochi),Kerala,9.4,12.0,135.2,9.9816,76.2999,4,Coastal
+2026,14,hyderabad,Hyderabad,Telangana,2.4,0.0,75.2,17.385,78.4867,542,Plateau
+2026,14,idukki,Idukki,Kerala,18.1,53.0,204.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,14,jaipur,Jaipur,Rajasthan,3.9000000000000004,2.3,75.2,26.9124,75.7873,431,Plains
+2026,14,jodhpur,Jodhpur,Rajasthan,5.2,1.3000000000000003,75.2,26.2389,73.0243,231,Arid Plains
+2026,14,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,5.6,0.0,75.2,26.1445,91.7362,55,Plains
+2026,14,khordha,Khordha (Bhubaneswar),Odisha,1.3,14.0,75.2,20.2961,85.8245,45,Plains
+2026,14,kolhapur,Kolhapur,Maharashtra,8.2,14.9,204.0,16.705,74.2433,545,Orographic/Ghats
+2026,14,kolkata,Kolkata,West Bengal,2.0,1.0,135.2,22.5726,88.3639,9,Coastal
+2026,14,kozhikode,Kozhikode,Kerala,49.199999999999996,12.5,135.2,11.2588,75.7804,1,Coastal
+2026,14,kullu,Kullu (Manali),Himachal Pradesh,24.6,52.5,75.2,31.9579,77.1095,1279,Himalayan
+2026,14,kutch,Kutch (Bhuj),Gujarat,26.6,2.4000000000000004,75.2,23.242,69.6669,110,Arid Plains
+2026,14,lucknow,Lucknow,Uttar Pradesh,5.2,0.8999999999999999,75.2,26.8467,80.9462,123,Plains
+2026,14,madurai,Madurai,Tamil Nadu,3.7,3.0,75.2,9.9252,78.1198,101,Plains
+2026,14,mumbai city,Mumbai City,Maharashtra,0.0,0.0,135.2,18.9388,72.8353,10,Coastal
+2026,14,mumbai suburban,Mumbai Suburban,Maharashtra,0.0,0.0,135.2,19.076,72.8777,14,Coastal
+2026,14,nagpur,Nagpur,Maharashtra,0.7,15.8,75.2,21.1458,79.0882,310,Plains
+2026,14,nainital,Nainital,Uttarakhand,7.7,4.3,75.2,29.3919,79.4542,2084,Himalayan
+2026,14,nashik,Nashik,Maharashtra,2.3000000000000003,0.1,204.0,19.9975,73.7898,600,Orographic/Ghats
+2026,14,new delhi,New Delhi,Delhi,3.5999999999999996,9.2,75.2,28.6139,77.209,216,Plains
+2026,14,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,15.7,31.400000000000002,204.0,11.4102,76.695,2240,Orographic/Ghats
+2026,14,north goa,North Goa (Panaji),Goa,9.4,0.0,135.2,15.4909,73.8278,7,Coastal
+2026,14,palakkad,Palakkad,Kerala,15.2,8.1,75.2,10.7867,76.6548,84,Plains
+2026,14,patna,Patna,Bihar,0.1,0.0,75.2,25.5941,85.1376,53,Plains
+2026,14,pune,Pune,Maharashtra,2.6999999999999997,3.8000000000000003,204.0,18.5204,73.8567,560,Orographic/Ghats
+2026,14,puri,Puri,Odisha,0.9,8.4,135.2,19.8135,85.8312,10,Coastal
+2026,14,raigad,Raigad,Maharashtra,6.1,0.2,135.2,18.5158,73.1812,30,Coastal
+2026,14,ranchi,Ranchi,Jharkhand,1.5,2.6,75.2,23.3441,85.3096,651,Plateau
+2026,14,ratnagiri,Ratnagiri,Maharashtra,1.1,0.1,135.2,16.9902,73.312,11,Coastal
+2026,14,satara,Satara,Maharashtra,3.7,6.8,204.0,17.6805,74.0183,742,Orographic/Ghats
+2026,14,shimla,Shimla,Himachal Pradesh,28.200000000000003,22.0,75.2,31.1048,77.1734,2276,Himalayan
+2026,14,shivamogga,Shivamogga (Agumbe),Karnataka,0.4,2.3,204.0,13.9299,75.5681,580,Orographic/Ghats
+2026,14,sindhudurg,Sindhudurg,Maharashtra,7.7,0.0,135.2,16.1265,73.6993,25,Coastal
+2026,14,solapur,Solapur,Maharashtra,0.0,0.0,75.2,17.6599,75.9064,458,Plateau
+2026,14,srinagar,Srinagar,Jammu & Kashmir,50.0,32.1,75.2,34.0837,74.7973,1585,Himalayan
+2026,14,surat,Surat,Gujarat,4.8,0.0,135.2,21.1702,72.8311,13,Coastal
+2026,14,thane,Thane,Maharashtra,2.4,0.0,135.2,19.2183,72.9781,15,Coastal
+2026,14,thiruvananthapuram,Thiruvananthapuram,Kerala,6.1,8.6,135.2,8.5241,76.9366,10,Coastal
+2026,14,uttara kannada,Uttara Kannada (Karwar),Karnataka,8.5,0.1,135.2,14.8185,74.1416,10,Coastal
+2026,14,varanasi,Varanasi,Uttar Pradesh,0.3,0.2,75.2,25.3176,82.9739,81,Plains
+2026,14,vijayawada,NTR (Vijayawada),Andhra Pradesh,0.0,0.0,75.2,16.5062,80.648,23,Plains
+2026,14,visakhapatnam,Visakhapatnam,Andhra Pradesh,0.3,0.0,135.2,17.6868,83.2185,11,Coastal
+2026,14,wayanad,Wayanad,Kerala,5.0,39.900000000000006,204.0,11.6854,76.132,950,Orographic/Ghats
+2026,15,ahmedabad,Ahmedabad,Gujarat,6.3,0.6,131.6,23.0225,72.5714,53,Plains
+2026,15,amritsar,Amritsar,Punjab,18.9,24.1,131.6,31.634,74.8723,234,Plains
+2026,15,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,0.0,0.0,131.6,19.8762,75.3433,568,Plateau
+2026,15,bengaluru urban,Bengaluru Urban,Karnataka,0.7999999999999999,0.2,131.6,12.9716,77.5946,920,Plateau
+2026,15,bhopal,Bhopal,Madhya Pradesh,0.0,0.4,131.6,23.2599,77.4126,500,Plateau
+2026,15,cachar,Cachar (Silchar),Assam,48.400000000000006,31.099999999999998,131.6,24.8333,92.7789,22,Plains
+2026,15,chennai,Chennai,Tamil Nadu,3.8,1.2,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,15,coimbatore,Coimbatore,Tamil Nadu,4.0,3.9,131.6,11.0168,76.9558,411,Plains
+2026,15,cuttack,Cuttack,Odisha,23.7,12.700000000000001,131.6,20.4625,85.8828,36,Plains
+2026,15,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,3.0,0.7,236.59999999999997,12.9141,74.856,22,Coastal
+2026,15,darjeeling,Darjeeling,West Bengal,21.3,60.5,131.6,27.041,88.2663,2045,Himalayan
+2026,15,dehradun,Dehradun,Uttarakhand,25.7,16.4,131.6,30.3165,78.0322,640,Himalayan
+2026,15,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,32.4,35.1,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,15,east sikkim,East Sikkim (Gangtok),Sikkim,73.6,58.7,131.6,27.3389,88.6065,1650,Himalayan
+2026,15,ernakulam,Ernakulam (Kochi),Kerala,14.7,14.0,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,15,hyderabad,Hyderabad,Telangana,0.0,0.0,131.6,17.385,78.4867,542,Plateau
+2026,15,idukki,Idukki,Kerala,9.2,50.8,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,15,jaipur,Jaipur,Rajasthan,9.2,0.2,131.6,26.9124,75.7873,431,Plains
+2026,15,jodhpur,Jodhpur,Rajasthan,7.1,0.4,131.6,26.2389,73.0243,231,Arid Plains
+2026,15,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,40.4,14.299999999999999,131.6,26.1445,91.7362,55,Plains
+2026,15,khordha,Khordha (Bhubaneswar),Odisha,27.6,35.0,131.6,20.2961,85.8245,45,Plains
+2026,15,kolhapur,Kolhapur,Maharashtra,0.0,0.0,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,15,kolkata,Kolkata,West Bengal,56.199999999999996,24.4,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,15,kozhikode,Kozhikode,Kerala,21.8,3.2,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,15,kullu,Kullu (Manali),Himachal Pradesh,78.0,52.4,131.6,31.9579,77.1095,1279,Himalayan
+2026,15,kutch,Kutch (Bhuj),Gujarat,2.1,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,15,lucknow,Lucknow,Uttar Pradesh,23.4,6.9,131.6,26.8467,80.9462,123,Plains
+2026,15,madurai,Madurai,Tamil Nadu,5.8,11.6,131.6,9.9252,78.1198,101,Plains
+2026,15,mumbai city,Mumbai City,Maharashtra,1.1,0.5,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,15,mumbai suburban,Mumbai Suburban,Maharashtra,3.2,0.0,236.59999999999997,19.076,72.8777,14,Coastal
+2026,15,nagpur,Nagpur,Maharashtra,0.0,0.0,131.6,21.1458,79.0882,310,Plains
+2026,15,nainital,Nainital,Uttarakhand,34.4,28.6,131.6,29.3919,79.4542,2084,Himalayan
+2026,15,nashik,Nashik,Maharashtra,0.1,0.0,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,15,new delhi,New Delhi,Delhi,12.5,5.8999999999999995,131.6,28.6139,77.209,216,Plains
+2026,15,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,12.8,19.7,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,15,north goa,North Goa (Panaji),Goa,0.0,0.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,15,palakkad,Palakkad,Kerala,6.300000000000001,6.6000000000000005,131.6,10.7867,76.6548,84,Plains
+2026,15,patna,Patna,Bihar,3.7,0.2,131.6,25.5941,85.1376,53,Plains
+2026,15,pune,Pune,Maharashtra,0.0,0.0,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,15,puri,Puri,Odisha,15.799999999999999,17.5,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,15,raigad,Raigad,Maharashtra,0.0,0.1,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,15,ranchi,Ranchi,Jharkhand,18.7,5.5,131.6,23.3441,85.3096,651,Plateau
+2026,15,ratnagiri,Ratnagiri,Maharashtra,0.0,0.0,236.59999999999997,16.9902,73.312,11,Coastal
+2026,15,satara,Satara,Maharashtra,0.0,0.0,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,15,shimla,Shimla,Himachal Pradesh,27.999999999999996,36.1,131.6,31.1048,77.1734,2276,Himalayan
+2026,15,shivamogga,Shivamogga (Agumbe),Karnataka,0.0,0.0,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,15,sindhudurg,Sindhudurg,Maharashtra,0.0,0.0,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,15,solapur,Solapur,Maharashtra,0.0,0.0,131.6,17.6599,75.9064,458,Plateau
+2026,15,srinagar,Srinagar,Jammu & Kashmir,31.2,25.0,131.6,34.0837,74.7973,1585,Himalayan
+2026,15,surat,Surat,Gujarat,6.7,0.5,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,15,thane,Thane,Maharashtra,1.0,0.1,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,15,thiruvananthapuram,Thiruvananthapuram,Kerala,28.099999999999998,12.600000000000001,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,15,uttara kannada,Uttara Kannada (Karwar),Karnataka,0.0,0.0,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,15,varanasi,Varanasi,Uttar Pradesh,0.4,0.3,131.6,25.3176,82.9739,81,Plains
+2026,15,vijayawada,NTR (Vijayawada),Andhra Pradesh,2.6999999999999997,0.2,131.6,16.5062,80.648,23,Plains
+2026,15,visakhapatnam,Visakhapatnam,Andhra Pradesh,13.2,16.6,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,15,wayanad,Wayanad,Kerala,2.2,29.1,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,16,ahmedabad,Ahmedabad,Gujarat,0.0,0.4,131.6,23.0225,72.5714,53,Plains
+2026,16,amritsar,Amritsar,Punjab,0.0,0.8999999999999999,131.6,31.634,74.8723,234,Plains
+2026,16,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,0.0,0.0,131.6,19.8762,75.3433,568,Plateau
+2026,16,bengaluru urban,Bengaluru Urban,Karnataka,0.0,0.0,131.6,12.9716,77.5946,920,Plateau
+2026,16,bhopal,Bhopal,Madhya Pradesh,0.0,0.0,131.6,23.2599,77.4126,500,Plateau
+2026,16,cachar,Cachar (Silchar),Assam,79.4,24.0,131.6,24.8333,92.7789,22,Plains
+2026,16,chennai,Chennai,Tamil Nadu,0.0,0.0,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,16,coimbatore,Coimbatore,Tamil Nadu,0.0,0.0,131.6,11.0168,76.9558,411,Plains
+2026,16,cuttack,Cuttack,Odisha,10.100000000000001,0.0,131.6,20.4625,85.8828,36,Plains
+2026,16,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,0.7000000000000001,0.2,236.59999999999997,12.9141,74.856,22,Coastal
+2026,16,darjeeling,Darjeeling,West Bengal,26.2,70.3,131.6,27.041,88.2663,2045,Himalayan
+2026,16,dehradun,Dehradun,Uttarakhand,0.0,0.0,131.6,30.3165,78.0322,640,Himalayan
+2026,16,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,40.2,38.8,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,16,east sikkim,East Sikkim (Gangtok),Sikkim,42.8,59.6,131.6,27.3389,88.6065,1650,Himalayan
+2026,16,ernakulam,Ernakulam (Kochi),Kerala,9.4,8.8,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,16,hyderabad,Hyderabad,Telangana,0.0,0.0,131.6,17.385,78.4867,542,Plateau
+2026,16,idukki,Idukki,Kerala,4.6,15.100000000000001,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,16,jaipur,Jaipur,Rajasthan,0.0,0.1,131.6,26.9124,75.7873,431,Plains
+2026,16,jodhpur,Jodhpur,Rajasthan,0.0,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,16,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,48.8,6.4,131.6,26.1445,91.7362,55,Plains
+2026,16,khordha,Khordha (Bhubaneswar),Odisha,6.300000000000001,0.0,131.6,20.2961,85.8245,45,Plains
+2026,16,kolhapur,Kolhapur,Maharashtra,0.5,37.1,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,16,kolkata,Kolkata,West Bengal,8.5,10.3,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,16,kozhikode,Kozhikode,Kerala,16.5,1.2,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,16,kullu,Kullu (Manali),Himachal Pradesh,6.699999999999999,0.1,131.6,31.9579,77.1095,1279,Himalayan
+2026,16,kutch,Kutch (Bhuj),Gujarat,0.0,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,16,lucknow,Lucknow,Uttar Pradesh,0.0,0.0,131.6,26.8467,80.9462,123,Plains
+2026,16,madurai,Madurai,Tamil Nadu,0.0,0.0,131.6,9.9252,78.1198,101,Plains
+2026,16,mumbai city,Mumbai City,Maharashtra,0.0,0.0,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,16,mumbai suburban,Mumbai Suburban,Maharashtra,0.0,0.0,236.59999999999997,19.076,72.8777,14,Coastal
+2026,16,nagpur,Nagpur,Maharashtra,0.0,0.0,131.6,21.1458,79.0882,310,Plains
+2026,16,nainital,Nainital,Uttarakhand,0.0,0.0,131.6,29.3919,79.4542,2084,Himalayan
+2026,16,nashik,Nashik,Maharashtra,0.0,1.6,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,16,new delhi,New Delhi,Delhi,0.0,0.0,131.6,28.6139,77.209,216,Plains
+2026,16,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,0.0,0.6,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,16,north goa,North Goa (Panaji),Goa,0.4,0.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,16,palakkad,Palakkad,Kerala,1.2,3.8,131.6,10.7867,76.6548,84,Plains
+2026,16,patna,Patna,Bihar,0.8,0.0,131.6,25.5941,85.1376,53,Plains
+2026,16,pune,Pune,Maharashtra,0.0,0.0,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,16,puri,Puri,Odisha,0.0,0.0,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,16,raigad,Raigad,Maharashtra,0.0,0.0,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,16,ranchi,Ranchi,Jharkhand,0.0,0.1,131.6,23.3441,85.3096,651,Plateau
+2026,16,ratnagiri,Ratnagiri,Maharashtra,0.0,0.0,236.59999999999997,16.9902,73.312,11,Coastal
+2026,16,satara,Satara,Maharashtra,0.0,2.6,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,16,shimla,Shimla,Himachal Pradesh,0.7,0.3,131.6,31.1048,77.1734,2276,Himalayan
+2026,16,shivamogga,Shivamogga (Agumbe),Karnataka,12.3,0.5,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,16,sindhudurg,Sindhudurg,Maharashtra,0.0,0.0,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,16,solapur,Solapur,Maharashtra,2.3,1.8,131.6,17.6599,75.9064,458,Plateau
+2026,16,srinagar,Srinagar,Jammu & Kashmir,47.0,16.9,131.6,34.0837,74.7973,1585,Himalayan
+2026,16,surat,Surat,Gujarat,0.0,0.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,16,thane,Thane,Maharashtra,0.0,0.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,16,thiruvananthapuram,Thiruvananthapuram,Kerala,15.1,10.2,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,16,uttara kannada,Uttara Kannada (Karwar),Karnataka,1.0,0.0,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,16,varanasi,Varanasi,Uttar Pradesh,0.0,0.0,131.6,25.3176,82.9739,81,Plains
+2026,16,vijayawada,NTR (Vijayawada),Andhra Pradesh,0.1,0.0,131.6,16.5062,80.648,23,Plains
+2026,16,visakhapatnam,Visakhapatnam,Andhra Pradesh,0.0,0.0,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,16,wayanad,Wayanad,Kerala,0.2,9.5,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,17,ahmedabad,Ahmedabad,Gujarat,0.0,0.0,131.6,23.0225,72.5714,53,Plains
+2026,17,amritsar,Amritsar,Punjab,0.1,0.1,131.6,31.634,74.8723,234,Plains
+2026,17,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,1.3,1.0,131.6,19.8762,75.3433,568,Plateau
+2026,17,bengaluru urban,Bengaluru Urban,Karnataka,0.0,0.0,131.6,12.9716,77.5946,920,Plateau
+2026,17,bhopal,Bhopal,Madhya Pradesh,0.2,0.0,131.6,23.2599,77.4126,500,Plateau
+2026,17,cachar,Cachar (Silchar),Assam,25.3,30.8,131.6,24.8333,92.7789,22,Plains
+2026,17,chennai,Chennai,Tamil Nadu,0.2,0.0,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,17,coimbatore,Coimbatore,Tamil Nadu,0.0,0.0,131.6,11.0168,76.9558,411,Plains
+2026,17,cuttack,Cuttack,Odisha,19.3,0.0,131.6,20.4625,85.8828,36,Plains
+2026,17,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,11.899999999999999,0.4,236.59999999999997,12.9141,74.856,22,Coastal
+2026,17,darjeeling,Darjeeling,West Bengal,36.099999999999994,63.900000000000006,131.6,27.041,88.2663,2045,Himalayan
+2026,17,dehradun,Dehradun,Uttarakhand,0.0,0.0,131.6,30.3165,78.0322,640,Himalayan
+2026,17,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,69.9,36.4,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,17,east sikkim,East Sikkim (Gangtok),Sikkim,21.5,59.5,131.6,27.3389,88.6065,1650,Himalayan
+2026,17,ernakulam,Ernakulam (Kochi),Kerala,8.4,13.3,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,17,hyderabad,Hyderabad,Telangana,0.2,2.4,131.6,17.385,78.4867,542,Plateau
+2026,17,idukki,Idukki,Kerala,4.5,27.8,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,17,jaipur,Jaipur,Rajasthan,0.0,0.0,131.6,26.9124,75.7873,431,Plains
+2026,17,jodhpur,Jodhpur,Rajasthan,0.0,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,17,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,28.799999999999997,15.5,131.6,26.1445,91.7362,55,Plains
+2026,17,khordha,Khordha (Bhubaneswar),Odisha,0.0,0.0,131.6,20.2961,85.8245,45,Plains
+2026,17,kolhapur,Kolhapur,Maharashtra,2.2,1.6,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,17,kolkata,Kolkata,West Bengal,0.6,0.0,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,17,kozhikode,Kozhikode,Kerala,26.6,2.7,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,17,kullu,Kullu (Manali),Himachal Pradesh,0.5,0.6,131.6,31.9579,77.1095,1279,Himalayan
+2026,17,kutch,Kutch (Bhuj),Gujarat,0.0,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,17,lucknow,Lucknow,Uttar Pradesh,0.0,0.0,131.6,26.8467,80.9462,123,Plains
+2026,17,madurai,Madurai,Tamil Nadu,0.8,0.6,131.6,9.9252,78.1198,101,Plains
+2026,17,mumbai city,Mumbai City,Maharashtra,0.0,0.7,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,17,mumbai suburban,Mumbai Suburban,Maharashtra,0.0,2.2,236.59999999999997,19.076,72.8777,14,Coastal
+2026,17,nagpur,Nagpur,Maharashtra,0.0,0.5,131.6,21.1458,79.0882,310,Plains
+2026,17,nainital,Nainital,Uttarakhand,0.1,0.0,131.6,29.3919,79.4542,2084,Himalayan
+2026,17,nashik,Nashik,Maharashtra,0.0,0.9,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,17,new delhi,New Delhi,Delhi,0.0,0.0,131.6,28.6139,77.209,216,Plains
+2026,17,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,0.5,0.30000000000000004,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,17,north goa,North Goa (Panaji),Goa,0.4,0.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,17,palakkad,Palakkad,Kerala,6.7,8.200000000000001,131.6,10.7867,76.6548,84,Plains
+2026,17,patna,Patna,Bihar,0.0,0.0,131.6,25.5941,85.1376,53,Plains
+2026,17,pune,Pune,Maharashtra,0.8,1.4000000000000001,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,17,puri,Puri,Odisha,0.0,0.0,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,17,raigad,Raigad,Maharashtra,1.0,0.0,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,17,ranchi,Ranchi,Jharkhand,0.0,0.0,131.6,23.3441,85.3096,651,Plateau
+2026,17,ratnagiri,Ratnagiri,Maharashtra,0.0,0.3,236.59999999999997,16.9902,73.312,11,Coastal
+2026,17,satara,Satara,Maharashtra,0.0,0.2,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,17,shimla,Shimla,Himachal Pradesh,0.0,0.0,131.6,31.1048,77.1734,2276,Himalayan
+2026,17,shivamogga,Shivamogga (Agumbe),Karnataka,0.5,0.3,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,17,sindhudurg,Sindhudurg,Maharashtra,2.9,0.7,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,17,solapur,Solapur,Maharashtra,0.5,2.5999999999999996,131.6,17.6599,75.9064,458,Plateau
+2026,17,srinagar,Srinagar,Jammu & Kashmir,9.399999999999999,9.7,131.6,34.0837,74.7973,1585,Himalayan
+2026,17,surat,Surat,Gujarat,0.0,0.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,17,thane,Thane,Maharashtra,0.30000000000000004,1.4000000000000001,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,17,thiruvananthapuram,Thiruvananthapuram,Kerala,33.8,11.4,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,17,uttara kannada,Uttara Kannada (Karwar),Karnataka,0.39999999999999997,0.7,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,17,varanasi,Varanasi,Uttar Pradesh,0.0,0.0,131.6,25.3176,82.9739,81,Plains
+2026,17,vijayawada,NTR (Vijayawada),Andhra Pradesh,0.7,0.0,131.6,16.5062,80.648,23,Plains
+2026,17,visakhapatnam,Visakhapatnam,Andhra Pradesh,0.0,0.4,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,17,wayanad,Wayanad,Kerala,1.0,22.900000000000002,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,18,ahmedabad,Ahmedabad,Gujarat,0.1,0.0,131.6,23.0225,72.5714,53,Plains
+2026,18,amritsar,Amritsar,Punjab,1.9,8.2,131.6,31.634,74.8723,234,Plains
+2026,18,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,0.0,0.0,131.6,19.8762,75.3433,568,Plateau
+2026,18,bengaluru urban,Bengaluru Urban,Karnataka,3.1,2.4000000000000004,131.6,12.9716,77.5946,920,Plateau
+2026,18,bhopal,Bhopal,Madhya Pradesh,1.0,3.8,131.6,23.2599,77.4126,500,Plateau
+2026,18,cachar,Cachar (Silchar),Assam,189.7,149.6,131.6,24.8333,92.7789,22,Plains
+2026,18,chennai,Chennai,Tamil Nadu,0.1,0.0,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,18,coimbatore,Coimbatore,Tamil Nadu,10.8,23.900000000000002,131.6,11.0168,76.9558,411,Plains
+2026,18,cuttack,Cuttack,Odisha,5.6,21.6,131.6,20.4625,85.8828,36,Plains
+2026,18,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,6.6,2.7,236.59999999999997,12.9141,74.856,22,Coastal
+2026,18,darjeeling,Darjeeling,West Bengal,132.6,138.5,131.6,27.041,88.2663,2045,Himalayan
+2026,18,dehradun,Dehradun,Uttarakhand,21.0,10.0,131.6,30.3165,78.0322,640,Himalayan
+2026,18,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,138.9,120.2,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,18,east sikkim,East Sikkim (Gangtok),Sikkim,145.9,104.49999999999999,131.6,27.3389,88.6065,1650,Himalayan
+2026,18,ernakulam,Ernakulam (Kochi),Kerala,22.4,19.8,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,18,hyderabad,Hyderabad,Telangana,0.0,0.1,131.6,17.385,78.4867,542,Plateau
+2026,18,idukki,Idukki,Kerala,41.1,109.2,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,18,jaipur,Jaipur,Rajasthan,0.6,2.2,131.6,26.9124,75.7873,431,Plains
+2026,18,jodhpur,Jodhpur,Rajasthan,1.6,0.4,131.6,26.2389,73.0243,231,Arid Plains
+2026,18,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,133.1,59.0,131.6,26.1445,91.7362,55,Plains
+2026,18,khordha,Khordha (Bhubaneswar),Odisha,8.7,16.1,131.6,20.2961,85.8245,45,Plains
+2026,18,kolhapur,Kolhapur,Maharashtra,0.6,0.0,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,18,kolkata,Kolkata,West Bengal,57.9,63.4,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,18,kozhikode,Kozhikode,Kerala,42.5,13.1,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,18,kullu,Kullu (Manali),Himachal Pradesh,39.8,29.599999999999998,131.6,31.9579,77.1095,1279,Himalayan
+2026,18,kutch,Kutch (Bhuj),Gujarat,0.0,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,18,lucknow,Lucknow,Uttar Pradesh,1.2,2.2,131.6,26.8467,80.9462,123,Plains
+2026,18,madurai,Madurai,Tamil Nadu,2.9,55.9,131.6,9.9252,78.1198,101,Plains
+2026,18,mumbai city,Mumbai City,Maharashtra,1.0,0.0,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,18,mumbai suburban,Mumbai Suburban,Maharashtra,0.0,0.0,236.59999999999997,19.076,72.8777,14,Coastal
+2026,18,nagpur,Nagpur,Maharashtra,0.0,0.3,131.6,21.1458,79.0882,310,Plains
+2026,18,nainital,Nainital,Uttarakhand,36.2,13.2,131.6,29.3919,79.4542,2084,Himalayan
+2026,18,nashik,Nashik,Maharashtra,0.0,0.0,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,18,new delhi,New Delhi,Delhi,3.1999999999999997,6.5,131.6,28.6139,77.209,216,Plains
+2026,18,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,10.2,62.099999999999994,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,18,north goa,North Goa (Panaji),Goa,2.3,0.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,18,palakkad,Palakkad,Kerala,11.4,12.0,131.6,10.7867,76.6548,84,Plains
+2026,18,patna,Patna,Bihar,18.8,19.0,131.6,25.5941,85.1376,53,Plains
+2026,18,pune,Pune,Maharashtra,0.0,1.2,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,18,puri,Puri,Odisha,1.7,14.7,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,18,raigad,Raigad,Maharashtra,0.0,0.0,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,18,ranchi,Ranchi,Jharkhand,17.2,24.9,131.6,23.3441,85.3096,651,Plateau
+2026,18,ratnagiri,Ratnagiri,Maharashtra,0.0,0.0,236.59999999999997,16.9902,73.312,11,Coastal
+2026,18,satara,Satara,Maharashtra,0.0,0.0,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,18,shimla,Shimla,Himachal Pradesh,25.1,11.4,131.6,31.1048,77.1734,2276,Himalayan
+2026,18,shivamogga,Shivamogga (Agumbe),Karnataka,0.8999999999999999,7.9,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,18,sindhudurg,Sindhudurg,Maharashtra,0.5,0.0,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,18,solapur,Solapur,Maharashtra,0.0,0.0,131.6,17.6599,75.9064,458,Plateau
+2026,18,srinagar,Srinagar,Jammu & Kashmir,20.4,24.7,131.6,34.0837,74.7973,1585,Himalayan
+2026,18,surat,Surat,Gujarat,0.0,0.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,18,thane,Thane,Maharashtra,0.5,0.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,18,thiruvananthapuram,Thiruvananthapuram,Kerala,67.8,34.3,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,18,uttara kannada,Uttara Kannada (Karwar),Karnataka,1.2,1.5999999999999999,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,18,varanasi,Varanasi,Uttar Pradesh,1.9000000000000001,3.6,131.6,25.3176,82.9739,81,Plains
+2026,18,vijayawada,NTR (Vijayawada),Andhra Pradesh,7.1000000000000005,11.6,131.6,16.5062,80.648,23,Plains
+2026,18,visakhapatnam,Visakhapatnam,Andhra Pradesh,20.2,19.2,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,18,wayanad,Wayanad,Kerala,10.7,53.5,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,19,ahmedabad,Ahmedabad,Gujarat,0.0,0.0,131.6,23.0225,72.5714,53,Plains
+2026,19,amritsar,Amritsar,Punjab,0.30000000000000004,4.4,131.6,31.634,74.8723,234,Plains
+2026,19,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,0.0,0.0,131.6,19.8762,75.3433,568,Plateau
+2026,19,bengaluru urban,Bengaluru Urban,Karnataka,9.7,3.3000000000000003,131.6,12.9716,77.5946,920,Plateau
+2026,19,bhopal,Bhopal,Madhya Pradesh,0.0,0.1,131.6,23.2599,77.4126,500,Plateau
+2026,19,cachar,Cachar (Silchar),Assam,11.5,22.3,131.6,24.8333,92.7789,22,Plains
+2026,19,chennai,Chennai,Tamil Nadu,21.7,2.4,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,19,coimbatore,Coimbatore,Tamil Nadu,67.0,90.1,131.6,11.0168,76.9558,411,Plains
+2026,19,cuttack,Cuttack,Odisha,29.7,31.299999999999997,131.6,20.4625,85.8828,36,Plains
+2026,19,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,30.4,23.1,236.59999999999997,12.9141,74.856,22,Coastal
+2026,19,darjeeling,Darjeeling,West Bengal,56.1,79.1,131.6,27.041,88.2663,2045,Himalayan
+2026,19,dehradun,Dehradun,Uttarakhand,21.8,6.2,131.6,30.3165,78.0322,640,Himalayan
+2026,19,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,30.900000000000002,56.6,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,19,east sikkim,East Sikkim (Gangtok),Sikkim,121.0,53.6,131.6,27.3389,88.6065,1650,Himalayan
+2026,19,ernakulam,Ernakulam (Kochi),Kerala,68.2,61.5,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,19,hyderabad,Hyderabad,Telangana,0.4,6.3,131.6,17.385,78.4867,542,Plateau
+2026,19,idukki,Idukki,Kerala,49.6,111.2,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,19,jaipur,Jaipur,Rajasthan,0.3,0.4,131.6,26.9124,75.7873,431,Plains
+2026,19,jodhpur,Jodhpur,Rajasthan,0.0,0.1,131.6,26.2389,73.0243,231,Arid Plains
+2026,19,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,23.599999999999998,9.0,131.6,26.1445,91.7362,55,Plains
+2026,19,khordha,Khordha (Bhubaneswar),Odisha,17.8,54.7,131.6,20.2961,85.8245,45,Plains
+2026,19,kolhapur,Kolhapur,Maharashtra,0.3,0.0,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,19,kolkata,Kolkata,West Bengal,39.6,57.0,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,19,kozhikode,Kozhikode,Kerala,59.099999999999994,42.5,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,19,kullu,Kullu (Manali),Himachal Pradesh,16.7,15.2,131.6,31.9579,77.1095,1279,Himalayan
+2026,19,kutch,Kutch (Bhuj),Gujarat,0.0,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,19,lucknow,Lucknow,Uttar Pradesh,24.900000000000002,7.2,131.6,26.8467,80.9462,123,Plains
+2026,19,madurai,Madurai,Tamil Nadu,63.3,38.0,131.6,9.9252,78.1198,101,Plains
+2026,19,mumbai city,Mumbai City,Maharashtra,0.0,0.0,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,19,mumbai suburban,Mumbai Suburban,Maharashtra,0.0,0.0,236.59999999999997,19.076,72.8777,14,Coastal
+2026,19,nagpur,Nagpur,Maharashtra,0.0,0.5,131.6,21.1458,79.0882,310,Plains
+2026,19,nainital,Nainital,Uttarakhand,49.1,25.1,131.6,29.3919,79.4542,2084,Himalayan
+2026,19,nashik,Nashik,Maharashtra,0.0,0.0,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,19,new delhi,New Delhi,Delhi,7.3,4.4,131.6,28.6139,77.209,216,Plains
+2026,19,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,26.7,90.5,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,19,north goa,North Goa (Panaji),Goa,4.3,3.2,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,19,palakkad,Palakkad,Kerala,50.4,76.3,131.6,10.7867,76.6548,84,Plains
+2026,19,patna,Patna,Bihar,18.9,6.5,131.6,25.5941,85.1376,53,Plains
+2026,19,pune,Pune,Maharashtra,0.0,0.0,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,19,puri,Puri,Odisha,7.8,6.2,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,19,raigad,Raigad,Maharashtra,1.9,0.0,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,19,ranchi,Ranchi,Jharkhand,17.7,33.7,131.6,23.3441,85.3096,651,Plateau
+2026,19,ratnagiri,Ratnagiri,Maharashtra,1.4,0.1,236.59999999999997,16.9902,73.312,11,Coastal
+2026,19,satara,Satara,Maharashtra,0.0,0.0,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,19,shimla,Shimla,Himachal Pradesh,20.3,29.8,131.6,31.1048,77.1734,2276,Himalayan
+2026,19,shivamogga,Shivamogga (Agumbe),Karnataka,6.1000000000000005,3.1999999999999997,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,19,sindhudurg,Sindhudurg,Maharashtra,13.600000000000001,1.1,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,19,solapur,Solapur,Maharashtra,0.8,2.2,131.6,17.6599,75.9064,458,Plateau
+2026,19,srinagar,Srinagar,Jammu & Kashmir,2.1,2.7,131.6,34.0837,74.7973,1585,Himalayan
+2026,19,surat,Surat,Gujarat,0.1,0.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,19,thane,Thane,Maharashtra,1.3,0.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,19,thiruvananthapuram,Thiruvananthapuram,Kerala,55.9,91.5,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,19,uttara kannada,Uttara Kannada (Karwar),Karnataka,11.200000000000001,8.299999999999999,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,19,varanasi,Varanasi,Uttar Pradesh,8.1,6.9,131.6,25.3176,82.9739,81,Plains
+2026,19,vijayawada,NTR (Vijayawada),Andhra Pradesh,4.7,11.9,131.6,16.5062,80.648,23,Plains
+2026,19,visakhapatnam,Visakhapatnam,Andhra Pradesh,12.8,2.4,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,19,wayanad,Wayanad,Kerala,8.3,85.8,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,20,ahmedabad,Ahmedabad,Gujarat,0.0,0.0,131.6,23.0225,72.5714,53,Plains
+2026,20,amritsar,Amritsar,Punjab,5.0,0.5,131.6,31.634,74.8723,234,Plains
+2026,20,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,0.0,0.4,131.6,19.8762,75.3433,568,Plateau
+2026,20,bengaluru urban,Bengaluru Urban,Karnataka,5.3,2.7,131.6,12.9716,77.5946,920,Plateau
+2026,20,bhopal,Bhopal,Madhya Pradesh,0.0,0.0,131.6,23.2599,77.4126,500,Plateau
+2026,20,cachar,Cachar (Silchar),Assam,66.6,72.6,131.6,24.8333,92.7789,22,Plains
+2026,20,chennai,Chennai,Tamil Nadu,15.2,0.5,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,20,coimbatore,Coimbatore,Tamil Nadu,5.8,26.099999999999998,131.6,11.0168,76.9558,411,Plains
+2026,20,cuttack,Cuttack,Odisha,4.4,0.2,131.6,20.4625,85.8828,36,Plains
+2026,20,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,88.7,77.8,236.59999999999997,12.9141,74.856,22,Coastal
+2026,20,darjeeling,Darjeeling,West Bengal,88.6,106.2,131.6,27.041,88.2663,2045,Himalayan
+2026,20,dehradun,Dehradun,Uttarakhand,8.6,0.0,131.6,30.3165,78.0322,640,Himalayan
+2026,20,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,78.8,98.4,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,20,east sikkim,East Sikkim (Gangtok),Sikkim,141.1,75.4,131.6,27.3389,88.6065,1650,Himalayan
+2026,20,ernakulam,Ernakulam (Kochi),Kerala,60.7,114.19999999999999,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,20,hyderabad,Hyderabad,Telangana,5.4,2.2,131.6,17.385,78.4867,542,Plateau
+2026,20,idukki,Idukki,Kerala,37.8,76.5,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,20,jaipur,Jaipur,Rajasthan,0.7,0.0,131.6,26.9124,75.7873,431,Plains
+2026,20,jodhpur,Jodhpur,Rajasthan,0.0,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,20,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,82.5,43.3,131.6,26.1445,91.7362,55,Plains
+2026,20,khordha,Khordha (Bhubaneswar),Odisha,1.5999999999999999,0.1,131.6,20.2961,85.8245,45,Plains
+2026,20,kolhapur,Kolhapur,Maharashtra,9.299999999999999,1.3,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,20,kolkata,Kolkata,West Bengal,45.800000000000004,2.9,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,20,kozhikode,Kozhikode,Kerala,78.60000000000001,115.4,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,20,kullu,Kullu (Manali),Himachal Pradesh,13.1,8.1,131.6,31.9579,77.1095,1279,Himalayan
+2026,20,kutch,Kutch (Bhuj),Gujarat,0.1,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,20,lucknow,Lucknow,Uttar Pradesh,5.0,0.30000000000000004,131.6,26.8467,80.9462,123,Plains
+2026,20,madurai,Madurai,Tamil Nadu,14.799999999999999,36.8,131.6,9.9252,78.1198,101,Plains
+2026,20,mumbai city,Mumbai City,Maharashtra,0.0,0.0,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,20,mumbai suburban,Mumbai Suburban,Maharashtra,0.0,0.0,236.59999999999997,19.076,72.8777,14,Coastal
+2026,20,nagpur,Nagpur,Maharashtra,0.1,0.0,131.6,21.1458,79.0882,310,Plains
+2026,20,nainital,Nainital,Uttarakhand,21.3,0.8,131.6,29.3919,79.4542,2084,Himalayan
+2026,20,nashik,Nashik,Maharashtra,0.5,0.9,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,20,new delhi,New Delhi,Delhi,7.6,0.0,131.6,28.6139,77.209,216,Plains
+2026,20,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,12.1,48.5,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,20,north goa,North Goa (Panaji),Goa,5.9,8.9,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,20,palakkad,Palakkad,Kerala,45.5,68.5,131.6,10.7867,76.6548,84,Plains
+2026,20,patna,Patna,Bihar,0.7,0.9,131.6,25.5941,85.1376,53,Plains
+2026,20,pune,Pune,Maharashtra,0.8,0.0,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,20,puri,Puri,Odisha,0.2,0.4,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,20,raigad,Raigad,Maharashtra,0.1,0.0,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,20,ranchi,Ranchi,Jharkhand,6.699999999999999,0.0,131.6,23.3441,85.3096,651,Plateau
+2026,20,ratnagiri,Ratnagiri,Maharashtra,1.4,0.4,236.59999999999997,16.9902,73.312,11,Coastal
+2026,20,satara,Satara,Maharashtra,1.3,0.0,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,20,shimla,Shimla,Himachal Pradesh,16.0,0.7,131.6,31.1048,77.1734,2276,Himalayan
+2026,20,shivamogga,Shivamogga (Agumbe),Karnataka,13.100000000000001,34.0,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,20,sindhudurg,Sindhudurg,Maharashtra,3.0,1.3,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,20,solapur,Solapur,Maharashtra,1.0999999999999999,0.6,131.6,17.6599,75.9064,458,Plateau
+2026,20,srinagar,Srinagar,Jammu & Kashmir,11.5,25.9,131.6,34.0837,74.7973,1585,Himalayan
+2026,20,surat,Surat,Gujarat,0.0,0.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,20,thane,Thane,Maharashtra,0.0,0.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,20,thiruvananthapuram,Thiruvananthapuram,Kerala,64.7,53.0,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,20,uttara kannada,Uttara Kannada (Karwar),Karnataka,15.2,25.5,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,20,varanasi,Varanasi,Uttar Pradesh,3.4,0.0,131.6,25.3176,82.9739,81,Plains
+2026,20,vijayawada,NTR (Vijayawada),Andhra Pradesh,4.300000000000001,2.0,131.6,16.5062,80.648,23,Plains
+2026,20,visakhapatnam,Visakhapatnam,Andhra Pradesh,0.30000000000000004,1.2000000000000002,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,20,wayanad,Wayanad,Kerala,20.6,87.5,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,21,ahmedabad,Ahmedabad,Gujarat,0.0,0.0,131.6,23.0225,72.5714,53,Plains
+2026,21,amritsar,Amritsar,Punjab,0.7,0.1,131.6,31.634,74.8723,234,Plains
+2026,21,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,0.8999999999999999,0.1,131.6,19.8762,75.3433,568,Plateau
+2026,21,bengaluru urban,Bengaluru Urban,Karnataka,51.7,17.8,131.6,12.9716,77.5946,920,Plateau
+2026,21,bhopal,Bhopal,Madhya Pradesh,0.0,0.0,131.6,23.2599,77.4126,500,Plateau
+2026,21,cachar,Cachar (Silchar),Assam,78.1,66.9,131.6,24.8333,92.7789,22,Plains
+2026,21,chennai,Chennai,Tamil Nadu,3.8,23.7,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,21,coimbatore,Coimbatore,Tamil Nadu,14.0,3.2,131.6,11.0168,76.9558,411,Plains
+2026,21,cuttack,Cuttack,Odisha,39.7,0.7999999999999999,131.6,20.4625,85.8828,36,Plains
+2026,21,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,87.7,45.3,236.59999999999997,12.9141,74.856,22,Coastal
+2026,21,darjeeling,Darjeeling,West Bengal,50.2,81.7,131.6,27.041,88.2663,2045,Himalayan
+2026,21,dehradun,Dehradun,Uttarakhand,0.2,0.0,131.6,30.3165,78.0322,640,Himalayan
+2026,21,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,74.2,84.69999999999999,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,21,east sikkim,East Sikkim (Gangtok),Sikkim,88.6,49.0,131.6,27.3389,88.6065,1650,Himalayan
+2026,21,ernakulam,Ernakulam (Kochi),Kerala,92.80000000000001,145.3,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,21,hyderabad,Hyderabad,Telangana,2.2,1.1,131.6,17.385,78.4867,542,Plateau
+2026,21,idukki,Idukki,Kerala,100.7,41.3,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,21,jaipur,Jaipur,Rajasthan,0.0,0.0,131.6,26.9124,75.7873,431,Plains
+2026,21,jodhpur,Jodhpur,Rajasthan,0.0,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,21,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,55.7,26.4,131.6,26.1445,91.7362,55,Plains
+2026,21,khordha,Khordha (Bhubaneswar),Odisha,14.9,0.2,131.6,20.2961,85.8245,45,Plains
+2026,21,kolhapur,Kolhapur,Maharashtra,17.3,17.9,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,21,kolkata,Kolkata,West Bengal,20.3,1.0,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,21,kozhikode,Kozhikode,Kerala,65.8,50.5,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,21,kullu,Kullu (Manali),Himachal Pradesh,10.4,0.1,131.6,31.9579,77.1095,1279,Himalayan
+2026,21,kutch,Kutch (Bhuj),Gujarat,0.0,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,21,lucknow,Lucknow,Uttar Pradesh,0.0,0.0,131.6,26.8467,80.9462,123,Plains
+2026,21,madurai,Madurai,Tamil Nadu,9.0,40.7,131.6,9.9252,78.1198,101,Plains
+2026,21,mumbai city,Mumbai City,Maharashtra,4.9,4.2,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,21,mumbai suburban,Mumbai Suburban,Maharashtra,6.2,0.8,236.59999999999997,19.076,72.8777,14,Coastal
+2026,21,nagpur,Nagpur,Maharashtra,0.0,0.0,131.6,21.1458,79.0882,310,Plains
+2026,21,nainital,Nainital,Uttarakhand,1.7000000000000002,0.0,131.6,29.3919,79.4542,2084,Himalayan
+2026,21,nashik,Nashik,Maharashtra,11.2,17.2,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,21,new delhi,New Delhi,Delhi,0.0,0.0,131.6,28.6139,77.209,216,Plains
+2026,21,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,63.4,105.0,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,21,north goa,North Goa (Panaji),Goa,30.9,11.6,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,21,palakkad,Palakkad,Kerala,57.7,14.9,131.6,10.7867,76.6548,84,Plains
+2026,21,patna,Patna,Bihar,1.2,0.0,131.6,25.5941,85.1376,53,Plains
+2026,21,pune,Pune,Maharashtra,13.5,22.3,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,21,puri,Puri,Odisha,0.1,0.0,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,21,raigad,Raigad,Maharashtra,12.5,11.0,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,21,ranchi,Ranchi,Jharkhand,0.4,0.0,131.6,23.3441,85.3096,651,Plateau
+2026,21,ratnagiri,Ratnagiri,Maharashtra,13.7,8.2,236.59999999999997,16.9902,73.312,11,Coastal
+2026,21,satara,Satara,Maharashtra,9.9,35.6,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,21,shimla,Shimla,Himachal Pradesh,4.1,1.7,131.6,31.1048,77.1734,2276,Himalayan
+2026,21,shivamogga,Shivamogga (Agumbe),Karnataka,14.6,17.2,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,21,sindhudurg,Sindhudurg,Maharashtra,28.5,7.0,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,21,solapur,Solapur,Maharashtra,4.5,47.699999999999996,131.6,17.6599,75.9064,458,Plateau
+2026,21,srinagar,Srinagar,Jammu & Kashmir,24.099999999999998,23.3,131.6,34.0837,74.7973,1585,Himalayan
+2026,21,surat,Surat,Gujarat,0.7,0.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,21,thane,Thane,Maharashtra,9.6,1.2000000000000002,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,21,thiruvananthapuram,Thiruvananthapuram,Kerala,96.4,143.1,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,21,uttara kannada,Uttara Kannada (Karwar),Karnataka,31.4,37.0,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,21,varanasi,Varanasi,Uttar Pradesh,0.0,0.0,131.6,25.3176,82.9739,81,Plains
+2026,21,vijayawada,NTR (Vijayawada),Andhra Pradesh,0.5,5.1,131.6,16.5062,80.648,23,Plains
+2026,21,visakhapatnam,Visakhapatnam,Andhra Pradesh,1.8,0.0,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,21,wayanad,Wayanad,Kerala,23.6,17.8,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,22,ahmedabad,Ahmedabad,Gujarat,2.0,0.0,131.6,23.0225,72.5714,53,Plains
+2026,22,amritsar,Amritsar,Punjab,2.7,1.6,131.6,31.634,74.8723,234,Plains
+2026,22,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,2.3,8.0,131.6,19.8762,75.3433,568,Plateau
+2026,22,bengaluru urban,Bengaluru Urban,Karnataka,26.2,112.6,131.6,12.9716,77.5946,920,Plateau
+2026,22,bhopal,Bhopal,Madhya Pradesh,1.6,2.2,131.6,23.2599,77.4126,500,Plateau
+2026,22,cachar,Cachar (Silchar),Assam,42.4,60.0,131.6,24.8333,92.7789,22,Plains
+2026,22,chennai,Chennai,Tamil Nadu,3.0,3.1,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,22,coimbatore,Coimbatore,Tamil Nadu,26.9,14.3,131.6,11.0168,76.9558,411,Plains
+2026,22,cuttack,Cuttack,Odisha,29.3,30.4,131.6,20.4625,85.8828,36,Plains
+2026,22,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,31.400000000000002,27.599999999999998,236.59999999999997,12.9141,74.856,22,Coastal
+2026,22,darjeeling,Darjeeling,West Bengal,34.0,63.5,131.6,27.041,88.2663,2045,Himalayan
+2026,22,dehradun,Dehradun,Uttarakhand,7.9,16.4,131.6,30.3165,78.0322,640,Himalayan
+2026,22,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,102.9,84.9,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,22,east sikkim,East Sikkim (Gangtok),Sikkim,136.6,68.3,131.6,27.3389,88.6065,1650,Himalayan
+2026,22,ernakulam,Ernakulam (Kochi),Kerala,55.7,57.4,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,22,hyderabad,Hyderabad,Telangana,9.2,6.0,131.6,17.385,78.4867,542,Plateau
+2026,22,idukki,Idukki,Kerala,59.5,26.3,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,22,jaipur,Jaipur,Rajasthan,1.2,4.4,131.6,26.9124,75.7873,431,Plains
+2026,22,jodhpur,Jodhpur,Rajasthan,0.4,0.2,131.6,26.2389,73.0243,231,Arid Plains
+2026,22,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,42.9,32.9,131.6,26.1445,91.7362,55,Plains
+2026,22,khordha,Khordha (Bhubaneswar),Odisha,22.9,16.6,131.6,20.2961,85.8245,45,Plains
+2026,22,kolhapur,Kolhapur,Maharashtra,4.2,9.3,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,22,kolkata,Kolkata,West Bengal,46.9,6.4,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,22,kozhikode,Kozhikode,Kerala,57.3,52.8,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,22,kullu,Kullu (Manali),Himachal Pradesh,18.2,5.4,131.6,31.9579,77.1095,1279,Himalayan
+2026,22,kutch,Kutch (Bhuj),Gujarat,0.0,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,22,lucknow,Lucknow,Uttar Pradesh,4.1,0.9,131.6,26.8467,80.9462,123,Plains
+2026,22,madurai,Madurai,Tamil Nadu,9.4,22.200000000000003,131.6,9.9252,78.1198,101,Plains
+2026,22,mumbai city,Mumbai City,Maharashtra,8.4,4.2,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,22,mumbai suburban,Mumbai Suburban,Maharashtra,10.4,0.2,236.59999999999997,19.076,72.8777,14,Coastal
+2026,22,nagpur,Nagpur,Maharashtra,1.5,1.2,131.6,21.1458,79.0882,310,Plains
+2026,22,nainital,Nainital,Uttarakhand,30.8,16.3,131.6,29.3919,79.4542,2084,Himalayan
+2026,22,nashik,Nashik,Maharashtra,10.2,2.0,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,22,new delhi,New Delhi,Delhi,9.700000000000001,7.7,131.6,28.6139,77.209,216,Plains
+2026,22,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,34.4,225.1,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,22,north goa,North Goa (Panaji),Goa,24.5,17.1,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,22,palakkad,Palakkad,Kerala,41.3,7.7,131.6,10.7867,76.6548,84,Plains
+2026,22,patna,Patna,Bihar,20.0,1.1,131.6,25.5941,85.1376,53,Plains
+2026,22,pune,Pune,Maharashtra,5.5,2.8000000000000003,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,22,puri,Puri,Odisha,14.200000000000001,4.300000000000001,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,22,raigad,Raigad,Maharashtra,19.9,4.7,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,22,ranchi,Ranchi,Jharkhand,21.3,12.5,131.6,23.3441,85.3096,651,Plateau
+2026,22,ratnagiri,Ratnagiri,Maharashtra,7.0,14.4,236.59999999999997,16.9902,73.312,11,Coastal
+2026,22,satara,Satara,Maharashtra,3.2,16.8,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,22,shimla,Shimla,Himachal Pradesh,17.0,25.0,131.6,31.1048,77.1734,2276,Himalayan
+2026,22,shivamogga,Shivamogga (Agumbe),Karnataka,13.9,57.0,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,22,sindhudurg,Sindhudurg,Maharashtra,26.5,15.9,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,22,solapur,Solapur,Maharashtra,0.2,8.4,131.6,17.6599,75.9064,458,Plateau
+2026,22,srinagar,Srinagar,Jammu & Kashmir,9.7,18.900000000000002,131.6,34.0837,74.7973,1585,Himalayan
+2026,22,surat,Surat,Gujarat,3.4000000000000004,0.9,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,22,thane,Thane,Maharashtra,8.2,0.2,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,22,thiruvananthapuram,Thiruvananthapuram,Kerala,72.6,15.600000000000001,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,22,uttara kannada,Uttara Kannada (Karwar),Karnataka,23.5,25.7,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,22,varanasi,Varanasi,Uttar Pradesh,7.2,0.1,131.6,25.3176,82.9739,81,Plains
+2026,22,vijayawada,NTR (Vijayawada),Andhra Pradesh,3.1,19.5,131.6,16.5062,80.648,23,Plains
+2026,22,visakhapatnam,Visakhapatnam,Andhra Pradesh,0.5,1.0,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,22,wayanad,Wayanad,Kerala,18.4,42.0,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,23,ahmedabad,Ahmedabad,Gujarat,9.4,0.0,131.6,23.0225,72.5714,53,Plains
+2026,23,amritsar,Amritsar,Punjab,7.0,3.7,131.6,31.634,74.8723,234,Plains
+2026,23,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,6.5,14.3,131.6,19.8762,75.3433,568,Plateau
+2026,23,bengaluru urban,Bengaluru Urban,Karnataka,22.3,24.1,131.6,12.9716,77.5946,920,Plateau
+2026,23,bhopal,Bhopal,Madhya Pradesh,14.9,4.8,131.6,23.2599,77.4126,500,Plateau
+2026,23,cachar,Cachar (Silchar),Assam,91.8,77.0,131.6,24.8333,92.7789,22,Plains
+2026,23,chennai,Chennai,Tamil Nadu,14.7,10.4,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,23,coimbatore,Coimbatore,Tamil Nadu,35.300000000000004,4.5,131.6,11.0168,76.9558,411,Plains
+2026,23,cuttack,Cuttack,Odisha,27.3,49.0,131.6,20.4625,85.8828,36,Plains
+2026,23,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,220.0,388.5,236.59999999999997,12.9141,74.856,22,Coastal
+2026,23,darjeeling,Darjeeling,West Bengal,30.8,117.9,131.6,27.041,88.2663,2045,Himalayan
+2026,23,dehradun,Dehradun,Uttarakhand,2.5,1.8,131.6,30.3165,78.0322,640,Himalayan
+2026,23,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,48.0,74.6,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,23,east sikkim,East Sikkim (Gangtok),Sikkim,151.2,82.6,131.6,27.3389,88.6065,1650,Himalayan
+2026,23,ernakulam,Ernakulam (Kochi),Kerala,177.79999999999998,195.6,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,23,hyderabad,Hyderabad,Telangana,10.4,2.9,131.6,17.385,78.4867,542,Plateau
+2026,23,idukki,Idukki,Kerala,154.5,70.7,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,23,jaipur,Jaipur,Rajasthan,4.7,15.1,131.6,26.9124,75.7873,431,Plains
+2026,23,jodhpur,Jodhpur,Rajasthan,4.1,25.099999999999998,131.6,26.2389,73.0243,231,Arid Plains
+2026,23,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,44.6,22.5,131.6,26.1445,91.7362,55,Plains
+2026,23,khordha,Khordha (Bhubaneswar),Odisha,33.5,101.30000000000001,131.6,20.2961,85.8245,45,Plains
+2026,23,kolhapur,Kolhapur,Maharashtra,26.3,57.5,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,23,kolkata,Kolkata,West Bengal,45.699999999999996,23.4,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,23,kozhikode,Kozhikode,Kerala,261.0,136.1,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,23,kullu,Kullu (Manali),Himachal Pradesh,21.6,9.3,131.6,31.9579,77.1095,1279,Himalayan
+2026,23,kutch,Kutch (Bhuj),Gujarat,0.2,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,23,lucknow,Lucknow,Uttar Pradesh,5.6,0.1,131.6,26.8467,80.9462,123,Plains
+2026,23,madurai,Madurai,Tamil Nadu,7.4,12.0,131.6,9.9252,78.1198,101,Plains
+2026,23,mumbai city,Mumbai City,Maharashtra,18.2,10.7,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,23,mumbai suburban,Mumbai Suburban,Maharashtra,12.0,2.6999999999999997,236.59999999999997,19.076,72.8777,14,Coastal
+2026,23,nagpur,Nagpur,Maharashtra,2.7,1.3,131.6,21.1458,79.0882,310,Plains
+2026,23,nainital,Nainital,Uttarakhand,33.0,10.0,131.6,29.3919,79.4542,2084,Himalayan
+2026,23,nashik,Nashik,Maharashtra,10.7,26.5,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,23,new delhi,New Delhi,Delhi,5.9,1.4,131.6,28.6139,77.209,216,Plains
+2026,23,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,90.10000000000001,48.1,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,23,north goa,North Goa (Panaji),Goa,70.5,66.8,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,23,palakkad,Palakkad,Kerala,131.1,48.0,131.6,10.7867,76.6548,84,Plains
+2026,23,patna,Patna,Bihar,14.9,0.2,131.6,25.5941,85.1376,53,Plains
+2026,23,pune,Pune,Maharashtra,10.3,10.4,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,23,puri,Puri,Odisha,5.2,1.5,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,23,raigad,Raigad,Maharashtra,24.9,8.3,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,23,ranchi,Ranchi,Jharkhand,19.900000000000002,1.3,131.6,23.3441,85.3096,651,Plateau
+2026,23,ratnagiri,Ratnagiri,Maharashtra,27.5,33.3,236.59999999999997,16.9902,73.312,11,Coastal
+2026,23,satara,Satara,Maharashtra,4.7,52.0,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,23,shimla,Shimla,Himachal Pradesh,13.7,16.4,131.6,31.1048,77.1734,2276,Himalayan
+2026,23,shivamogga,Shivamogga (Agumbe),Karnataka,60.4,38.8,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,23,sindhudurg,Sindhudurg,Maharashtra,51.9,48.400000000000006,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,23,solapur,Solapur,Maharashtra,3.8,26.6,131.6,17.6599,75.9064,458,Plateau
+2026,23,srinagar,Srinagar,Jammu & Kashmir,18.8,22.9,131.6,34.0837,74.7973,1585,Himalayan
+2026,23,surat,Surat,Gujarat,14.3,0.30000000000000004,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,23,thane,Thane,Maharashtra,14.1,1.4,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,23,thiruvananthapuram,Thiruvananthapuram,Kerala,144.8,296.7,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,23,uttara kannada,Uttara Kannada (Karwar),Karnataka,115.5,123.19999999999999,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,23,varanasi,Varanasi,Uttar Pradesh,6.1000000000000005,1.0,131.6,25.3176,82.9739,81,Plains
+2026,23,vijayawada,NTR (Vijayawada),Andhra Pradesh,6.7,2.3,131.6,16.5062,80.648,23,Plains
+2026,23,visakhapatnam,Visakhapatnam,Andhra Pradesh,10.5,11.6,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,23,wayanad,Wayanad,Kerala,122.60000000000001,58.0,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,24,ahmedabad,Ahmedabad,Gujarat,0.8,0.3,131.6,23.0225,72.5714,53,Plains
+2026,24,amritsar,Amritsar,Punjab,23.2,16.7,131.6,31.634,74.8723,234,Plains
+2026,24,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,1.4,8.799999999999999,131.6,19.8762,75.3433,568,Plateau
+2026,24,bengaluru urban,Bengaluru Urban,Karnataka,32.0,34.3,131.6,12.9716,77.5946,920,Plateau
+2026,24,bhopal,Bhopal,Madhya Pradesh,17.8,8.1,131.6,23.2599,77.4126,500,Plateau
+2026,24,cachar,Cachar (Silchar),Assam,101.3,108.9,131.6,24.8333,92.7789,22,Plains
+2026,24,chennai,Chennai,Tamil Nadu,12.2,20.2,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,24,coimbatore,Coimbatore,Tamil Nadu,17.8,1.0999999999999999,131.6,11.0168,76.9558,411,Plains
+2026,24,cuttack,Cuttack,Odisha,78.2,28.3,131.6,20.4625,85.8828,36,Plains
+2026,24,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,96.0,87.5,236.59999999999997,12.9141,74.856,22,Coastal
+2026,24,darjeeling,Darjeeling,West Bengal,67.9,118.1,131.6,27.041,88.2663,2045,Himalayan
+2026,24,dehradun,Dehradun,Uttarakhand,28.1,10.3,131.6,30.3165,78.0322,640,Himalayan
+2026,24,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,68.9,88.3,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,24,east sikkim,East Sikkim (Gangtok),Sikkim,116.7,128.5,131.6,27.3389,88.6065,1650,Himalayan
+2026,24,ernakulam,Ernakulam (Kochi),Kerala,119.7,148.1,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,24,hyderabad,Hyderabad,Telangana,6.1,77.7,131.6,17.385,78.4867,542,Plateau
+2026,24,idukki,Idukki,Kerala,133.2,45.9,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,24,jaipur,Jaipur,Rajasthan,10.0,32.0,131.6,26.9124,75.7873,431,Plains
+2026,24,jodhpur,Jodhpur,Rajasthan,0.5,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,24,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,51.1,72.7,131.6,26.1445,91.7362,55,Plains
+2026,24,khordha,Khordha (Bhubaneswar),Odisha,58.8,30.300000000000004,131.6,20.2961,85.8245,45,Plains
+2026,24,kolhapur,Kolhapur,Maharashtra,29.8,14.3,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,24,kolkata,Kolkata,West Bengal,31.9,45.2,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,24,kozhikode,Kozhikode,Kerala,188.5,104.9,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,24,kullu,Kullu (Manali),Himachal Pradesh,22.2,14.3,131.6,31.9579,77.1095,1279,Himalayan
+2026,24,kutch,Kutch (Bhuj),Gujarat,0.30000000000000004,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,24,lucknow,Lucknow,Uttar Pradesh,33.9,1.6,131.6,26.8467,80.9462,123,Plains
+2026,24,madurai,Madurai,Tamil Nadu,6.8,5.5,131.6,9.9252,78.1198,101,Plains
+2026,24,mumbai city,Mumbai City,Maharashtra,21.9,21.7,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,24,mumbai suburban,Mumbai Suburban,Maharashtra,27.0,4.4,236.59999999999997,19.076,72.8777,14,Coastal
+2026,24,nagpur,Nagpur,Maharashtra,10.3,5.0,131.6,21.1458,79.0882,310,Plains
+2026,24,nainital,Nainital,Uttarakhand,57.5,8.799999999999999,131.6,29.3919,79.4542,2084,Himalayan
+2026,24,nashik,Nashik,Maharashtra,1.6,0.0,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,24,new delhi,New Delhi,Delhi,9.899999999999999,15.399999999999999,131.6,28.6139,77.209,216,Plains
+2026,24,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,34.3,38.0,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,24,north goa,North Goa (Panaji),Goa,88.0,88.7,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,24,palakkad,Palakkad,Kerala,107.9,38.6,131.6,10.7867,76.6548,84,Plains
+2026,24,patna,Patna,Bihar,4.3,0.3,131.6,25.5941,85.1376,53,Plains
+2026,24,pune,Pune,Maharashtra,7.0,11.9,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,24,puri,Puri,Odisha,15.6,2.4,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,24,raigad,Raigad,Maharashtra,24.7,16.1,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,24,ranchi,Ranchi,Jharkhand,2.9,1.2000000000000002,131.6,23.3441,85.3096,651,Plateau
+2026,24,ratnagiri,Ratnagiri,Maharashtra,50.6,66.2,236.59999999999997,16.9902,73.312,11,Coastal
+2026,24,satara,Satara,Maharashtra,5.9,20.9,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,24,shimla,Shimla,Himachal Pradesh,19.5,19.2,131.6,31.1048,77.1734,2276,Himalayan
+2026,24,shivamogga,Shivamogga (Agumbe),Karnataka,31.7,33.0,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,24,sindhudurg,Sindhudurg,Maharashtra,72.7,55.1,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,24,solapur,Solapur,Maharashtra,16.3,12.2,131.6,17.6599,75.9064,458,Plateau
+2026,24,srinagar,Srinagar,Jammu & Kashmir,11.5,8.9,131.6,34.0837,74.7973,1585,Himalayan
+2026,24,surat,Surat,Gujarat,6.9,0.2,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,24,thane,Thane,Maharashtra,15.3,3.7,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,24,thiruvananthapuram,Thiruvananthapuram,Kerala,108.1,131.3,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,24,uttara kannada,Uttara Kannada (Karwar),Karnataka,101.6,150.9,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,24,varanasi,Varanasi,Uttar Pradesh,4.6,0.1,131.6,25.3176,82.9739,81,Plains
+2026,24,vijayawada,NTR (Vijayawada),Andhra Pradesh,6.9,38.599999999999994,131.6,16.5062,80.648,23,Plains
+2026,24,visakhapatnam,Visakhapatnam,Andhra Pradesh,25.1,6.3,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,24,wayanad,Wayanad,Kerala,42.5,31.8,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,25,ahmedabad,Ahmedabad,Gujarat,22.0,2.9,131.6,23.0225,72.5714,53,Plains
+2026,25,amritsar,Amritsar,Punjab,4.8,4.8,131.6,31.634,74.8723,234,Plains
+2026,25,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,2.4000000000000004,2.3,131.6,19.8762,75.3433,568,Plateau
+2026,25,bengaluru urban,Bengaluru Urban,Karnataka,15.799999999999999,11.200000000000001,131.6,12.9716,77.5946,920,Plateau
+2026,25,bhopal,Bhopal,Madhya Pradesh,21.2,1.1,131.6,23.2599,77.4126,500,Plateau
+2026,25,cachar,Cachar (Silchar),Assam,137.4,171.2,131.6,24.8333,92.7789,22,Plains
+2026,25,chennai,Chennai,Tamil Nadu,21.0,14.3,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,25,coimbatore,Coimbatore,Tamil Nadu,15.5,22.0,131.6,11.0168,76.9558,411,Plains
+2026,25,cuttack,Cuttack,Odisha,31.2,41.0,131.6,20.4625,85.8828,36,Plains
+2026,25,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,35.3,29.2,236.59999999999997,12.9141,74.856,22,Coastal
+2026,25,darjeeling,Darjeeling,West Bengal,217.5,100.5,131.6,27.041,88.2663,2045,Himalayan
+2026,25,dehradun,Dehradun,Uttarakhand,4.7,1.2,131.6,30.3165,78.0322,640,Himalayan
+2026,25,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,66.0,72.9,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,25,east sikkim,East Sikkim (Gangtok),Sikkim,254.6,95.6,131.6,27.3389,88.6065,1650,Himalayan
+2026,25,ernakulam,Ernakulam (Kochi),Kerala,57.1,46.7,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,25,hyderabad,Hyderabad,Telangana,5.0,7.8999999999999995,131.6,17.385,78.4867,542,Plateau
+2026,25,idukki,Idukki,Kerala,39.4,24.7,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,25,jaipur,Jaipur,Rajasthan,5.0,7.8,131.6,26.9124,75.7873,431,Plains
+2026,25,jodhpur,Jodhpur,Rajasthan,3.1,5.7,131.6,26.2389,73.0243,231,Arid Plains
+2026,25,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,94.4,79.4,131.6,26.1445,91.7362,55,Plains
+2026,25,khordha,Khordha (Bhubaneswar),Odisha,44.5,6.800000000000001,131.6,20.2961,85.8245,45,Plains
+2026,25,kolhapur,Kolhapur,Maharashtra,19.7,2.3,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,25,kolkata,Kolkata,West Bengal,85.1,1.6,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,25,kozhikode,Kozhikode,Kerala,85.69999999999999,48.4,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,25,kullu,Kullu (Manali),Himachal Pradesh,14.5,24.7,131.6,31.9579,77.1095,1279,Himalayan
+2026,25,kutch,Kutch (Bhuj),Gujarat,7.3,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,25,lucknow,Lucknow,Uttar Pradesh,2.8,0.3,131.6,26.8467,80.9462,123,Plains
+2026,25,madurai,Madurai,Tamil Nadu,7.9,78.2,131.6,9.9252,78.1198,101,Plains
+2026,25,mumbai city,Mumbai City,Maharashtra,6.2,8.0,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,25,mumbai suburban,Mumbai Suburban,Maharashtra,4.8999999999999995,2.1,236.59999999999997,19.076,72.8777,14,Coastal
+2026,25,nagpur,Nagpur,Maharashtra,6.8999999999999995,2.3000000000000003,131.6,21.1458,79.0882,310,Plains
+2026,25,nainital,Nainital,Uttarakhand,22.4,0.4,131.6,29.3919,79.4542,2084,Himalayan
+2026,25,nashik,Nashik,Maharashtra,7.2,0.3,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,25,new delhi,New Delhi,Delhi,2.5,6.5,131.6,28.6139,77.209,216,Plains
+2026,25,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,76.3,125.8,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,25,north goa,North Goa (Panaji),Goa,14.200000000000001,14.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,25,palakkad,Palakkad,Kerala,52.7,15.5,131.6,10.7867,76.6548,84,Plains
+2026,25,patna,Patna,Bihar,3.9,1.2,131.6,25.5941,85.1376,53,Plains
+2026,25,pune,Pune,Maharashtra,12.399999999999999,3.7,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,25,puri,Puri,Odisha,21.8,8.6,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,25,raigad,Raigad,Maharashtra,22.3,11.9,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,25,ranchi,Ranchi,Jharkhand,14.9,4.8,131.6,23.3441,85.3096,651,Plateau
+2026,25,ratnagiri,Ratnagiri,Maharashtra,14.1,8.2,236.59999999999997,16.9902,73.312,11,Coastal
+2026,25,satara,Satara,Maharashtra,9.9,2.8,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,25,shimla,Shimla,Himachal Pradesh,22.8,27.1,131.6,31.1048,77.1734,2276,Himalayan
+2026,25,shivamogga,Shivamogga (Agumbe),Karnataka,19.0,10.700000000000001,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,25,sindhudurg,Sindhudurg,Maharashtra,19.0,8.2,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,25,solapur,Solapur,Maharashtra,0.9,2.9,131.6,17.6599,75.9064,458,Plateau
+2026,25,srinagar,Srinagar,Jammu & Kashmir,20.7,8.3,131.6,34.0837,74.7973,1585,Himalayan
+2026,25,surat,Surat,Gujarat,16.3,4.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,25,thane,Thane,Maharashtra,5.2,2.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,25,thiruvananthapuram,Thiruvananthapuram,Kerala,33.2,1.7,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,25,uttara kannada,Uttara Kannada (Karwar),Karnataka,20.5,11.8,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,25,varanasi,Varanasi,Uttar Pradesh,4.7,1.4000000000000001,131.6,25.3176,82.9739,81,Plains
+2026,25,vijayawada,NTR (Vijayawada),Andhra Pradesh,7.8999999999999995,4.0,131.6,16.5062,80.648,23,Plains
+2026,25,visakhapatnam,Visakhapatnam,Andhra Pradesh,48.4,10.1,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,25,wayanad,Wayanad,Kerala,23.5,91.5,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,26,ahmedabad,Ahmedabad,Gujarat,3.5,2.8,131.6,23.0225,72.5714,53,Plains
+2026,26,amritsar,Amritsar,Punjab,19.0,1.6,131.6,31.634,74.8723,234,Plains
+2026,26,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,56.5,105.3,131.6,19.8762,75.3433,568,Plateau
+2026,26,bengaluru urban,Bengaluru Urban,Karnataka,20.7,7.4,131.6,12.9716,77.5946,920,Plateau
+2026,26,bhopal,Bhopal,Madhya Pradesh,65.0,38.1,131.6,23.2599,77.4126,500,Plateau
+2026,26,cachar,Cachar (Silchar),Assam,106.2,135.9,131.6,24.8333,92.7789,22,Plains
+2026,26,chennai,Chennai,Tamil Nadu,38.0,4.5,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,26,coimbatore,Coimbatore,Tamil Nadu,16.900000000000002,9.6,131.6,11.0168,76.9558,411,Plains
+2026,26,cuttack,Cuttack,Odisha,56.4,19.8,131.6,20.4625,85.8828,36,Plains
+2026,26,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,235.10000000000002,106.5,236.59999999999997,12.9141,74.856,22,Coastal
+2026,26,darjeeling,Darjeeling,West Bengal,81.0,148.6,131.6,27.041,88.2663,2045,Himalayan
+2026,26,dehradun,Dehradun,Uttarakhand,10.899999999999999,0.0,131.6,30.3165,78.0322,640,Himalayan
+2026,26,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,76.3,67.8,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,26,east sikkim,East Sikkim (Gangtok),Sikkim,259.0,82.3,131.6,27.3389,88.6065,1650,Himalayan
+2026,26,ernakulam,Ernakulam (Kochi),Kerala,63.7,53.8,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,26,hyderabad,Hyderabad,Telangana,24.9,42.6,131.6,17.385,78.4867,542,Plateau
+2026,26,idukki,Idukki,Kerala,105.9,31.0,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,26,jaipur,Jaipur,Rajasthan,7.0,4.8,131.6,26.9124,75.7873,431,Plains
+2026,26,jodhpur,Jodhpur,Rajasthan,15.3,6.8999999999999995,131.6,26.2389,73.0243,231,Arid Plains
+2026,26,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,45.6,79.6,131.6,26.1445,91.7362,55,Plains
+2026,26,khordha,Khordha (Bhubaneswar),Odisha,59.1,26.5,131.6,20.2961,85.8245,45,Plains
+2026,26,kolhapur,Kolhapur,Maharashtra,45.0,12.8,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,26,kolkata,Kolkata,West Bengal,70.9,4.0,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,26,kozhikode,Kozhikode,Kerala,112.7,29.3,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,26,kullu,Kullu (Manali),Himachal Pradesh,21.2,7.699999999999999,131.6,31.9579,77.1095,1279,Himalayan
+2026,26,kutch,Kutch (Bhuj),Gujarat,8.6,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,26,lucknow,Lucknow,Uttar Pradesh,4.2,0.0,131.6,26.8467,80.9462,123,Plains
+2026,26,madurai,Madurai,Tamil Nadu,13.2,10.3,131.6,9.9252,78.1198,101,Plains
+2026,26,mumbai city,Mumbai City,Maharashtra,142.4,117.4,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,26,mumbai suburban,Mumbai Suburban,Maharashtra,117.8,84.1,236.59999999999997,19.076,72.8777,14,Coastal
+2026,26,nagpur,Nagpur,Maharashtra,42.0,49.0,131.6,21.1458,79.0882,310,Plains
+2026,26,nainital,Nainital,Uttarakhand,38.3,0.6,131.6,29.3919,79.4542,2084,Himalayan
+2026,26,nashik,Nashik,Maharashtra,27.8,30.6,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,26,new delhi,New Delhi,Delhi,6.4,1.8,131.6,28.6139,77.209,216,Plains
+2026,26,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,44.5,69.39999999999999,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,26,north goa,North Goa (Panaji),Goa,279.4,219.9,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,26,palakkad,Palakkad,Kerala,96.5,18.4,131.6,10.7867,76.6548,84,Plains
+2026,26,patna,Patna,Bihar,10.2,0.7,131.6,25.5941,85.1376,53,Plains
+2026,26,pune,Pune,Maharashtra,49.699999999999996,47.8,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,26,puri,Puri,Odisha,70.4,1.6,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,26,raigad,Raigad,Maharashtra,103.3,157.6,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,26,ranchi,Ranchi,Jharkhand,24.8,4.1,131.6,23.3441,85.3096,651,Plateau
+2026,26,ratnagiri,Ratnagiri,Maharashtra,260.1,222.70000000000002,236.59999999999997,16.9902,73.312,11,Coastal
+2026,26,satara,Satara,Maharashtra,78.7,41.2,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,26,shimla,Shimla,Himachal Pradesh,23.2,1.0,131.6,31.1048,77.1734,2276,Himalayan
+2026,26,shivamogga,Shivamogga (Agumbe),Karnataka,48.9,4.8,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,26,sindhudurg,Sindhudurg,Maharashtra,229.9,190.8,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,26,solapur,Solapur,Maharashtra,41.9,110.8,131.6,17.6599,75.9064,458,Plateau
+2026,26,srinagar,Srinagar,Jammu & Kashmir,11.299999999999999,26.4,131.6,34.0837,74.7973,1585,Himalayan
+2026,26,surat,Surat,Gujarat,15.6,25.6,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,26,thane,Thane,Maharashtra,81.7,65.1,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,26,thiruvananthapuram,Thiruvananthapuram,Kerala,41.5,12.399999999999999,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,26,uttara kannada,Uttara Kannada (Karwar),Karnataka,212.3,205.0,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,26,varanasi,Varanasi,Uttar Pradesh,9.7,3.1,131.6,25.3176,82.9739,81,Plains
+2026,26,vijayawada,NTR (Vijayawada),Andhra Pradesh,16.3,29.799999999999997,131.6,16.5062,80.648,23,Plains
+2026,26,visakhapatnam,Visakhapatnam,Andhra Pradesh,47.9,5.8999999999999995,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,26,wayanad,Wayanad,Kerala,32.3,14.8,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,27,ahmedabad,Ahmedabad,Gujarat,43.2,38.1,131.6,23.0225,72.5714,53,Plains
+2026,27,amritsar,Amritsar,Punjab,10.5,1.7,131.6,31.634,74.8723,234,Plains
+2026,27,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,88.9,117.10000000000001,131.6,19.8762,75.3433,568,Plateau
+2026,27,bengaluru urban,Bengaluru Urban,Karnataka,20.1,25.2,131.6,12.9716,77.5946,920,Plateau
+2026,27,bhopal,Bhopal,Madhya Pradesh,71.0,148.0,131.6,23.2599,77.4126,500,Plateau
+2026,27,cachar,Cachar (Silchar),Assam,162.8,111.7,131.6,24.8333,92.7789,22,Plains
+2026,27,chennai,Chennai,Tamil Nadu,11.8,9.700000000000001,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,27,coimbatore,Coimbatore,Tamil Nadu,18.7,5.0,131.6,11.0168,76.9558,411,Plains
+2026,27,cuttack,Cuttack,Odisha,289.5,97.6,131.6,20.4625,85.8828,36,Plains
+2026,27,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,400.5,237.8,236.59999999999997,12.9141,74.856,22,Coastal
+2026,27,darjeeling,Darjeeling,West Bengal,98.6,84.7,131.6,27.041,88.2663,2045,Himalayan
+2026,27,dehradun,Dehradun,Uttarakhand,44.9,16.1,131.6,30.3165,78.0322,640,Himalayan
+2026,27,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,79.80000000000001,99.5,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,27,east sikkim,East Sikkim (Gangtok),Sikkim,82.8,95.2,131.6,27.3389,88.6065,1650,Himalayan
+2026,27,ernakulam,Ernakulam (Kochi),Kerala,112.39999999999999,96.9,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,27,hyderabad,Hyderabad,Telangana,35.9,38.6,131.6,17.385,78.4867,542,Plateau
+2026,27,idukki,Idukki,Kerala,176.3,45.8,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,27,jaipur,Jaipur,Rajasthan,39.4,14.0,131.6,26.9124,75.7873,431,Plains
+2026,27,jodhpur,Jodhpur,Rajasthan,18.9,6.6,131.6,26.2389,73.0243,231,Arid Plains
+2026,27,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,131.7,67.4,131.6,26.1445,91.7362,55,Plains
+2026,27,khordha,Khordha (Bhubaneswar),Odisha,449.7,139.1,131.6,20.2961,85.8245,45,Plains
+2026,27,kolhapur,Kolhapur,Maharashtra,156.8,28.9,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,27,kolkata,Kolkata,West Bengal,76.2,32.400000000000006,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,27,kozhikode,Kozhikode,Kerala,182.0,138.7,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,27,kullu,Kullu (Manali),Himachal Pradesh,85.2,32.4,131.6,31.9579,77.1095,1279,Himalayan
+2026,27,kutch,Kutch (Bhuj),Gujarat,7.8,0.1,131.6,23.242,69.6669,110,Arid Plains
+2026,27,lucknow,Lucknow,Uttar Pradesh,41.0,6.5,131.6,26.8467,80.9462,123,Plains
+2026,27,madurai,Madurai,Tamil Nadu,16.2,7.6,131.6,9.9252,78.1198,101,Plains
+2026,27,mumbai city,Mumbai City,Maharashtra,546.0,584.0,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,27,mumbai suburban,Mumbai Suburban,Maharashtra,493.0,665.2,236.59999999999997,19.076,72.8777,14,Coastal
+2026,27,nagpur,Nagpur,Maharashtra,166.2,137.4,131.6,21.1458,79.0882,310,Plains
+2026,27,nainital,Nainital,Uttarakhand,117.1,94.8,131.6,29.3919,79.4542,2084,Himalayan
+2026,27,nashik,Nashik,Maharashtra,95.2,134.2,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,27,new delhi,New Delhi,Delhi,20.0,14.1,131.6,28.6139,77.209,216,Plains
+2026,27,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,43.0,23.5,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,27,north goa,North Goa (Panaji),Goa,361.4,352.6,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,27,palakkad,Palakkad,Kerala,130.2,34.5,131.6,10.7867,76.6548,84,Plains
+2026,27,patna,Patna,Bihar,22.3,6.4,131.6,25.5941,85.1376,53,Plains
+2026,27,pune,Pune,Maharashtra,197.4,280.8,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,27,puri,Puri,Odisha,224.9,469.7,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,27,raigad,Raigad,Maharashtra,531.3,639.9,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,27,ranchi,Ranchi,Jharkhand,48.7,32.4,131.6,23.3441,85.3096,651,Plateau
+2026,27,ratnagiri,Ratnagiri,Maharashtra,551.9,427.8,236.59999999999997,16.9902,73.312,11,Coastal
+2026,27,satara,Satara,Maharashtra,164.7,63.2,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,27,shimla,Shimla,Himachal Pradesh,92.8,38.0,131.6,31.1048,77.1734,2276,Himalayan
+2026,27,shivamogga,Shivamogga (Agumbe),Karnataka,59.5,11.5,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,27,sindhudurg,Sindhudurg,Maharashtra,345.5,514.1,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,27,solapur,Solapur,Maharashtra,79.5,73.0,131.6,17.6599,75.9064,458,Plateau
+2026,27,srinagar,Srinagar,Jammu & Kashmir,19.4,25.2,131.6,34.0837,74.7973,1585,Himalayan
+2026,27,surat,Surat,Gujarat,226.5,333.0,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,27,thane,Thane,Maharashtra,335.7,708.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,27,thiruvananthapuram,Thiruvananthapuram,Kerala,46.1,9.7,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,27,uttara kannada,Uttara Kannada (Karwar),Karnataka,341.09999999999997,390.6,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,27,varanasi,Varanasi,Uttar Pradesh,46.0,4.1,131.6,25.3176,82.9739,81,Plains
+2026,27,vijayawada,NTR (Vijayawada),Andhra Pradesh,28.0,22.0,131.6,16.5062,80.648,23,Plains
+2026,27,visakhapatnam,Visakhapatnam,Andhra Pradesh,66.4,25.299999999999997,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,27,wayanad,Wayanad,Kerala,77.6,67.4,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,28,ahmedabad,Ahmedabad,Gujarat,55.8,31.4,131.6,23.0225,72.5714,53,Plains
+2026,28,amritsar,Amritsar,Punjab,38.2,4.3,131.6,31.634,74.8723,234,Plains
+2026,28,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,60.4,8.3,131.6,19.8762,75.3433,568,Plateau
+2026,28,bengaluru urban,Bengaluru Urban,Karnataka,8.399999999999999,8.4,131.6,12.9716,77.5946,920,Plateau
+2026,28,bhopal,Bhopal,Madhya Pradesh,51.3,67.7,131.6,23.2599,77.4126,500,Plateau
+2026,28,cachar,Cachar (Silchar),Assam,177.5,197.5,131.6,24.8333,92.7789,22,Plains
+2026,28,chennai,Chennai,Tamil Nadu,9.3,4.0,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,28,coimbatore,Coimbatore,Tamil Nadu,29.2,6.5,131.6,11.0168,76.9558,411,Plains
+2026,28,cuttack,Cuttack,Odisha,48.6,40.5,131.6,20.4625,85.8828,36,Plains
+2026,28,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,138.2,170.3,236.59999999999997,12.9141,74.856,22,Coastal
+2026,28,darjeeling,Darjeeling,West Bengal,169.7,328.7,131.6,27.041,88.2663,2045,Himalayan
+2026,28,dehradun,Dehradun,Uttarakhand,115.6,160.4,131.6,30.3165,78.0322,640,Himalayan
+2026,28,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,434.9,487.4,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,28,east sikkim,East Sikkim (Gangtok),Sikkim,187.8,86.7,131.6,27.3389,88.6065,1650,Himalayan
+2026,28,ernakulam,Ernakulam (Kochi),Kerala,92.2,73.7,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,28,hyderabad,Hyderabad,Telangana,6.2,2.4,131.6,17.385,78.4867,542,Plateau
+2026,28,idukki,Idukki,Kerala,102.1,48.300000000000004,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,28,jaipur,Jaipur,Rajasthan,10.3,17.2,131.6,26.9124,75.7873,431,Plains
+2026,28,jodhpur,Jodhpur,Rajasthan,9.0,3.6,131.6,26.2389,73.0243,231,Arid Plains
+2026,28,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,217.4,201.9,131.6,26.1445,91.7362,55,Plains
+2026,28,khordha,Khordha (Bhubaneswar),Odisha,40.5,17.599999999999998,131.6,20.2961,85.8245,45,Plains
+2026,28,kolhapur,Kolhapur,Maharashtra,54.199999999999996,16.9,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,28,kolkata,Kolkata,West Bengal,181.29999999999998,50.1,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,28,kozhikode,Kozhikode,Kerala,112.5,163.6,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,28,kullu,Kullu (Manali),Himachal Pradesh,66.6,80.8,131.6,31.9579,77.1095,1279,Himalayan
+2026,28,kutch,Kutch (Bhuj),Gujarat,0.2,1.8,131.6,23.242,69.6669,110,Arid Plains
+2026,28,lucknow,Lucknow,Uttar Pradesh,114.5,46.8,131.6,26.8467,80.9462,123,Plains
+2026,28,madurai,Madurai,Tamil Nadu,8.5,2.5,131.6,9.9252,78.1198,101,Plains
+2026,28,mumbai city,Mumbai City,Maharashtra,209.29999999999998,268.8,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,28,mumbai suburban,Mumbai Suburban,Maharashtra,235.5,369.3,236.59999999999997,19.076,72.8777,14,Coastal
+2026,28,nagpur,Nagpur,Maharashtra,9.8,54.0,131.6,21.1458,79.0882,310,Plains
+2026,28,nainital,Nainital,Uttarakhand,96.7,81.4,131.6,29.3919,79.4542,2084,Himalayan
+2026,28,nashik,Nashik,Maharashtra,163.9,254.8,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,28,new delhi,New Delhi,Delhi,122.9,133.0,131.6,28.6139,77.209,216,Plains
+2026,28,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,40.6,37.199999999999996,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,28,north goa,North Goa (Panaji),Goa,146.7,187.6,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,28,palakkad,Palakkad,Kerala,114.4,58.1,131.6,10.7867,76.6548,84,Plains
+2026,28,patna,Patna,Bihar,64.10000000000001,35.3,131.6,25.5941,85.1376,53,Plains
+2026,28,pune,Pune,Maharashtra,105.60000000000001,112.60000000000001,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,28,puri,Puri,Odisha,21.1,27.8,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,28,raigad,Raigad,Maharashtra,230.2,214.20000000000002,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,28,ranchi,Ranchi,Jharkhand,58.0,98.8,131.6,23.3441,85.3096,651,Plateau
+2026,28,ratnagiri,Ratnagiri,Maharashtra,248.2,234.29999999999998,236.59999999999997,16.9902,73.312,11,Coastal
+2026,28,satara,Satara,Maharashtra,51.6,55.699999999999996,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,28,shimla,Shimla,Himachal Pradesh,124.7,107.30000000000001,131.6,31.1048,77.1734,2276,Himalayan
+2026,28,shivamogga,Shivamogga (Agumbe),Karnataka,30.6,9.1,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,28,sindhudurg,Sindhudurg,Maharashtra,210.7,317.1,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,28,solapur,Solapur,Maharashtra,24.1,19.3,131.6,17.6599,75.9064,458,Plateau
+2026,28,srinagar,Srinagar,Jammu & Kashmir,20.5,8.399999999999999,131.6,34.0837,74.7973,1585,Himalayan
+2026,28,surat,Surat,Gujarat,146.3,98.3,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,28,thane,Thane,Maharashtra,204.5,371.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,28,thiruvananthapuram,Thiruvananthapuram,Kerala,17.599999999999998,3.7,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,28,uttara kannada,Uttara Kannada (Karwar),Karnataka,157.8,303.4,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,28,varanasi,Varanasi,Uttar Pradesh,73.4,24.8,131.6,25.3176,82.9739,81,Plains
+2026,28,vijayawada,NTR (Vijayawada),Andhra Pradesh,5.3,5.6,131.6,16.5062,80.648,23,Plains
+2026,28,visakhapatnam,Visakhapatnam,Andhra Pradesh,10.2,15.0,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,28,wayanad,Wayanad,Kerala,67.2,24.2,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,29,ahmedabad,Ahmedabad,Gujarat,9.3,6.4,131.6,23.0225,72.5714,53,Plains
+2026,29,amritsar,Amritsar,Punjab,1.2,0.1,131.6,31.634,74.8723,234,Plains
+2026,29,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,27.0,18.4,131.6,19.8762,75.3433,568,Plateau
+2026,29,bengaluru urban,Bengaluru Urban,Karnataka,16.8,10.399999999999999,131.6,12.9716,77.5946,920,Plateau
+2026,29,bhopal,Bhopal,Madhya Pradesh,10.5,4.3,131.6,23.2599,77.4126,500,Plateau
+2026,29,cachar,Cachar (Silchar),Assam,205.4,155.9,131.6,24.8333,92.7789,22,Plains
+2026,29,chennai,Chennai,Tamil Nadu,11.3,10.2,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,29,coimbatore,Coimbatore,Tamil Nadu,14.0,4.0,131.6,11.0168,76.9558,411,Plains
+2026,29,cuttack,Cuttack,Odisha,258.9,87.7,131.6,20.4625,85.8828,36,Plains
+2026,29,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,81.2,68.5,236.59999999999997,12.9141,74.856,22,Coastal
+2026,29,darjeeling,Darjeeling,West Bengal,179.8,236.0,131.6,27.041,88.2663,2045,Himalayan
+2026,29,dehradun,Dehradun,Uttarakhand,58.6,23.7,131.6,30.3165,78.0322,640,Himalayan
+2026,29,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,355.8,228.7,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,29,east sikkim,East Sikkim (Gangtok),Sikkim,168.8,105.5,131.6,27.3389,88.6065,1650,Himalayan
+2026,29,ernakulam,Ernakulam (Kochi),Kerala,18.4,13.3,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,29,hyderabad,Hyderabad,Telangana,26.799999999999997,18.5,131.6,17.385,78.4867,542,Plateau
+2026,29,idukki,Idukki,Kerala,63.1,12.8,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,29,jaipur,Jaipur,Rajasthan,2.1,2.1,131.6,26.9124,75.7873,431,Plains
+2026,29,jodhpur,Jodhpur,Rajasthan,0.1,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,29,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,163.9,207.3,131.6,26.1445,91.7362,55,Plains
+2026,29,khordha,Khordha (Bhubaneswar),Odisha,344.5,88.9,131.6,20.2961,85.8245,45,Plains
+2026,29,kolhapur,Kolhapur,Maharashtra,19.1,4.5,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,29,kolkata,Kolkata,West Bengal,74.1,49.9,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,29,kozhikode,Kozhikode,Kerala,34.9,6.5,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,29,kullu,Kullu (Manali),Himachal Pradesh,20.6,10.6,131.6,31.9579,77.1095,1279,Himalayan
+2026,29,kutch,Kutch (Bhuj),Gujarat,6.2,2.0999999999999996,131.6,23.242,69.6669,110,Arid Plains
+2026,29,lucknow,Lucknow,Uttar Pradesh,26.5,7.7,131.6,26.8467,80.9462,123,Plains
+2026,29,madurai,Madurai,Tamil Nadu,5.9,0.30000000000000004,131.6,9.9252,78.1198,101,Plains
+2026,29,mumbai city,Mumbai City,Maharashtra,89.3,82.30000000000001,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,29,mumbai suburban,Mumbai Suburban,Maharashtra,92.5,58.0,236.59999999999997,19.076,72.8777,14,Coastal
+2026,29,nagpur,Nagpur,Maharashtra,31.200000000000003,7.1,131.6,21.1458,79.0882,310,Plains
+2026,29,nainital,Nainital,Uttarakhand,81.0,46.2,131.6,29.3919,79.4542,2084,Himalayan
+2026,29,nashik,Nashik,Maharashtra,45.3,2.7,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,29,new delhi,New Delhi,Delhi,9.8,4.5,131.6,28.6139,77.209,216,Plains
+2026,29,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,5.6,10.1,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,29,north goa,North Goa (Panaji),Goa,95.69999999999999,93.5,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,29,palakkad,Palakkad,Kerala,35.0,1.7999999999999998,131.6,10.7867,76.6548,84,Plains
+2026,29,patna,Patna,Bihar,83.1,16.4,131.6,25.5941,85.1376,53,Plains
+2026,29,pune,Pune,Maharashtra,17.9,4.4,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,29,puri,Puri,Odisha,340.5,39.3,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,29,raigad,Raigad,Maharashtra,83.2,58.0,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,29,ranchi,Ranchi,Jharkhand,67.2,79.5,131.6,23.3441,85.3096,651,Plateau
+2026,29,ratnagiri,Ratnagiri,Maharashtra,96.3,65.6,236.59999999999997,16.9902,73.312,11,Coastal
+2026,29,satara,Satara,Maharashtra,12.899999999999999,5.0,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,29,shimla,Shimla,Himachal Pradesh,14.3,4.5,131.6,31.1048,77.1734,2276,Himalayan
+2026,29,shivamogga,Shivamogga (Agumbe),Karnataka,15.6,5.6,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,29,sindhudurg,Sindhudurg,Maharashtra,77.10000000000001,78.5,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,29,solapur,Solapur,Maharashtra,40.8,29.8,131.6,17.6599,75.9064,458,Plateau
+2026,29,srinagar,Srinagar,Jammu & Kashmir,10.399999999999999,0.2,131.6,34.0837,74.7973,1585,Himalayan
+2026,29,surat,Surat,Gujarat,38.6,20.2,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,29,thane,Thane,Maharashtra,98.4,42.5,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,29,thiruvananthapuram,Thiruvananthapuram,Kerala,15.399999999999999,0.5,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,29,uttara kannada,Uttara Kannada (Karwar),Karnataka,85.2,92.69999999999999,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,29,varanasi,Varanasi,Uttar Pradesh,54.4,14.799999999999999,131.6,25.3176,82.9739,81,Plains
+2026,29,vijayawada,NTR (Vijayawada),Andhra Pradesh,15.2,23.3,131.6,16.5062,80.648,23,Plains
+2026,29,visakhapatnam,Visakhapatnam,Andhra Pradesh,18.5,20.7,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,29,wayanad,Wayanad,Kerala,14.399999999999999,7.2,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,30,ahmedabad,Ahmedabad,Gujarat,238.6,180.0,131.6,23.0225,72.5714,53,Plains
+2026,30,amritsar,Amritsar,Punjab,139.1,107.5,131.6,31.634,74.8723,234,Plains
+2026,30,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,86.9,64.1,131.6,19.8762,75.3433,568,Plateau
+2026,30,bengaluru urban,Bengaluru Urban,Karnataka,33.4,2.3,131.6,12.9716,77.5946,920,Plateau
+2026,30,bhopal,Bhopal,Madhya Pradesh,117.3,216.5,131.6,23.2599,77.4126,500,Plateau
+2026,30,cachar,Cachar (Silchar),Assam,166.3,84.3,131.6,24.8333,92.7789,22,Plains
+2026,30,chennai,Chennai,Tamil Nadu,35.6,7.200000000000001,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,30,coimbatore,Coimbatore,Tamil Nadu,10.5,4.7,131.6,11.0168,76.9558,411,Plains
+2026,30,cuttack,Cuttack,Odisha,233.2,135.6,131.6,20.4625,85.8828,36,Plains
+2026,30,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,133.6,135.1,236.59999999999997,12.9141,74.856,22,Coastal
+2026,30,darjeeling,Darjeeling,West Bengal,48.4,43.2,131.6,27.041,88.2663,2045,Himalayan
+2026,30,dehradun,Dehradun,Uttarakhand,99.5,107.0,131.6,30.3165,78.0322,640,Himalayan
+2026,30,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,156.70000000000002,117.2,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,30,east sikkim,East Sikkim (Gangtok),Sikkim,102.0,82.2,131.6,27.3389,88.6065,1650,Himalayan
+2026,30,ernakulam,Ernakulam (Kochi),Kerala,19.4,6.6,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,30,hyderabad,Hyderabad,Telangana,38.800000000000004,16.1,131.6,17.385,78.4867,542,Plateau
+2026,30,idukki,Idukki,Kerala,53.0,4.300000000000001,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,30,jaipur,Jaipur,Rajasthan,51.1,61.9,131.6,26.9124,75.7873,431,Plains
+2026,30,jodhpur,Jodhpur,Rajasthan,79.1,33.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,30,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,118.39999999999999,132.3,131.6,26.1445,91.7362,55,Plains
+2026,30,khordha,Khordha (Bhubaneswar),Odisha,287.8,149.2,131.6,20.2961,85.8245,45,Plains
+2026,30,kolhapur,Kolhapur,Maharashtra,44.6,8.7,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,30,kolkata,Kolkata,West Bengal,153.6,79.4,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,30,kozhikode,Kozhikode,Kerala,35.3,9.4,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,30,kullu,Kullu (Manali),Himachal Pradesh,84.6,115.8,131.6,31.9579,77.1095,1279,Himalayan
+2026,30,kutch,Kutch (Bhuj),Gujarat,63.699999999999996,30.200000000000003,131.6,23.242,69.6669,110,Arid Plains
+2026,30,lucknow,Lucknow,Uttar Pradesh,75.3,28.4,131.6,26.8467,80.9462,123,Plains
+2026,30,madurai,Madurai,Tamil Nadu,4.9,0.6,131.6,9.9252,78.1198,101,Plains
+2026,30,mumbai city,Mumbai City,Maharashtra,343.5,317.5,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,30,mumbai suburban,Mumbai Suburban,Maharashtra,354.8,242.6,236.59999999999997,19.076,72.8777,14,Coastal
+2026,30,nagpur,Nagpur,Maharashtra,73.3,150.2,131.6,21.1458,79.0882,310,Plains
+2026,30,nainital,Nainital,Uttarakhand,80.2,143.1,131.6,29.3919,79.4542,2084,Himalayan
+2026,30,nashik,Nashik,Maharashtra,215.7,124.4,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,30,new delhi,New Delhi,Delhi,74.3,74.4,131.6,28.6139,77.209,216,Plains
+2026,30,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,14.0,29.5,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,30,north goa,North Goa (Panaji),Goa,196.9,244.5,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,30,palakkad,Palakkad,Kerala,35.4,2.2,131.6,10.7867,76.6548,84,Plains
+2026,30,patna,Patna,Bihar,57.5,40.2,131.6,25.5941,85.1376,53,Plains
+2026,30,pune,Pune,Maharashtra,62.1,22.5,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,30,puri,Puri,Odisha,269.1,190.4,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,30,raigad,Raigad,Maharashtra,321.8,325.3,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,30,ranchi,Ranchi,Jharkhand,69.2,56.4,131.6,23.3441,85.3096,651,Plateau
+2026,30,ratnagiri,Ratnagiri,Maharashtra,220.1,255.7,236.59999999999997,16.9902,73.312,11,Coastal
+2026,30,satara,Satara,Maharashtra,49.2,9.700000000000001,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,30,shimla,Shimla,Himachal Pradesh,78.4,158.6,131.6,31.1048,77.1734,2276,Himalayan
+2026,30,shivamogga,Shivamogga (Agumbe),Karnataka,31.6,5.5,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,30,sindhudurg,Sindhudurg,Maharashtra,202.8,265.8,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,30,solapur,Solapur,Maharashtra,29.0,11.9,131.6,17.6599,75.9064,458,Plateau
+2026,30,srinagar,Srinagar,Jammu & Kashmir,121.2,37.5,131.6,34.0837,74.7973,1585,Himalayan
+2026,30,surat,Surat,Gujarat,340.0,554.7,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,30,thane,Thane,Maharashtra,357.0,241.9,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,30,thiruvananthapuram,Thiruvananthapuram,Kerala,7.2,0.0,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,30,uttara kannada,Uttara Kannada (Karwar),Karnataka,245.2,258.0,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,30,varanasi,Varanasi,Uttar Pradesh,65.9,56.9,131.6,25.3176,82.9739,81,Plains
+2026,30,vijayawada,NTR (Vijayawada),Andhra Pradesh,10.3,6.6000000000000005,131.6,16.5062,80.648,23,Plains
+2026,30,visakhapatnam,Visakhapatnam,Andhra Pradesh,56.6,2.6999999999999997,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,30,wayanad,Wayanad,Kerala,22.9,4.7,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,31,ahmedabad,Ahmedabad,Gujarat,115.89999999999999,198.4,131.6,23.0225,72.5714,53,Plains
+2026,31,amritsar,Amritsar,Punjab,41.2,29.8,131.6,31.634,74.8723,234,Plains
+2026,31,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,149.5,103.7,131.6,19.8762,75.3433,568,Plateau
+2026,31,bengaluru urban,Bengaluru Urban,Karnataka,30.1,6.699999999999999,131.6,12.9716,77.5946,920,Plateau
+2026,31,bhopal,Bhopal,Madhya Pradesh,67.5,77.3,131.6,23.2599,77.4126,500,Plateau
+2026,31,cachar,Cachar (Silchar),Assam,135.1,115.0,131.6,24.8333,92.7789,22,Plains
+2026,31,chennai,Chennai,Tamil Nadu,19.5,14.6,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,31,coimbatore,Coimbatore,Tamil Nadu,31.799999999999997,2.4,131.6,11.0168,76.9558,411,Plains
+2026,31,cuttack,Cuttack,Odisha,170.7,56.8,131.6,20.4625,85.8828,36,Plains
+2026,31,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,324.3,279.0,236.59999999999997,12.9141,74.856,22,Coastal
+2026,31,darjeeling,Darjeeling,West Bengal,78.5,82.7,131.6,27.041,88.2663,2045,Himalayan
+2026,31,dehradun,Dehradun,Uttarakhand,98.7,152.6,131.6,30.3165,78.0322,640,Himalayan
+2026,31,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,77.6,71.0,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,31,east sikkim,East Sikkim (Gangtok),Sikkim,87.9,144.0,131.6,27.3389,88.6065,1650,Himalayan
+2026,31,ernakulam,Ernakulam (Kochi),Kerala,234.6,217.4,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,31,hyderabad,Hyderabad,Telangana,64.9,35.8,131.6,17.385,78.4867,542,Plateau
+2026,31,idukki,Idukki,Kerala,279.4,111.7,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,31,jaipur,Jaipur,Rajasthan,64.6,21.3,131.6,26.9124,75.7873,431,Plains
+2026,31,jodhpur,Jodhpur,Rajasthan,38.5,14.9,131.6,26.2389,73.0243,231,Arid Plains
+2026,31,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,169.6,148.9,131.6,26.1445,91.7362,55,Plains
+2026,31,khordha,Khordha (Bhubaneswar),Odisha,128.8,52.9,131.6,20.2961,85.8245,45,Plains
+2026,31,kolhapur,Kolhapur,Maharashtra,50.4,15.0,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,31,kolkata,Kolkata,West Bengal,135.0,54.3,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,31,kozhikode,Kozhikode,Kerala,291.0,227.0,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,31,kullu,Kullu (Manali),Himachal Pradesh,74.2,95.1,131.6,31.9579,77.1095,1279,Himalayan
+2026,31,kutch,Kutch (Bhuj),Gujarat,64.4,31.5,131.6,23.242,69.6669,110,Arid Plains
+2026,31,lucknow,Lucknow,Uttar Pradesh,27.5,9.3,131.6,26.8467,80.9462,123,Plains
+2026,31,madurai,Madurai,Tamil Nadu,21.0,23.3,131.6,9.9252,78.1198,101,Plains
+2026,31,mumbai city,Mumbai City,Maharashtra,97.5,237.3,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,31,mumbai suburban,Mumbai Suburban,Maharashtra,123.0,127.5,236.59999999999997,19.076,72.8777,14,Coastal
+2026,31,nagpur,Nagpur,Maharashtra,117.10000000000001,153.8,131.6,21.1458,79.0882,310,Plains
+2026,31,nainital,Nainital,Uttarakhand,77.6,122.0,131.6,29.3919,79.4542,2084,Himalayan
+2026,31,nashik,Nashik,Maharashtra,75.8,118.80000000000001,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,31,new delhi,New Delhi,Delhi,51.7,13.5,131.6,28.6139,77.209,216,Plains
+2026,31,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,41.900000000000006,21.5,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,31,north goa,North Goa (Panaji),Goa,288.9,233.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,31,palakkad,Palakkad,Kerala,213.7,51.9,131.6,10.7867,76.6548,84,Plains
+2026,31,patna,Patna,Bihar,29.8,4.0,131.6,25.5941,85.1376,53,Plains
+2026,31,pune,Pune,Maharashtra,50.300000000000004,26.0,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,31,puri,Puri,Odisha,75.3,44.8,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,31,raigad,Raigad,Maharashtra,170.0,252.7,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,31,ranchi,Ranchi,Jharkhand,65.1,46.7,131.6,23.3441,85.3096,651,Plateau
+2026,31,ratnagiri,Ratnagiri,Maharashtra,273.5,280.1,236.59999999999997,16.9902,73.312,11,Coastal
+2026,31,satara,Satara,Maharashtra,40.5,11.799999999999999,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,31,shimla,Shimla,Himachal Pradesh,55.4,67.8,131.6,31.1048,77.1734,2276,Himalayan
+2026,31,shivamogga,Shivamogga (Agumbe),Karnataka,39.5,19.4,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,31,sindhudurg,Sindhudurg,Maharashtra,304.1,332.9,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,31,solapur,Solapur,Maharashtra,69.4,70.4,131.6,17.6599,75.9064,458,Plateau
+2026,31,srinagar,Srinagar,Jammu & Kashmir,17.3,48.8,131.6,34.0837,74.7973,1585,Himalayan
+2026,31,surat,Surat,Gujarat,210.60000000000002,173.2,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,31,thane,Thane,Maharashtra,106.3,122.2,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,31,thiruvananthapuram,Thiruvananthapuram,Kerala,97.7,81.0,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,31,uttara kannada,Uttara Kannada (Karwar),Karnataka,277.8,306.5,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,31,varanasi,Varanasi,Uttar Pradesh,35.9,4.5,131.6,25.3176,82.9739,81,Plains
+2026,31,vijayawada,NTR (Vijayawada),Andhra Pradesh,52.5,24.6,131.6,16.5062,80.648,23,Plains
+2026,31,visakhapatnam,Visakhapatnam,Andhra Pradesh,46.7,5.9,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,31,wayanad,Wayanad,Kerala,90.3,48.2,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,32,ahmedabad,Ahmedabad,Gujarat,10.1,2.1,131.6,23.0225,72.5714,53,Plains
+2026,32,amritsar,Amritsar,Punjab,28.5,14.4,131.6,31.634,74.8723,234,Plains
+2026,32,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,25.9,10.700000000000001,131.6,19.8762,75.3433,568,Plateau
+2026,32,bengaluru urban,Bengaluru Urban,Karnataka,76.3,32.5,131.6,12.9716,77.5946,920,Plateau
+2026,32,bhopal,Bhopal,Madhya Pradesh,72.1,52.4,131.6,23.2599,77.4126,500,Plateau
+2026,32,cachar,Cachar (Silchar),Assam,136.2,116.5,131.6,24.8333,92.7789,22,Plains
+2026,32,chennai,Chennai,Tamil Nadu,38.5,3.2,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,32,coimbatore,Coimbatore,Tamil Nadu,34.3,15.5,131.6,11.0168,76.9558,411,Plains
+2026,32,cuttack,Cuttack,Odisha,112.1,46.400000000000006,131.6,20.4625,85.8828,36,Plains
+2026,32,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,158.8,194.8,236.59999999999997,12.9141,74.856,22,Coastal
+2026,32,darjeeling,Darjeeling,West Bengal,92.80000000000001,144.3,131.6,27.041,88.2663,2045,Himalayan
+2026,32,dehradun,Dehradun,Uttarakhand,89.4,94.3,131.6,30.3165,78.0322,640,Himalayan
+2026,32,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,110.1,85.6,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,32,east sikkim,East Sikkim (Gangtok),Sikkim,81.6,124.8,131.6,27.3389,88.6065,1650,Himalayan
+2026,32,ernakulam,Ernakulam (Kochi),Kerala,158.2,139.0,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,32,hyderabad,Hyderabad,Telangana,20.5,20.7,131.6,17.385,78.4867,542,Plateau
+2026,32,idukki,Idukki,Kerala,204.6,69.10000000000001,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,32,jaipur,Jaipur,Rajasthan,44.8,103.8,131.6,26.9124,75.7873,431,Plains
+2026,32,jodhpur,Jodhpur,Rajasthan,22.0,11.799999999999999,131.6,26.2389,73.0243,231,Arid Plains
+2026,32,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,145.5,188.9,131.6,26.1445,91.7362,55,Plains
+2026,32,khordha,Khordha (Bhubaneswar),Odisha,134.29999999999998,47.800000000000004,131.6,20.2961,85.8245,45,Plains
+2026,32,kolhapur,Kolhapur,Maharashtra,41.0,12.0,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,32,kolkata,Kolkata,West Bengal,114.1,51.0,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,32,kozhikode,Kozhikode,Kerala,167.3,105.8,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,32,kullu,Kullu (Manali),Himachal Pradesh,58.2,90.39999999999999,131.6,31.9579,77.1095,1279,Himalayan
+2026,32,kutch,Kutch (Bhuj),Gujarat,0.7,0.2,131.6,23.242,69.6669,110,Arid Plains
+2026,32,lucknow,Lucknow,Uttar Pradesh,95.4,91.9,131.6,26.8467,80.9462,123,Plains
+2026,32,madurai,Madurai,Tamil Nadu,32.9,26.5,131.6,9.9252,78.1198,101,Plains
+2026,32,mumbai city,Mumbai City,Maharashtra,81.1,119.0,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,32,mumbai suburban,Mumbai Suburban,Maharashtra,76.8,45.5,236.59999999999997,19.076,72.8777,14,Coastal
+2026,32,nagpur,Nagpur,Maharashtra,50.3,106.19999999999999,131.6,21.1458,79.0882,310,Plains
+2026,32,nainital,Nainital,Uttarakhand,82.9,123.5,131.6,29.3919,79.4542,2084,Himalayan
+2026,32,nashik,Nashik,Maharashtra,22.1,11.2,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,32,new delhi,New Delhi,Delhi,132.8,82.7,131.6,28.6139,77.209,216,Plains
+2026,32,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,54.099999999999994,30.5,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,32,north goa,North Goa (Panaji),Goa,171.5,120.7,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,32,palakkad,Palakkad,Kerala,96.8,43.5,131.6,10.7867,76.6548,84,Plains
+2026,32,patna,Patna,Bihar,77.3,46.8,131.6,25.5941,85.1376,53,Plains
+2026,32,pune,Pune,Maharashtra,33.1,4.1,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,32,puri,Puri,Odisha,163.4,14.2,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,32,raigad,Raigad,Maharashtra,107.5,95.3,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,32,ranchi,Ranchi,Jharkhand,77.6,108.8,131.6,23.3441,85.3096,651,Plateau
+2026,32,ratnagiri,Ratnagiri,Maharashtra,189.3,112.4,236.59999999999997,16.9902,73.312,11,Coastal
+2026,32,satara,Satara,Maharashtra,18.900000000000002,11.0,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,32,shimla,Shimla,Himachal Pradesh,43.5,62.5,131.6,31.1048,77.1734,2276,Himalayan
+2026,32,shivamogga,Shivamogga (Agumbe),Karnataka,46.8,33.2,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,32,sindhudurg,Sindhudurg,Maharashtra,150.3,127.0,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,32,solapur,Solapur,Maharashtra,49.8,13.9,131.6,17.6599,75.9064,458,Plateau
+2026,32,srinagar,Srinagar,Jammu & Kashmir,29.2,47.2,131.6,34.0837,74.7973,1585,Himalayan
+2026,32,surat,Surat,Gujarat,27.6,15.4,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,32,thane,Thane,Maharashtra,61.2,38.9,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,32,thiruvananthapuram,Thiruvananthapuram,Kerala,66.7,20.3,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,32,uttara kannada,Uttara Kannada (Karwar),Karnataka,160.2,146.2,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,32,varanasi,Varanasi,Uttar Pradesh,39.8,66.39999999999999,131.6,25.3176,82.9739,81,Plains
+2026,32,vijayawada,NTR (Vijayawada),Andhra Pradesh,9.5,34.3,131.6,16.5062,80.648,23,Plains
+2026,32,visakhapatnam,Visakhapatnam,Andhra Pradesh,79.5,18.5,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,32,wayanad,Wayanad,Kerala,101.4,35.0,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,33,ahmedabad,Ahmedabad,Gujarat,47.6,34.5,131.6,23.0225,72.5714,53,Plains
+2026,33,amritsar,Amritsar,Punjab,35.2,5.7,131.6,31.634,74.8723,234,Plains
+2026,33,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,28.2,23.3,131.6,19.8762,75.3433,568,Plateau
+2026,33,bengaluru urban,Bengaluru Urban,Karnataka,19.9,9.6,131.6,12.9716,77.5946,920,Plateau
+2026,33,bhopal,Bhopal,Madhya Pradesh,153.1,147.2,131.6,23.2599,77.4126,500,Plateau
+2026,33,cachar,Cachar (Silchar),Assam,80.80000000000001,55.2,131.6,24.8333,92.7789,22,Plains
+2026,33,chennai,Chennai,Tamil Nadu,15.6,2.2,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,33,coimbatore,Coimbatore,Tamil Nadu,24.400000000000002,3.8,131.6,11.0168,76.9558,411,Plains
+2026,33,cuttack,Cuttack,Odisha,177.8,80.6,131.6,20.4625,85.8828,36,Plains
+2026,33,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,45.7,69.8,236.59999999999997,12.9141,74.856,22,Coastal
+2026,33,darjeeling,Darjeeling,West Bengal,16.8,54.9,131.6,27.041,88.2663,2045,Himalayan
+2026,33,dehradun,Dehradun,Uttarakhand,49.4,60.599999999999994,131.6,30.3165,78.0322,640,Himalayan
+2026,33,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,50.4,69.1,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,33,east sikkim,East Sikkim (Gangtok),Sikkim,38.9,47.0,131.6,27.3389,88.6065,1650,Himalayan
+2026,33,ernakulam,Ernakulam (Kochi),Kerala,40.9,30.400000000000002,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,33,hyderabad,Hyderabad,Telangana,12.6,6.0,131.6,17.385,78.4867,542,Plateau
+2026,33,idukki,Idukki,Kerala,137.8,50.1,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,33,jaipur,Jaipur,Rajasthan,38.4,21.299999999999997,131.6,26.9124,75.7873,431,Plains
+2026,33,jodhpur,Jodhpur,Rajasthan,41.0,7.8,131.6,26.2389,73.0243,231,Arid Plains
+2026,33,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,51.2,58.0,131.6,26.1445,91.7362,55,Plains
+2026,33,khordha,Khordha (Bhubaneswar),Odisha,260.2,119.6,131.6,20.2961,85.8245,45,Plains
+2026,33,kolhapur,Kolhapur,Maharashtra,24.6,5.2,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,33,kolkata,Kolkata,West Bengal,105.4,66.5,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,33,kozhikode,Kozhikode,Kerala,49.699999999999996,8.5,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,33,kullu,Kullu (Manali),Himachal Pradesh,64.6,96.1,131.6,31.9579,77.1095,1279,Himalayan
+2026,33,kutch,Kutch (Bhuj),Gujarat,3.3,2.4000000000000004,131.6,23.242,69.6669,110,Arid Plains
+2026,33,lucknow,Lucknow,Uttar Pradesh,47.6,38.0,131.6,26.8467,80.9462,123,Plains
+2026,33,madurai,Madurai,Tamil Nadu,18.8,24.8,131.6,9.9252,78.1198,101,Plains
+2026,33,mumbai city,Mumbai City,Maharashtra,98.7,173.3,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,33,mumbai suburban,Mumbai Suburban,Maharashtra,96.60000000000001,70.6,236.59999999999997,19.076,72.8777,14,Coastal
+2026,33,nagpur,Nagpur,Maharashtra,25.0,87.9,131.6,21.1458,79.0882,310,Plains
+2026,33,nainital,Nainital,Uttarakhand,65.8,45.4,131.6,29.3919,79.4542,2084,Himalayan
+2026,33,nashik,Nashik,Maharashtra,19.4,19.8,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,33,new delhi,New Delhi,Delhi,45.8,10.4,131.6,28.6139,77.209,216,Plains
+2026,33,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,24.4,22.7,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,33,north goa,North Goa (Panaji),Goa,142.1,93.5,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,33,palakkad,Palakkad,Kerala,65.9,17.8,131.6,10.7867,76.6548,84,Plains
+2026,33,patna,Patna,Bihar,22.3,4.9,131.6,25.5941,85.1376,53,Plains
+2026,33,pune,Pune,Maharashtra,43.800000000000004,5.9,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,33,puri,Puri,Odisha,208.0,107.4,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,33,raigad,Raigad,Maharashtra,118.19999999999999,86.7,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,33,ranchi,Ranchi,Jharkhand,70.9,71.3,131.6,23.3441,85.3096,651,Plateau
+2026,33,ratnagiri,Ratnagiri,Maharashtra,165.9,70.8,236.59999999999997,16.9902,73.312,11,Coastal
+2026,33,satara,Satara,Maharashtra,14.3,4.8999999999999995,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,33,shimla,Shimla,Himachal Pradesh,43.9,54.4,131.6,31.1048,77.1734,2276,Himalayan
+2026,33,shivamogga,Shivamogga (Agumbe),Karnataka,18.8,8.0,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,33,sindhudurg,Sindhudurg,Maharashtra,153.9,115.8,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,33,solapur,Solapur,Maharashtra,36.5,3.0,131.6,17.6599,75.9064,458,Plateau
+2026,33,srinagar,Srinagar,Jammu & Kashmir,2.3,44.8,131.6,34.0837,74.7973,1585,Himalayan
+2026,33,surat,Surat,Gujarat,50.199999999999996,47.7,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,33,thane,Thane,Maharashtra,91.9,60.6,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,33,thiruvananthapuram,Thiruvananthapuram,Kerala,19.1,4.9,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,33,uttara kannada,Uttara Kannada (Karwar),Karnataka,119.1,104.7,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,33,varanasi,Varanasi,Uttar Pradesh,83.4,42.3,131.6,25.3176,82.9739,81,Plains
+2026,33,vijayawada,NTR (Vijayawada),Andhra Pradesh,20.8,8.3,131.6,16.5062,80.648,23,Plains
+2026,33,visakhapatnam,Visakhapatnam,Andhra Pradesh,35.800000000000004,1.5999999999999999,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,33,wayanad,Wayanad,Kerala,21.8,14.799999999999999,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,34,ahmedabad,Ahmedabad,Gujarat,8.6,0.7999999999999999,131.6,23.0225,72.5714,53,Plains
+2026,34,amritsar,Amritsar,Punjab,42.4,7.1,131.6,31.634,74.8723,234,Plains
+2026,34,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,13.600000000000001,10.7,131.6,19.8762,75.3433,568,Plateau
+2026,34,bengaluru urban,Bengaluru Urban,Karnataka,31.4,10.5,131.6,12.9716,77.5946,920,Plateau
+2026,34,bhopal,Bhopal,Madhya Pradesh,29.2,41.1,131.6,23.2599,77.4126,500,Plateau
+2026,34,cachar,Cachar (Silchar),Assam,162.7,114.0,131.6,24.8333,92.7789,22,Plains
+2026,34,chennai,Chennai,Tamil Nadu,29.4,1.6,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,34,coimbatore,Coimbatore,Tamil Nadu,41.4,11.3,131.6,11.0168,76.9558,411,Plains
+2026,34,cuttack,Cuttack,Odisha,128.3,89.0,131.6,20.4625,85.8828,36,Plains
+2026,34,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,65.1,41.0,236.59999999999997,12.9141,74.856,22,Coastal
+2026,34,darjeeling,Darjeeling,West Bengal,67.80000000000001,80.2,131.6,27.041,88.2663,2045,Himalayan
+2026,34,dehradun,Dehradun,Uttarakhand,74.0,113.7,131.6,30.3165,78.0322,640,Himalayan
+2026,34,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,178.70000000000002,124.69999999999999,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,34,east sikkim,East Sikkim (Gangtok),Sikkim,106.3,64.7,131.6,27.3389,88.6065,1650,Himalayan
+2026,34,ernakulam,Ernakulam (Kochi),Kerala,35.7,11.6,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,34,hyderabad,Hyderabad,Telangana,18.2,11.5,131.6,17.385,78.4867,542,Plateau
+2026,34,idukki,Idukki,Kerala,101.6,24.2,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,34,jaipur,Jaipur,Rajasthan,2.8,1.4,131.6,26.9124,75.7873,431,Plains
+2026,34,jodhpur,Jodhpur,Rajasthan,0.2,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,34,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,133.2,147.4,131.6,26.1445,91.7362,55,Plains
+2026,34,khordha,Khordha (Bhubaneswar),Odisha,145.6,84.2,131.6,20.2961,85.8245,45,Plains
+2026,34,kolhapur,Kolhapur,Maharashtra,23.0,5.4,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,34,kolkata,Kolkata,West Bengal,52.5,47.1,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,34,kozhikode,Kozhikode,Kerala,35.2,4.3,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,34,kullu,Kullu (Manali),Himachal Pradesh,30.4,91.5,131.6,31.9579,77.1095,1279,Himalayan
+2026,34,kutch,Kutch (Bhuj),Gujarat,1.6,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,34,lucknow,Lucknow,Uttar Pradesh,68.9,54.1,131.6,26.8467,80.9462,123,Plains
+2026,34,madurai,Madurai,Tamil Nadu,7.6000000000000005,6.6,131.6,9.9252,78.1198,101,Plains
+2026,34,mumbai city,Mumbai City,Maharashtra,50.0,82.3,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,34,mumbai suburban,Mumbai Suburban,Maharashtra,61.0,26.5,236.59999999999997,19.076,72.8777,14,Coastal
+2026,34,nagpur,Nagpur,Maharashtra,34.6,45.8,131.6,21.1458,79.0882,310,Plains
+2026,34,nainital,Nainital,Uttarakhand,75.69999999999999,88.5,131.6,29.3919,79.4542,2084,Himalayan
+2026,34,nashik,Nashik,Maharashtra,23.2,9.0,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,34,new delhi,New Delhi,Delhi,34.3,16.3,131.6,28.6139,77.209,216,Plains
+2026,34,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,34.3,27.4,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,34,north goa,North Goa (Panaji),Goa,94.69999999999999,60.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,34,palakkad,Palakkad,Kerala,46.4,6.0,131.6,10.7867,76.6548,84,Plains
+2026,34,patna,Patna,Bihar,67.7,25.8,131.6,25.5941,85.1376,53,Plains
+2026,34,pune,Pune,Maharashtra,11.2,1.9,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,34,puri,Puri,Odisha,153.5,41.2,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,34,raigad,Raigad,Maharashtra,72.2,63.9,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,34,ranchi,Ranchi,Jharkhand,66.0,51.5,131.6,23.3441,85.3096,651,Plateau
+2026,34,ratnagiri,Ratnagiri,Maharashtra,136.0,62.5,236.59999999999997,16.9902,73.312,11,Coastal
+2026,34,satara,Satara,Maharashtra,8.8,5.6,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,34,shimla,Shimla,Himachal Pradesh,47.400000000000006,56.6,131.6,31.1048,77.1734,2276,Himalayan
+2026,34,shivamogga,Shivamogga (Agumbe),Karnataka,14.399999999999999,6.8,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,34,sindhudurg,Sindhudurg,Maharashtra,105.3,90.3,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,34,solapur,Solapur,Maharashtra,45.0,4.7,131.6,17.6599,75.9064,458,Plateau
+2026,34,srinagar,Srinagar,Jammu & Kashmir,15.7,39.5,131.6,34.0837,74.7973,1585,Himalayan
+2026,34,surat,Surat,Gujarat,26.2,18.8,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,34,thane,Thane,Maharashtra,55.4,33.5,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,34,thiruvananthapuram,Thiruvananthapuram,Kerala,16.6,1.2000000000000002,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,34,uttara kannada,Uttara Kannada (Karwar),Karnataka,80.3,75.9,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,34,varanasi,Varanasi,Uttar Pradesh,125.3,170.2,131.6,25.3176,82.9739,81,Plains
+2026,34,vijayawada,NTR (Vijayawada),Andhra Pradesh,13.7,2.3,131.6,16.5062,80.648,23,Plains
+2026,34,visakhapatnam,Visakhapatnam,Andhra Pradesh,41.0,12.200000000000001,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,34,wayanad,Wayanad,Kerala,16.9,18.2,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,35,ahmedabad,Ahmedabad,Gujarat,3.5999999999999996,0.0,131.6,23.0225,72.5714,53,Plains
+2026,35,amritsar,Amritsar,Punjab,1.7999999999999998,0.0,131.6,31.634,74.8723,234,Plains
+2026,35,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,12.1,2.5,131.6,19.8762,75.3433,568,Plateau
+2026,35,bengaluru urban,Bengaluru Urban,Karnataka,35.7,0.9,131.6,12.9716,77.5946,920,Plateau
+2026,35,bhopal,Bhopal,Madhya Pradesh,30.5,56.1,131.6,23.2599,77.4126,500,Plateau
+2026,35,cachar,Cachar (Silchar),Assam,153.5,147.2,131.6,24.8333,92.7789,22,Plains
+2026,35,chennai,Chennai,Tamil Nadu,15.1,1.5,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,35,coimbatore,Coimbatore,Tamil Nadu,27.0,2.2,131.6,11.0168,76.9558,411,Plains
+2026,35,cuttack,Cuttack,Odisha,132.7,112.39999999999999,131.6,20.4625,85.8828,36,Plains
+2026,35,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,79.2,73.7,236.59999999999997,12.9141,74.856,22,Coastal
+2026,35,darjeeling,Darjeeling,West Bengal,55.3,98.7,131.6,27.041,88.2663,2045,Himalayan
+2026,35,dehradun,Dehradun,Uttarakhand,108.2,42.2,131.6,30.3165,78.0322,640,Himalayan
+2026,35,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,98.6,93.8,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,35,east sikkim,East Sikkim (Gangtok),Sikkim,53.0,129.4,131.6,27.3389,88.6065,1650,Himalayan
+2026,35,ernakulam,Ernakulam (Kochi),Kerala,142.2,51.300000000000004,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,35,hyderabad,Hyderabad,Telangana,10.4,28.799999999999997,131.6,17.385,78.4867,542,Plateau
+2026,35,idukki,Idukki,Kerala,203.1,41.4,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,35,jaipur,Jaipur,Rajasthan,11.9,1.4000000000000001,131.6,26.9124,75.7873,431,Plains
+2026,35,jodhpur,Jodhpur,Rajasthan,0.5,0.1,131.6,26.2389,73.0243,231,Arid Plains
+2026,35,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,86.9,115.7,131.6,26.1445,91.7362,55,Plains
+2026,35,khordha,Khordha (Bhubaneswar),Odisha,166.5,112.9,131.6,20.2961,85.8245,45,Plains
+2026,35,kolhapur,Kolhapur,Maharashtra,14.8,3.0,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,35,kolkata,Kolkata,West Bengal,73.2,63.4,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,35,kozhikode,Kozhikode,Kerala,127.10000000000001,59.2,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,35,kullu,Kullu (Manali),Himachal Pradesh,12.0,11.8,131.6,31.9579,77.1095,1279,Himalayan
+2026,35,kutch,Kutch (Bhuj),Gujarat,1.8,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,35,lucknow,Lucknow,Uttar Pradesh,128.0,56.9,131.6,26.8467,80.9462,123,Plains
+2026,35,madurai,Madurai,Tamil Nadu,13.6,17.900000000000002,131.6,9.9252,78.1198,101,Plains
+2026,35,mumbai city,Mumbai City,Maharashtra,42.7,70.7,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,35,mumbai suburban,Mumbai Suburban,Maharashtra,36.4,21.7,236.59999999999997,19.076,72.8777,14,Coastal
+2026,35,nagpur,Nagpur,Maharashtra,35.0,93.5,131.6,21.1458,79.0882,310,Plains
+2026,35,nainital,Nainital,Uttarakhand,119.5,28.6,131.6,29.3919,79.4542,2084,Himalayan
+2026,35,nashik,Nashik,Maharashtra,10.1,4.4,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,35,new delhi,New Delhi,Delhi,24.5,3.2,131.6,28.6139,77.209,216,Plains
+2026,35,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,27.8,38.7,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,35,north goa,North Goa (Panaji),Goa,84.7,42.0,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,35,palakkad,Palakkad,Kerala,132.1,22.6,131.6,10.7867,76.6548,84,Plains
+2026,35,patna,Patna,Bihar,73.9,9.6,131.6,25.5941,85.1376,53,Plains
+2026,35,pune,Pune,Maharashtra,12.6,1.1,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,35,puri,Puri,Odisha,158.8,106.6,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,35,raigad,Raigad,Maharashtra,54.5,59.6,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,35,ranchi,Ranchi,Jharkhand,111.4,84.2,131.6,23.3441,85.3096,651,Plateau
+2026,35,ratnagiri,Ratnagiri,Maharashtra,93.3,64.6,236.59999999999997,16.9902,73.312,11,Coastal
+2026,35,satara,Satara,Maharashtra,9.4,2.9,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,35,shimla,Shimla,Himachal Pradesh,25.8,6.8,131.6,31.1048,77.1734,2276,Himalayan
+2026,35,shivamogga,Shivamogga (Agumbe),Karnataka,22.2,8.4,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,35,sindhudurg,Sindhudurg,Maharashtra,69.0,75.4,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,35,solapur,Solapur,Maharashtra,13.7,1.9,131.6,17.6599,75.9064,458,Plateau
+2026,35,srinagar,Srinagar,Jammu & Kashmir,0.4,6.699999999999999,131.6,34.0837,74.7973,1585,Himalayan
+2026,35,surat,Surat,Gujarat,13.1,4.6,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,35,thane,Thane,Maharashtra,34.8,19.0,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,35,thiruvananthapuram,Thiruvananthapuram,Kerala,40.4,16.400000000000002,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,35,uttara kannada,Uttara Kannada (Karwar),Karnataka,82.9,58.1,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,35,varanasi,Varanasi,Uttar Pradesh,97.9,64.2,131.6,25.3176,82.9739,81,Plains
+2026,35,vijayawada,NTR (Vijayawada),Andhra Pradesh,19.0,20.4,131.6,16.5062,80.648,23,Plains
+2026,35,visakhapatnam,Visakhapatnam,Andhra Pradesh,49.2,2.3,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,35,wayanad,Wayanad,Kerala,42.7,32.0,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,36,ahmedabad,Ahmedabad,Gujarat,3.5,0.0,131.6,23.0225,72.5714,53,Plains
+2026,36,amritsar,Amritsar,Punjab,22.5,2.5,131.6,31.634,74.8723,234,Plains
+2026,36,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,10.2,2.6,131.6,19.8762,75.3433,568,Plateau
+2026,36,bengaluru urban,Bengaluru Urban,Karnataka,13.200000000000001,4.1,131.6,12.9716,77.5946,920,Plateau
+2026,36,bhopal,Bhopal,Madhya Pradesh,42.2,33.0,131.6,23.2599,77.4126,500,Plateau
+2026,36,cachar,Cachar (Silchar),Assam,160.8,101.4,131.6,24.8333,92.7789,22,Plains
+2026,36,chennai,Chennai,Tamil Nadu,13.1,3.4,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,36,coimbatore,Coimbatore,Tamil Nadu,21.7,11.2,131.6,11.0168,76.9558,411,Plains
+2026,36,cuttack,Cuttack,Odisha,69.1,22.5,131.6,20.4625,85.8828,36,Plains
+2026,36,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,18.0,3.0,236.59999999999997,12.9141,74.856,22,Coastal
+2026,36,darjeeling,Darjeeling,West Bengal,68.8,134.6,131.6,27.041,88.2663,2045,Himalayan
+2026,36,dehradun,Dehradun,Uttarakhand,63.0,50.5,131.6,30.3165,78.0322,640,Himalayan
+2026,36,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,85.89999999999999,184.2,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,36,east sikkim,East Sikkim (Gangtok),Sikkim,90.5,93.2,131.6,27.3389,88.6065,1650,Himalayan
+2026,36,ernakulam,Ernakulam (Kochi),Kerala,6.0,5.8,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,36,hyderabad,Hyderabad,Telangana,8.8,3.5,131.6,17.385,78.4867,542,Plateau
+2026,36,idukki,Idukki,Kerala,41.4,5.7,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,36,jaipur,Jaipur,Rajasthan,33.0,32.1,131.6,26.9124,75.7873,431,Plains
+2026,36,jodhpur,Jodhpur,Rajasthan,0.4,1.1,131.6,26.2389,73.0243,231,Arid Plains
+2026,36,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,77.6,93.2,131.6,26.1445,91.7362,55,Plains
+2026,36,khordha,Khordha (Bhubaneswar),Odisha,65.60000000000001,30.4,131.6,20.2961,85.8245,45,Plains
+2026,36,kolhapur,Kolhapur,Maharashtra,14.0,3.5999999999999996,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,36,kolkata,Kolkata,West Bengal,124.69999999999999,32.3,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,36,kozhikode,Kozhikode,Kerala,4.3,0.1,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,36,kullu,Kullu (Manali),Himachal Pradesh,20.0,51.8,131.6,31.9579,77.1095,1279,Himalayan
+2026,36,kutch,Kutch (Bhuj),Gujarat,1.1,0.2,131.6,23.242,69.6669,110,Arid Plains
+2026,36,lucknow,Lucknow,Uttar Pradesh,95.6,75.60000000000001,131.6,26.8467,80.9462,123,Plains
+2026,36,madurai,Madurai,Tamil Nadu,27.6,48.0,131.6,9.9252,78.1198,101,Plains
+2026,36,mumbai city,Mumbai City,Maharashtra,60.9,74.5,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,36,mumbai suburban,Mumbai Suburban,Maharashtra,61.0,47.400000000000006,236.59999999999997,19.076,72.8777,14,Coastal
+2026,36,nagpur,Nagpur,Maharashtra,30.500000000000004,46.4,131.6,21.1458,79.0882,310,Plains
+2026,36,nainital,Nainital,Uttarakhand,102.6,151.5,131.6,29.3919,79.4542,2084,Himalayan
+2026,36,nashik,Nashik,Maharashtra,18.599999999999998,5.3,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,36,new delhi,New Delhi,Delhi,76.6,36.6,131.6,28.6139,77.209,216,Plains
+2026,36,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,30.8,21.5,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,36,north goa,North Goa (Panaji),Goa,46.5,20.7,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,36,palakkad,Palakkad,Kerala,18.3,3.3000000000000003,131.6,10.7867,76.6548,84,Plains
+2026,36,patna,Patna,Bihar,102.7,74.1,131.6,25.5941,85.1376,53,Plains
+2026,36,pune,Pune,Maharashtra,16.6,2.1,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,36,puri,Puri,Odisha,48.4,15.0,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,36,raigad,Raigad,Maharashtra,62.800000000000004,53.099999999999994,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,36,ranchi,Ranchi,Jharkhand,79.0,56.6,131.6,23.3441,85.3096,651,Plateau
+2026,36,ratnagiri,Ratnagiri,Maharashtra,55.1,43.1,236.59999999999997,16.9902,73.312,11,Coastal
+2026,36,satara,Satara,Maharashtra,10.1,1.2,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,36,shimla,Shimla,Himachal Pradesh,51.6,38.3,131.6,31.1048,77.1734,2276,Himalayan
+2026,36,shivamogga,Shivamogga (Agumbe),Karnataka,9.1,11.4,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,36,sindhudurg,Sindhudurg,Maharashtra,61.9,50.6,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,36,solapur,Solapur,Maharashtra,13.5,2.9000000000000004,131.6,17.6599,75.9064,458,Plateau
+2026,36,srinagar,Srinagar,Jammu & Kashmir,18.7,20.7,131.6,34.0837,74.7973,1585,Himalayan
+2026,36,surat,Surat,Gujarat,15.0,8.7,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,36,thane,Thane,Maharashtra,48.3,40.8,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,36,thiruvananthapuram,Thiruvananthapuram,Kerala,7.7,0.1,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,36,uttara kannada,Uttara Kannada (Karwar),Karnataka,35.4,11.0,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,36,varanasi,Varanasi,Uttar Pradesh,77.0,105.0,131.6,25.3176,82.9739,81,Plains
+2026,36,vijayawada,NTR (Vijayawada),Andhra Pradesh,28.7,10.0,131.6,16.5062,80.648,23,Plains
+2026,36,visakhapatnam,Visakhapatnam,Andhra Pradesh,22.8,1.2,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,36,wayanad,Wayanad,Kerala,15.3,12.8,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,37,ahmedabad,Ahmedabad,Gujarat,34.0,50.9,131.6,23.0225,72.5714,53,Plains
+2026,37,amritsar,Amritsar,Punjab,0.8,0.0,131.6,31.634,74.8723,234,Plains
+2026,37,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,40.5,70.0,131.6,19.8762,75.3433,568,Plateau
+2026,37,bengaluru urban,Bengaluru Urban,Karnataka,8.5,0.6,131.6,12.9716,77.5946,920,Plateau
+2026,37,bhopal,Bhopal,Madhya Pradesh,27.7,37.3,131.6,23.2599,77.4126,500,Plateau
+2026,37,cachar,Cachar (Silchar),Assam,126.5,27.900000000000002,131.6,24.8333,92.7789,22,Plains
+2026,37,chennai,Chennai,Tamil Nadu,23.3,8.8,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,37,coimbatore,Coimbatore,Tamil Nadu,4.5,6.6,131.6,11.0168,76.9558,411,Plains
+2026,37,cuttack,Cuttack,Odisha,104.3,50.0,131.6,20.4625,85.8828,36,Plains
+2026,37,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,7.9,2.7,236.59999999999997,12.9141,74.856,22,Coastal
+2026,37,darjeeling,Darjeeling,West Bengal,40.5,124.60000000000001,131.6,27.041,88.2663,2045,Himalayan
+2026,37,dehradun,Dehradun,Uttarakhand,69.2,22.6,131.6,30.3165,78.0322,640,Himalayan
+2026,37,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,39.3,105.2,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,37,east sikkim,East Sikkim (Gangtok),Sikkim,46.3,102.3,131.6,27.3389,88.6065,1650,Himalayan
+2026,37,ernakulam,Ernakulam (Kochi),Kerala,6.9,7.699999999999999,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,37,hyderabad,Hyderabad,Telangana,26.299999999999997,11.4,131.6,17.385,78.4867,542,Plateau
+2026,37,idukki,Idukki,Kerala,27.9,13.2,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,37,jaipur,Jaipur,Rajasthan,4.5,2.3,131.6,26.9124,75.7873,431,Plains
+2026,37,jodhpur,Jodhpur,Rajasthan,3.2,6.5,131.6,26.2389,73.0243,231,Arid Plains
+2026,37,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,41.8,53.5,131.6,26.1445,91.7362,55,Plains
+2026,37,khordha,Khordha (Bhubaneswar),Odisha,90.2,42.199999999999996,131.6,20.2961,85.8245,45,Plains
+2026,37,kolhapur,Kolhapur,Maharashtra,9.3,1.7,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,37,kolkata,Kolkata,West Bengal,89.3,36.3,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,37,kozhikode,Kozhikode,Kerala,1.9,0.0,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,37,kullu,Kullu (Manali),Himachal Pradesh,30.3,12.2,131.6,31.9579,77.1095,1279,Himalayan
+2026,37,kutch,Kutch (Bhuj),Gujarat,19.3,3.4,131.6,23.242,69.6669,110,Arid Plains
+2026,37,lucknow,Lucknow,Uttar Pradesh,41.6,35.8,131.6,26.8467,80.9462,123,Plains
+2026,37,madurai,Madurai,Tamil Nadu,5.800000000000001,10.7,131.6,9.9252,78.1198,101,Plains
+2026,37,mumbai city,Mumbai City,Maharashtra,53.1,49.2,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,37,mumbai suburban,Mumbai Suburban,Maharashtra,52.9,67.6,236.59999999999997,19.076,72.8777,14,Coastal
+2026,37,nagpur,Nagpur,Maharashtra,62.6,45.0,131.6,21.1458,79.0882,310,Plains
+2026,37,nainital,Nainital,Uttarakhand,74.3,81.4,131.6,29.3919,79.4542,2084,Himalayan
+2026,37,nashik,Nashik,Maharashtra,52.400000000000006,31.9,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,37,new delhi,New Delhi,Delhi,19.099999999999998,0.1,131.6,28.6139,77.209,216,Plains
+2026,37,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,48.2,131.9,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,37,north goa,North Goa (Panaji),Goa,14.0,5.7,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,37,palakkad,Palakkad,Kerala,7.6000000000000005,3.1,131.6,10.7867,76.6548,84,Plains
+2026,37,patna,Patna,Bihar,35.2,59.5,131.6,25.5941,85.1376,53,Plains
+2026,37,pune,Pune,Maharashtra,17.799999999999997,2.4,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,37,puri,Puri,Odisha,73.7,41.2,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,37,raigad,Raigad,Maharashtra,27.5,25.4,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,37,ranchi,Ranchi,Jharkhand,57.699999999999996,60.199999999999996,131.6,23.3441,85.3096,651,Plateau
+2026,37,ratnagiri,Ratnagiri,Maharashtra,16.5,13.899999999999999,236.59999999999997,16.9902,73.312,11,Coastal
+2026,37,satara,Satara,Maharashtra,7.7,1.9,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,37,shimla,Shimla,Himachal Pradesh,27.0,20.6,131.6,31.1048,77.1734,2276,Himalayan
+2026,37,shivamogga,Shivamogga (Agumbe),Karnataka,9.7,4.0,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,37,sindhudurg,Sindhudurg,Maharashtra,23.3,23.9,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,37,solapur,Solapur,Maharashtra,6.4,7.3999999999999995,131.6,17.6599,75.9064,458,Plateau
+2026,37,srinagar,Srinagar,Jammu & Kashmir,0.1,6.3,131.6,34.0837,74.7973,1585,Himalayan
+2026,37,surat,Surat,Gujarat,52.6,25.7,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,37,thane,Thane,Maharashtra,55.3,80.4,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,37,thiruvananthapuram,Thiruvananthapuram,Kerala,9.0,3.1,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,37,uttara kannada,Uttara Kannada (Karwar),Karnataka,10.5,3.3,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,37,varanasi,Varanasi,Uttar Pradesh,22.8,25.8,131.6,25.3176,82.9739,81,Plains
+2026,37,vijayawada,NTR (Vijayawada),Andhra Pradesh,32.3,36.2,131.6,16.5062,80.648,23,Plains
+2026,37,visakhapatnam,Visakhapatnam,Andhra Pradesh,84.3,51.6,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,37,wayanad,Wayanad,Kerala,6.9,55.9,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,38,ahmedabad,Ahmedabad,Gujarat,122.3,67.6,131.6,23.0225,72.5714,53,Plains
+2026,38,amritsar,Amritsar,Punjab,13.0,3.1,131.6,31.634,74.8723,234,Plains
+2026,38,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,6.0,23.6,131.6,19.8762,75.3433,568,Plateau
+2026,38,bengaluru urban,Bengaluru Urban,Karnataka,46.9,52.7,131.6,12.9716,77.5946,920,Plateau
+2026,38,bhopal,Bhopal,Madhya Pradesh,53.1,60.9,131.6,23.2599,77.4126,500,Plateau
+2026,38,cachar,Cachar (Silchar),Assam,51.4,42.1,131.6,24.8333,92.7789,22,Plains
+2026,38,chennai,Chennai,Tamil Nadu,43.4,11.6,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,38,coimbatore,Coimbatore,Tamil Nadu,69.4,23.599999999999998,131.6,11.0168,76.9558,411,Plains
+2026,38,cuttack,Cuttack,Odisha,46.2,15.0,131.6,20.4625,85.8828,36,Plains
+2026,38,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,5.0,1.1,236.59999999999997,12.9141,74.856,22,Coastal
+2026,38,darjeeling,Darjeeling,West Bengal,57.2,96.6,131.6,27.041,88.2663,2045,Himalayan
+2026,38,dehradun,Dehradun,Uttarakhand,10.2,20.3,131.6,30.3165,78.0322,640,Himalayan
+2026,38,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,23.5,48.0,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,38,east sikkim,East Sikkim (Gangtok),Sikkim,161.3,83.10000000000001,131.6,27.3389,88.6065,1650,Himalayan
+2026,38,ernakulam,Ernakulam (Kochi),Kerala,25.3,34.599999999999994,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,38,hyderabad,Hyderabad,Telangana,25.5,13.7,131.6,17.385,78.4867,542,Plateau
+2026,38,idukki,Idukki,Kerala,88.3,52.0,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,38,jaipur,Jaipur,Rajasthan,17.4,13.5,131.6,26.9124,75.7873,431,Plains
+2026,38,jodhpur,Jodhpur,Rajasthan,20.1,3.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,38,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,40.4,27.599999999999998,131.6,26.1445,91.7362,55,Plains
+2026,38,khordha,Khordha (Bhubaneswar),Odisha,58.699999999999996,20.7,131.6,20.2961,85.8245,45,Plains
+2026,38,kolhapur,Kolhapur,Maharashtra,15.8,9.0,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,38,kolkata,Kolkata,West Bengal,47.1,18.5,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,38,kozhikode,Kozhikode,Kerala,12.2,4.5,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,38,kullu,Kullu (Manali),Himachal Pradesh,18.7,6.5,131.6,31.9579,77.1095,1279,Himalayan
+2026,38,kutch,Kutch (Bhuj),Gujarat,70.0,160.3,131.6,23.242,69.6669,110,Arid Plains
+2026,38,lucknow,Lucknow,Uttar Pradesh,23.7,8.4,131.6,26.8467,80.9462,123,Plains
+2026,38,madurai,Madurai,Tamil Nadu,67.3,90.7,131.6,9.9252,78.1198,101,Plains
+2026,38,mumbai city,Mumbai City,Maharashtra,42.0,47.8,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,38,mumbai suburban,Mumbai Suburban,Maharashtra,42.0,31.6,236.59999999999997,19.076,72.8777,14,Coastal
+2026,38,nagpur,Nagpur,Maharashtra,31.8,37.9,131.6,21.1458,79.0882,310,Plains
+2026,38,nainital,Nainital,Uttarakhand,22.1,40.9,131.6,29.3919,79.4542,2084,Himalayan
+2026,38,nashik,Nashik,Maharashtra,19.2,23.4,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,38,new delhi,New Delhi,Delhi,11.3,1.6,131.6,28.6139,77.209,216,Plains
+2026,38,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,83.0,113.9,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,38,north goa,North Goa (Panaji),Goa,14.5,12.6,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,38,palakkad,Palakkad,Kerala,60.7,10.4,131.6,10.7867,76.6548,84,Plains
+2026,38,patna,Patna,Bihar,20.0,6.2,131.6,25.5941,85.1376,53,Plains
+2026,38,pune,Pune,Maharashtra,27.5,26.1,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,38,puri,Puri,Odisha,56.3,24.5,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,38,raigad,Raigad,Maharashtra,43.5,59.199999999999996,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,38,ranchi,Ranchi,Jharkhand,21.5,55.3,131.6,23.3441,85.3096,651,Plateau
+2026,38,ratnagiri,Ratnagiri,Maharashtra,16.8,29.700000000000003,236.59999999999997,16.9902,73.312,11,Coastal
+2026,38,satara,Satara,Maharashtra,14.4,12.3,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,38,shimla,Shimla,Himachal Pradesh,24.599999999999998,6.8999999999999995,131.6,31.1048,77.1734,2276,Himalayan
+2026,38,shivamogga,Shivamogga (Agumbe),Karnataka,16.6,7.7,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,38,sindhudurg,Sindhudurg,Maharashtra,24.6,41.5,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,38,solapur,Solapur,Maharashtra,24.7,16.0,131.6,17.6599,75.9064,458,Plateau
+2026,38,srinagar,Srinagar,Jammu & Kashmir,8.4,15.7,131.6,34.0837,74.7973,1585,Himalayan
+2026,38,surat,Surat,Gujarat,62.0,74.5,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,38,thane,Thane,Maharashtra,29.4,29.8,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,38,thiruvananthapuram,Thiruvananthapuram,Kerala,44.4,29.7,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,38,uttara kannada,Uttara Kannada (Karwar),Karnataka,8.799999999999999,4.9,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,38,varanasi,Varanasi,Uttar Pradesh,16.3,11.700000000000001,131.6,25.3176,82.9739,81,Plains
+2026,38,vijayawada,NTR (Vijayawada),Andhra Pradesh,13.8,40.5,131.6,16.5062,80.648,23,Plains
+2026,38,visakhapatnam,Visakhapatnam,Andhra Pradesh,21.9,24.5,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,38,wayanad,Wayanad,Kerala,8.8,89.3,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,39,ahmedabad,Ahmedabad,Gujarat,1.7000000000000002,0.0,131.6,23.0225,72.5714,53,Plains
+2026,39,amritsar,Amritsar,Punjab,4.1,0.0,131.6,31.634,74.8723,234,Plains
+2026,39,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,4.2,13.999999999999998,131.6,19.8762,75.3433,568,Plateau
+2026,39,bengaluru urban,Bengaluru Urban,Karnataka,22.7,54.199999999999996,131.6,12.9716,77.5946,920,Plateau
+2026,39,bhopal,Bhopal,Madhya Pradesh,14.6,19.2,131.6,23.2599,77.4126,500,Plateau
+2026,39,cachar,Cachar (Silchar),Assam,53.7,28.2,131.6,24.8333,92.7789,22,Plains
+2026,39,chennai,Chennai,Tamil Nadu,19.900000000000002,50.2,236.59999999999997,13.0827,80.2707,6,Coastal
+2026,39,coimbatore,Coimbatore,Tamil Nadu,15.7,3.1,131.6,11.0168,76.9558,411,Plains
+2026,39,cuttack,Cuttack,Odisha,189.4,183.3,131.6,20.4625,85.8828,36,Plains
+2026,39,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,52.3,38.7,236.59999999999997,12.9141,74.856,22,Coastal
+2026,39,darjeeling,Darjeeling,West Bengal,118.5,221.6,131.6,27.041,88.2663,2045,Himalayan
+2026,39,dehradun,Dehradun,Uttarakhand,69.1,61.7,131.6,30.3165,78.0322,640,Himalayan
+2026,39,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,26.2,40.3,357.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,39,east sikkim,East Sikkim (Gangtok),Sikkim,99.6,116.0,131.6,27.3389,88.6065,1650,Himalayan
+2026,39,ernakulam,Ernakulam (Kochi),Kerala,34.0,11.1,236.59999999999997,9.9816,76.2999,4,Coastal
+2026,39,hyderabad,Hyderabad,Telangana,15.799999999999999,55.1,131.6,17.385,78.4867,542,Plateau
+2026,39,idukki,Idukki,Kerala,50.0,9.2,357.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,39,jaipur,Jaipur,Rajasthan,2.9,0.0,131.6,26.9124,75.7873,431,Plains
+2026,39,jodhpur,Jodhpur,Rajasthan,0.3,0.0,131.6,26.2389,73.0243,231,Arid Plains
+2026,39,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,29.9,36.8,131.6,26.1445,91.7362,55,Plains
+2026,39,khordha,Khordha (Bhubaneswar),Odisha,184.1,177.9,131.6,20.2961,85.8245,45,Plains
+2026,39,kolhapur,Kolhapur,Maharashtra,28.7,16.7,357.0,16.705,74.2433,545,Orographic/Ghats
+2026,39,kolkata,Kolkata,West Bengal,113.8,102.4,236.59999999999997,22.5726,88.3639,9,Coastal
+2026,39,kozhikode,Kozhikode,Kerala,26.2,13.4,236.59999999999997,11.2588,75.7804,1,Coastal
+2026,39,kullu,Kullu (Manali),Himachal Pradesh,4.1,11.299999999999999,131.6,31.9579,77.1095,1279,Himalayan
+2026,39,kutch,Kutch (Bhuj),Gujarat,0.9,0.0,131.6,23.242,69.6669,110,Arid Plains
+2026,39,lucknow,Lucknow,Uttar Pradesh,160.9,208.0,131.6,26.8467,80.9462,123,Plains
+2026,39,madurai,Madurai,Tamil Nadu,1.2000000000000002,1.7,131.6,9.9252,78.1198,101,Plains
+2026,39,mumbai city,Mumbai City,Maharashtra,34.400000000000006,40.1,236.59999999999997,18.9388,72.8353,10,Coastal
+2026,39,mumbai suburban,Mumbai Suburban,Maharashtra,29.5,29.5,236.59999999999997,19.076,72.8777,14,Coastal
+2026,39,nagpur,Nagpur,Maharashtra,24.9,49.4,131.6,21.1458,79.0882,310,Plains
+2026,39,nainital,Nainital,Uttarakhand,155.4,160.9,131.6,29.3919,79.4542,2084,Himalayan
+2026,39,nashik,Nashik,Maharashtra,6.4,40.4,357.0,19.9975,73.7898,600,Orographic/Ghats
+2026,39,new delhi,New Delhi,Delhi,5.799999999999999,3.9,131.6,28.6139,77.209,216,Plains
+2026,39,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,6.6,11.0,357.0,11.4102,76.695,2240,Orographic/Ghats
+2026,39,north goa,North Goa (Panaji),Goa,56.2,35.6,236.59999999999997,15.4909,73.8278,7,Coastal
+2026,39,palakkad,Palakkad,Kerala,43.300000000000004,12.5,131.6,10.7867,76.6548,84,Plains
+2026,39,patna,Patna,Bihar,107.30000000000001,134.0,131.6,25.5941,85.1376,53,Plains
+2026,39,pune,Pune,Maharashtra,22.8,60.400000000000006,357.0,18.5204,73.8567,560,Orographic/Ghats
+2026,39,puri,Puri,Odisha,204.9,154.20000000000002,236.59999999999997,19.8135,85.8312,10,Coastal
+2026,39,raigad,Raigad,Maharashtra,35.300000000000004,38.1,236.59999999999997,18.5158,73.1812,30,Coastal
+2026,39,ranchi,Ranchi,Jharkhand,111.4,173.70000000000002,131.6,23.3441,85.3096,651,Plateau
+2026,39,ratnagiri,Ratnagiri,Maharashtra,18.400000000000002,23.7,236.59999999999997,16.9902,73.312,11,Coastal
+2026,39,satara,Satara,Maharashtra,21.6,59.699999999999996,357.0,17.6805,74.0183,742,Orographic/Ghats
+2026,39,shimla,Shimla,Himachal Pradesh,10.1,6.5,131.6,31.1048,77.1734,2276,Himalayan
+2026,39,shivamogga,Shivamogga (Agumbe),Karnataka,28.1,7.6,357.0,13.9299,75.5681,580,Orographic/Ghats
+2026,39,sindhudurg,Sindhudurg,Maharashtra,41.400000000000006,36.7,236.59999999999997,16.1265,73.6993,25,Coastal
+2026,39,solapur,Solapur,Maharashtra,24.5,37.1,131.6,17.6599,75.9064,458,Plateau
+2026,39,srinagar,Srinagar,Jammu & Kashmir,0.2,5.1000000000000005,131.6,34.0837,74.7973,1585,Himalayan
+2026,39,surat,Surat,Gujarat,7.9,6.4,236.59999999999997,21.1702,72.8311,13,Coastal
+2026,39,thane,Thane,Maharashtra,37.3,43.800000000000004,236.59999999999997,19.2183,72.9781,15,Coastal
+2026,39,thiruvananthapuram,Thiruvananthapuram,Kerala,35.0,25.599999999999998,236.59999999999997,8.5241,76.9366,10,Coastal
+2026,39,uttara kannada,Uttara Kannada (Karwar),Karnataka,50.6,53.800000000000004,236.59999999999997,14.8185,74.1416,10,Coastal
+2026,39,varanasi,Varanasi,Uttar Pradesh,82.8,58.9,131.6,25.3176,82.9739,81,Plains
+2026,39,vijayawada,NTR (Vijayawada),Andhra Pradesh,81.6,130.8,131.6,16.5062,80.648,23,Plains
+2026,39,visakhapatnam,Visakhapatnam,Andhra Pradesh,297.0,384.9,236.59999999999997,17.6868,83.2185,11,Coastal
+2026,39,wayanad,Wayanad,Kerala,12.899999999999999,2.5,357.0,11.6854,76.132,950,Orographic/Ghats
+2026,40,ahmedabad,Ahmedabad,Gujarat,0.0,0.0,37.6,23.0225,72.5714,53,Plains
+2026,40,amritsar,Amritsar,Punjab,0.1,0.0,37.6,31.634,74.8723,234,Plains
+2026,40,aurangabad,Chhatrapati Sambhaji Nagar (Aurangabad),Maharashtra,3.1,0.7,37.6,19.8762,75.3433,568,Plateau
+2026,40,bengaluru urban,Bengaluru Urban,Karnataka,24.3,13.899999999999999,37.6,12.9716,77.5946,920,Plateau
+2026,40,bhopal,Bhopal,Madhya Pradesh,0.0,0.0,37.6,23.2599,77.4126,500,Plateau
+2026,40,cachar,Cachar (Silchar),Assam,4.2,10.0,37.6,24.8333,92.7789,22,Plains
+2026,40,chennai,Chennai,Tamil Nadu,5.4,0.0,67.6,13.0827,80.2707,6,Coastal
+2026,40,coimbatore,Coimbatore,Tamil Nadu,0.7,0.0,37.6,11.0168,76.9558,411,Plains
+2026,40,cuttack,Cuttack,Odisha,8.299999999999999,5.6,37.6,20.4625,85.8828,36,Plains
+2026,40,dakshina kannada,Dakshina Kannada (Mangaluru),Karnataka,1.0,0.0,67.6,12.9141,74.856,22,Coastal
+2026,40,darjeeling,Darjeeling,West Bengal,1.0,7.199999999999999,37.6,27.041,88.2663,2045,Himalayan
+2026,40,dehradun,Dehradun,Uttarakhand,6.4,0.5,37.6,30.3165,78.0322,640,Himalayan
+2026,40,east khasi hills,East Khasi Hills (Cherrapunji/Sohra),Meghalaya,5.5,11.5,102.0,25.2986,91.7324,1484,Orographic/Ghats
+2026,40,east sikkim,East Sikkim (Gangtok),Sikkim,0.0,0.3,37.6,27.3389,88.6065,1650,Himalayan
+2026,40,ernakulam,Ernakulam (Kochi),Kerala,0.7,0.6000000000000001,67.6,9.9816,76.2999,4,Coastal
+2026,40,hyderabad,Hyderabad,Telangana,0.1,0.8,37.6,17.385,78.4867,542,Plateau
+2026,40,idukki,Idukki,Kerala,9.700000000000001,0.7,102.0,9.8497,76.9806,1200,Orographic/Ghats
+2026,40,jaipur,Jaipur,Rajasthan,2.3,0.3,37.6,26.9124,75.7873,431,Plains
+2026,40,jodhpur,Jodhpur,Rajasthan,0.0,0.0,37.6,26.2389,73.0243,231,Arid Plains
+2026,40,kamrup metropolitan,Kamrup Metropolitan (Guwahati),Assam,0.30000000000000004,0.0,37.6,26.1445,91.7362,55,Plains
+2026,40,khordha,Khordha (Bhubaneswar),Odisha,2.3000000000000003,7.0,37.6,20.2961,85.8245,45,Plains
+2026,40,kolhapur,Kolhapur,Maharashtra,17.1,10.200000000000001,102.0,16.705,74.2433,545,Orographic/Ghats
+2026,40,kolkata,Kolkata,West Bengal,0.2,0.0,67.6,22.5726,88.3639,9,Coastal
+2026,40,kozhikode,Kozhikode,Kerala,0.8999999999999999,0.0,67.6,11.2588,75.7804,1,Coastal
+2026,40,kullu,Kullu (Manali),Himachal Pradesh,11.8,8.7,37.6,31.9579,77.1095,1279,Himalayan
+2026,40,kutch,Kutch (Bhuj),Gujarat,1.1,0.0,37.6,23.242,69.6669,110,Arid Plains
+2026,40,lucknow,Lucknow,Uttar Pradesh,0.2,0.0,37.6,26.8467,80.9462,123,Plains
+2026,40,madurai,Madurai,Tamil Nadu,1.7999999999999998,9.600000000000001,37.6,9.9252,78.1198,101,Plains
+2026,40,mumbai city,Mumbai City,Maharashtra,4.699999999999999,4.4,67.6,18.9388,72.8353,10,Coastal
+2026,40,mumbai suburban,Mumbai Suburban,Maharashtra,7.9,2.2,67.6,19.076,72.8777,14,Coastal
+2026,40,nagpur,Nagpur,Maharashtra,0.2,0.0,37.6,21.1458,79.0882,310,Plains
+2026,40,nainital,Nainital,Uttarakhand,2.1,9.7,37.6,29.3919,79.4542,2084,Himalayan
+2026,40,nashik,Nashik,Maharashtra,3.1,4.0,102.0,19.9975,73.7898,600,Orographic/Ghats
+2026,40,new delhi,New Delhi,Delhi,1.5,0.2,37.6,28.6139,77.209,216,Plains
+2026,40,nilgiris,Nilgiris (Udhagamandalam),Tamil Nadu,7.1,7.7,102.0,11.4102,76.695,2240,Orographic/Ghats
+2026,40,north goa,North Goa (Panaji),Goa,1.4,0.0,67.6,15.4909,73.8278,7,Coastal
+2026,40,palakkad,Palakkad,Kerala,0.5,0.0,37.6,10.7867,76.6548,84,Plains
+2026,40,patna,Patna,Bihar,0.2,0.0,37.6,25.5941,85.1376,53,Plains
+2026,40,pune,Pune,Maharashtra,9.9,4.9,102.0,18.5204,73.8567,560,Orographic/Ghats
+2026,40,puri,Puri,Odisha,1.8,7.8999999999999995,67.6,19.8135,85.8312,10,Coastal
+2026,40,raigad,Raigad,Maharashtra,13.0,9.2,67.6,18.5158,73.1812,30,Coastal
+2026,40,ranchi,Ranchi,Jharkhand,0.0,0.30000000000000004,37.6,23.3441,85.3096,651,Plateau
+2026,40,ratnagiri,Ratnagiri,Maharashtra,6.2,0.8999999999999999,67.6,16.9902,73.312,11,Coastal
+2026,40,satara,Satara,Maharashtra,3.2,9.1,102.0,17.6805,74.0183,742,Orographic/Ghats
+2026,40,shimla,Shimla,Himachal Pradesh,10.8,1.3,37.6,31.1048,77.1734,2276,Himalayan
+2026,40,shivamogga,Shivamogga (Agumbe),Karnataka,15.200000000000001,18.299999999999997,102.0,13.9299,75.5681,580,Orographic/Ghats
+2026,40,sindhudurg,Sindhudurg,Maharashtra,10.0,0.0,67.6,16.1265,73.6993,25,Coastal
+2026,40,solapur,Solapur,Maharashtra,2.3,7.3,37.6,17.6599,75.9064,458,Plateau
+2026,40,srinagar,Srinagar,Jammu & Kashmir,0.1,1.7,37.6,34.0837,74.7973,1585,Himalayan
+2026,40,surat,Surat,Gujarat,2.6,0.6,67.6,21.1702,72.8311,13,Coastal
+2026,40,thane,Thane,Maharashtra,10.2,5.1,67.6,19.2183,72.9781,15,Coastal
+2026,40,thiruvananthapuram,Thiruvananthapuram,Kerala,0.6,0.4,67.6,8.5241,76.9366,10,Coastal
+2026,40,uttara kannada,Uttara Kannada (Karwar),Karnataka,0.1,1.0,67.6,14.8185,74.1416,10,Coastal
+2026,40,varanasi,Varanasi,Uttar Pradesh,3.7,0.7,37.6,25.3176,82.9739,81,Plains
+2026,40,vijayawada,NTR (Vijayawada),Andhra Pradesh,0.2,0.0,37.6,16.5062,80.648,23,Plains
+2026,40,visakhapatnam,Visakhapatnam,Andhra Pradesh,1.8,1.4,67.6,17.6868,83.2185,11,Coastal
+2026,40,wayanad,Wayanad,Kerala,4.3,0.0,102.0,11.6854,76.132,950,Orographic/Ghats

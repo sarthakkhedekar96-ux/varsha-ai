@@ -1,0 +1,68 @@
+{
+  "audit_timestamp": "2026-09-29T19:27:04.755582",
+  "test_sample_count": 1548,
+  "test_date_range": "2026-09-02 to 2026-09-29",
+  "raw_nwp_rmse": 0.0,
+  "ai_postprocessed_rmse": 0.7564,
+  "skill_improvement_pct": -75.64,
+  "raw_nwp_mae": 0.0,
+  "ai_mae": 0.1145,
+  "raw_nwp_bias": 0.0,
+  "ai_bias": -0.0037,
+  "raw_nwp_correlation": 1.0,
+  "ai_correlation": 0.997,
+  "heavy_rainfall_threshold_mm": 64.5,
+  "raw_nwp_csi": 1.0,
+  "ai_csi": 0.8333,
+  "raw_nwp_pod": 1.0,
+  "ai_pod": 1.0,
+  "raw_nwp_far": 0.0,
+  "ai_far": 0.1667,
+  "raw_nwp_ets": 1.0,
+  "ai_ets": 0.8328,
+  "heavy_rain_brier_score": 0.0006,
+  "four_tier_baseline_comparison": {
+    "tier1_raw_forecast": {
+      "rmse_mm": 0.0,
+      "mae_mm": 0.0,
+      "bias_mm": 0.0,
+      "correlation_r": 1.0,
+      "csi_threat_score": 1.0,
+      "pod_hit_rate": 1.0,
+      "far_false_alarm": 0.0,
+      "ets_equitable": 1.0
+    },
+    "tier2_simple_bias": {
+      "rmse_mm": 1.4735,
+      "mae_mm": 0.7607,
+      "bias_mm": 0.7607,
+      "correlation_r": 0.9992,
+      "csi_threat_score": 0.7143,
+      "pod_hit_rate": 1.0,
+      "far_false_alarm": 0.2857,
+      "ets_equitable": 0.7134
+    },
+    "tier3_global_ml": {
+      "rmse_mm": 0.7726,
+      "mae_mm": 0.1059,
+      "bias_mm": 0.0089,
+      "correlation_r": 0.9969,
+      "csi_threat_score": 0.8333,
+      "pod_hit_rate": 1.0,
+      "far_false_alarm": 0.1667,
+      "ets_equitable": 0.8328
+    },
+    "tier4_regime_aware_ml": {
+      "rmse_mm": 0.7564,
+      "mae_mm": 0.1145,
+      "bias_mm": -0.0037,
+      "correlation_r": 0.997,
+      "csi_threat_score": 0.8333,
+      "pod_hit_rate": 1.0,
+      "far_false_alarm": 0.1667,
+      "ets_equitable": 0.8328,
+      "heavy_rain_brier_score": 0.0006
+    }
+  },
+  "metric_reproducibility_status": "PASS (Exact mathematical match from test split)"
+}
