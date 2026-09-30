@@ -116,6 +116,28 @@ export async function fetchDistrictComparison(districtId) {
 }
 
 /**
+ * Fetch historical forecast vs reference replay series for a district
+ */
+export async function fetchDistrictForecastHistory(districtId, days = 14) {
+  if (!districtId) return null;
+  assertApiConfigured();
+  const encoded = encodeURIComponent(String(districtId).toLowerCase().trim());
+  const res = await fetch(`${API_BASE_URL}/forecast/${encoded}/history?days=${days}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to fetch forecast history for ${districtId}`);
+  return await res.json();
+}
+
+/**
+ * Fetch global feature importance report
+ */
+export async function fetchFeatureImportance() {
+  assertApiConfigured();
+  const res = await fetch(`${API_BASE_URL}/model/feature-importance`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to fetch model feature importance`);
+  return await res.json();
+}
+
+/**
  * Fetch active weather alerts
  */
 export async function fetchActiveAlerts() {

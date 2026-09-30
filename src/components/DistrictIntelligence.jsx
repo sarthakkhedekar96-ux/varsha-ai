@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { WEATHER_REGIMES, getRegimeInfo } from '../data/regimes';
 import { INDIA_DISTRICTS_57, getDistrictMeta } from '../data/districtMaster';
-import { fetchDistrictForecast, useDistricts } from '../api/client';
+import { fetchDistrictForecast, fetchDistrictForecastHistory, fetchFeatureImportance, useDistricts } from '../api/client';
 import { simulateHypotheticalScenario } from '../data/apiClient';
 import { 
   CloudRain, 
@@ -40,6 +40,19 @@ import {
   ShieldCheck,
   RefreshCw
 } from 'lucide-react';
+import { 
+  ResponsiveContainer, 
+  BarChart, 
+  Bar, 
+  LineChart, 
+  Line, 
+  XAxis, 
+  YAxis, 
+  Tooltip, 
+  Legend, 
+  CartesianGrid, 
+  Cell 
+} from 'recharts';
 import DistrictBulletin from './DistrictBulletin';
 import ForecastProgression from './ForecastProgression';
 
@@ -94,8 +107,8 @@ const NAV_SECTIONS = [
   { id: 'sec-provenance', label: 'Provenance' },
   { id: 'sec-lineage', label: 'Lineage' },
   { id: 'sec-whatif', label: 'What-If Sim' },
-  { id: 'sec-xai', label: 'XAI Attribution' },
-  { id: 'sec-timeline', label: 'Timeline' }
+  { id: 'sec-xai', label: 'Feature Importance' },
+  { id: 'sec-timeline', label: '14-Day History' }
 ];
 
 export default function DistrictIntelligence({ selectedDistrictId, onSelectDistrict }) {
@@ -107,10 +120,20 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
   const [error, setError] = useState(null);
   const [showWakeupNotice, setShowWakeupNotice] = useState(false);
 
+  // Global Feature Importance State
+  const [featureImportance, setFeatureImportance] = useState(null);
+  const [fiLoading, setFiLoading] = useState(true);
+  const [fiError, setFiError] = useState(null);
+
+  // Recent 14-Day History State
+  const [forecastHistory, setForecastHistory] = useState(null);
+  const [historyLoading, setHistoryLoading] = useState(true);
+  const [historyError, setHistoryError] = useState(null);
+
   // 5-second timer for waking up server notice
   useEffect(() => {
     let timer = null;
-    if (loading) {
+    if (loading || fiLoading || historyLoading) {
       timer = setTimeout(() => {
         setShowWakeupNotice(true);
       }, 5000);
@@ -120,7 +143,7 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
     return () => {
       if (timer) clearTimeout(timer);
     };
-  }, [loading]);
+  }, [loading, fiLoading, historyLoading]);
 
   // Search combobox state
   const [searchQuery, setSearchQuery] = useState('');
@@ -175,9 +198,85 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
     }
   }, []);
 
+  // Load Global Feature Importance
+  const loadGlobalFeatureImportance = useCallback(async () => {
+    setFiLoading(true);
+    setFiError(null);
+    try {
+      const data = await fetchFeatureImportance();
+      if (Array.isArray(data)) {
+        const sorted = [...data]
+          .sort((a, b) => (b.importance_mean || 0) - (a.importance_mean || 0))
+          .slice(0, 10)
+          .map(item => {
+            const nameMap = {
+              'raw_gfs_rainfall_mm': 'Raw GFS Guidance',
+              'previous_1day_rainfall': 'Prev 1-Day Rain',
+              'latitude': 'Latitude (°N)',
+              'previous_7day_rainfall': 'Prev 7-Day Rain',
+              'rolling_3day_mean': 'Rolling 3-Day Mean',
+              'rolling_7day_mean': 'Rolling 7-Day Mean',
+              'previous_3day_rainfall': 'Prev 3-Day Rain',
+              'regime_encoded': 'Synoptic Regime',
+              'elevation': 'Elevation (m MSL)',
+              'longitude': 'Longitude (°E)',
+              'day_of_year': 'Day of Year',
+              'month': 'Calendar Month'
+            };
+            return {
+              feature: item.feature,
+              label: nameMap[item.feature] || item.feature,
+              importance_mean: Number(item.importance_mean || 0),
+              importance_pct: Number(((item.importance_mean || 0) * 100).toFixed(1)),
+              importance_std: Number(item.importance_std || 0)
+            };
+          });
+        setFeatureImportance(sorted);
+      } else {
+        setFeatureImportance(null);
+      }
+    } catch (err) {
+      console.warn('[DistrictIntelligence] Feature importance error:', err);
+      setFiError(err.message || 'Failed to load feature importance');
+      setFeatureImportance(null);
+    } finally {
+      setFiLoading(false);
+    }
+  }, []);
+
+  // Load 14-day history series
+  const loadForecastHistory = useCallback(async (distId) => {
+    setHistoryLoading(true);
+    setHistoryError(null);
+    try {
+      const res = await fetchDistrictForecastHistory(distId, 14);
+      if (res && Array.isArray(res.history) && res.history.length > 0) {
+        // Format date for chart axis: MM-DD
+        const formatted = res.history.map(item => ({
+          ...item,
+          shortDate: item.date ? item.date.slice(5) : ''
+        }));
+        setForecastHistory(formatted);
+      } else {
+        setForecastHistory(null);
+      }
+    } catch (err) {
+      console.warn('[DistrictIntelligence] History load error:', err);
+      setHistoryError(err.message || 'Failed to load forecast history');
+      setForecastHistory(null);
+    } finally {
+      setHistoryLoading(false);
+    }
+  }, []);
+
   useEffect(() => {
     loadForecast(normSelectedId);
-  }, [normSelectedId, loadForecast]);
+    loadForecastHistory(normSelectedId);
+  }, [normSelectedId, loadForecast, loadForecastHistory]);
+
+  useEffect(() => {
+    loadGlobalFeatureImportance();
+  }, [loadGlobalFeatureImportance]);
 
   // Sync URL query param (?district=pune) without reloads
   const handleSelectDistrict = (distId) => {
@@ -1289,54 +1388,254 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
           ========================================================================= */}
       <section id="sec-xai" className="portal-card" style={{ padding: '24px', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
         
-        <div>
-          <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--navy)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <Zap style={{ width: '18px', height: '18px', color: 'var(--blue)' }} />
-            Explainable AI (XAI) &amp; Feature Attribution
-          </h2>
-          <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '4px 0 0 0' }}>
-            Additive SHAP feature contributions decomposing the correction delta
-          </p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '8px' }}>
+          <div>
+            <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--navy)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Zap style={{ width: '18px', height: '18px', color: 'var(--blue)' }} />
+              Global Feature Importance (all districts)
+            </h2>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '4px 0 0 0' }}>
+              Model-level importance from training, not a per-district SHAP explanation.
+            </p>
+          </div>
+          <span className="badge badge-info" style={{ fontSize: '0.6875rem', fontWeight: 700 }}>
+            Offline Training Permutation Importance
+          </span>
         </div>
 
-        {/* Clean Empty State if no raw SHAP array from backend */}
-        <div style={{ padding: '28px 20px', textAlign: 'center', background: 'var(--surface-muted)', borderRadius: '8px', border: '1px solid var(--border)' }}>
-          <Info style={{ width: '28px', height: '28px', color: 'var(--blue)', margin: '0 auto 8px auto' }} />
-          <h4 style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--navy)', margin: '0 0 4px 0' }}>
-            Fine-Grained SHAP Attribution Not Available For This Lineage Run
-          </h4>
-          <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', maxWidth: '480px', margin: '0 auto' }}>
-            Feature-level Shapley additive explanations are computed during full offline model training and are not serialized in the lightweight operational forecast stream.
-          </p>
-        </div>
+        {/* Loading State with Skeleton */}
+        {fiLoading ? (
+          <div style={{ padding: '24px 0', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <div className="skeleton-box" style={{ height: '24px', width: '40%' }} />
+            <div className="skeleton-box" style={{ height: '280px', width: '100%', borderRadius: '8px' }} />
+            {showWakeupNotice && (
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontStyle: 'italic', textAlign: 'center', marginTop: '4px' }}>
+                Waking up the server, this can take up to a minute on first load...
+              </div>
+            )}
+          </div>
+        ) : fiError ? (
+          /* Error State with Retry */
+          <div style={{ padding: '24px 20px', textAlign: 'center', background: '#FEF2F2', borderRadius: '8px', border: '1px solid #FCA5A5' }}>
+            <AlertTriangle style={{ width: '28px', height: '28px', color: '#DC2626', margin: '0 auto 8px auto' }} />
+            <h4 style={{ fontSize: '0.875rem', fontWeight: 700, color: '#991B1B', margin: '0 0 4px 0' }}>
+              Failed to load global feature importance
+            </h4>
+            <p style={{ fontSize: '0.75rem', color: '#B91C1C', maxWidth: '480px', margin: '0 auto 12px auto' }}>
+              {fiError}
+            </p>
+            <button
+              onClick={loadGlobalFeatureImportance}
+              className="btn-secondary"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '6px 14px', fontSize: '0.75rem' }}
+            >
+              <RefreshCw style={{ width: '12px', height: '12px' }} />
+              Retry
+            </button>
+          </div>
+        ) : featureImportance && featureImportance.length > 0 ? (
+          /* Horizontal Bar Chart (Recharts) */
+          <div>
+            <div style={{ width: '100%', height: 320 }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  layout="vertical"
+                  data={featureImportance}
+                  margin={{ top: 5, right: 30, left: 40, bottom: 5 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="var(--border)" />
+                  <XAxis 
+                    type="number" 
+                    unit="%" 
+                    domain={[0, 'dataMax + 5']}
+                    tick={{ fontSize: 11, fill: 'var(--text-secondary)' }}
+                  />
+                  <YAxis 
+                    type="category" 
+                    dataKey="label" 
+                    width={130}
+                    tick={{ fontSize: 11, fill: 'var(--text-primary)', fontWeight: 600 }}
+                  />
+                  <Tooltip
+                    formatter={(val, name, item) => [
+                      `${val}% (±${(item.payload.importance_std * 100).toFixed(1)}%)`,
+                      'Mean Relative Importance'
+                    ]}
+                    contentStyle={{
+                      backgroundColor: 'var(--surface)',
+                      borderColor: 'var(--border)',
+                      borderRadius: '8px',
+                      fontSize: '0.75rem',
+                      boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
+                    }}
+                  />
+                  <Bar 
+                    dataKey="importance_pct" 
+                    fill="var(--blue)" 
+                    radius={[0, 4, 4, 0]}
+                    name="Importance (%)"
+                  >
+                    {featureImportance.map((entry, index) => (
+                      <Cell 
+                        key={`cell-${index}`} 
+                        fill={index === 0 ? '#1D4ED8' : index < 3 ? '#2563EB' : index < 6 ? '#3B82F6' : '#60A5FA'} 
+                      />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px', fontSize: '0.6875rem', color: 'var(--text-muted)' }}>
+              <span>Top predictor: <strong>{featureImportance[0]?.label} ({featureImportance[0]?.importance_pct}%)</strong></span>
+              <span>Source: <code>reports/feature_importance.json</code></span>
+            </div>
+          </div>
+        ) : (
+          /* Empty State fallback */
+          <div style={{ padding: '28px 20px', textAlign: 'center', background: 'var(--surface-muted)', borderRadius: '8px', border: '1px solid var(--border)' }}>
+            <Info style={{ width: '28px', height: '28px', color: 'var(--blue)', margin: '0 auto 8px auto' }} />
+            <h4 style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--navy)', margin: '0 0 4px 0' }}>
+              Global Feature Importance Not Available
+            </h4>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', maxWidth: '480px', margin: '0 auto' }}>
+              Feature importance telemetry report was not found on the active server instance.
+            </p>
+          </div>
+        )}
 
       </section>
 
       {/* =========================================================================
-          SECTION 10: FORECAST EVOLUTION TIMELINE
+          SECTION 10: FORECAST EVOLUTION / RECENT 14-DAY HISTORY
           ========================================================================= */}
       <section id="sec-timeline" className="portal-card" style={{ padding: '24px', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
         
-        <div>
-          <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--navy)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <Clock style={{ width: '18px', height: '18px', color: 'var(--blue)' }} />
-            Forecast Evolution &amp; Multi-Cycle Progression (T-24h to T-0)
-          </h2>
-          <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '4px 0 0 0' }}>
-            Evolution of numerical guidance across sub-daily initialization cycles
-          </p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '8px' }}>
+          <div>
+            <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--navy)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Clock style={{ width: '18px', height: '18px', color: 'var(--blue)' }} />
+              Recent Forecast vs Reference (last 14 days)
+            </h2>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '4px 0 0 0' }}>
+              Daily replay values; sub-daily cycles are not available from gfs_seamless.
+            </p>
+          </div>
+          <span className="badge badge-info" style={{ fontSize: '0.6875rem', fontWeight: 700 }}>
+            14-Day Replay Window &bull; {districtName}
+          </span>
         </div>
 
-        {/* Clean Empty State as requested */}
-        <div style={{ padding: '28px 20px', textAlign: 'center', background: 'var(--surface-muted)', borderRadius: '8px', border: '1px solid var(--border)' }}>
-          <Clock style={{ width: '28px', height: '28px', color: 'var(--slate-400)', margin: '0 auto 8px auto' }} />
-          <h4 style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--navy)', margin: '0 0 4px 0' }}>
-            Not Available For This Lineage
-          </h4>
-          <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', maxWidth: '480px', margin: '0 auto' }}>
-            The operational dataset utilizes aggregated daily time-series guidance (models=gfs_seamless) and does not preserve separate historical sub-daily initialization cycles.
-          </p>
-        </div>
+        {/* Loading State */}
+        {historyLoading ? (
+          <div style={{ padding: '24px 0', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <div className="skeleton-box" style={{ height: '24px', width: '40%' }} />
+            <div className="skeleton-box" style={{ height: '260px', width: '100%', borderRadius: '8px' }} />
+            {showWakeupNotice && (
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontStyle: 'italic', textAlign: 'center', marginTop: '4px' }}>
+                Waking up the server, this can take up to a minute on first load...
+              </div>
+            )}
+          </div>
+        ) : historyError ? (
+          /* Error State with Retry */
+          <div style={{ padding: '24px 20px', textAlign: 'center', background: '#FEF2F2', borderRadius: '8px', border: '1px solid #FCA5A5' }}>
+            <AlertTriangle style={{ width: '28px', height: '28px', color: '#DC2626', margin: '0 auto 8px auto' }} />
+            <h4 style={{ fontSize: '0.875rem', fontWeight: 700, color: '#991B1B', margin: '0 0 4px 0' }}>
+              Failed to load 14-day forecast history
+            </h4>
+            <p style={{ fontSize: '0.75rem', color: '#B91C1C', maxWidth: '480px', margin: '0 auto 12px auto' }}>
+              {historyError}
+            </p>
+            <button
+              onClick={() => loadForecastHistory(normSelectedId)}
+              className="btn-secondary"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '6px 14px', fontSize: '0.75rem' }}
+            >
+              <RefreshCw style={{ width: '12px', height: '12px' }} />
+              Retry
+            </button>
+          </div>
+        ) : forecastHistory && forecastHistory.length > 0 ? (
+          /* Recharts 3-Series Line Chart */
+          <div>
+            <div style={{ width: '100%', height: 280 }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart
+                  data={forecastHistory}
+                  margin={{ top: 10, right: 20, left: 0, bottom: 5 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
+                  <XAxis 
+                    dataKey="shortDate" 
+                    tick={{ fontSize: 11, fill: 'var(--text-secondary)' }}
+                  />
+                  <YAxis 
+                    unit=" mm" 
+                    tick={{ fontSize: 11, fill: 'var(--text-secondary)' }}
+                  />
+                  <Tooltip
+                    formatter={(val, name) => [`${val} mm`, name]}
+                    labelFormatter={(label, items) => {
+                      const dateStr = items?.[0]?.payload?.date || label;
+                      return `Date: ${dateStr}`;
+                    }}
+                    contentStyle={{
+                      backgroundColor: 'var(--surface)',
+                      borderColor: 'var(--border)',
+                      borderRadius: '8px',
+                      fontSize: '0.75rem',
+                      boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
+                    }}
+                  />
+                  <Legend 
+                    wrapperStyle={{ fontSize: '0.75rem', paddingTop: '10px' }}
+                  />
+                  <Line 
+                    type="monotone" 
+                    dataKey="raw_gfs_rainfall_mm" 
+                    name="Raw GFS" 
+                    stroke="#94A3B8" 
+                    strokeWidth={2} 
+                    strokeDasharray="4 4" 
+                    dot={{ r: 3, fill: '#94A3B8' }} 
+                  />
+                  <Line 
+                    type="monotone" 
+                    dataKey="corrected_rainfall_mm" 
+                    name="VARSHA AI V2" 
+                    stroke="#2563EB" 
+                    strokeWidth={2.5} 
+                    dot={{ r: 4, fill: '#2563EB' }} 
+                    activeDot={{ r: 6 }} 
+                  />
+                  <Line 
+                    type="monotone" 
+                    dataKey="observed_reference_mm" 
+                    name="ERA5 reference" 
+                    stroke="#10B981" 
+                    strokeWidth={2} 
+                    dot={{ r: 3, fill: '#10B981' }} 
+                  />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '8px', fontSize: '0.6875rem', color: 'var(--text-muted)' }}>
+              <span>Span: <strong>{forecastHistory[0]?.date}</strong> to <strong>{forecastHistory[forecastHistory.length - 1]?.date}</strong></span>
+              <span>Dataset: Canonical operational time-series (14-day window)</span>
+            </div>
+          </div>
+        ) : (
+          /* Clean Empty State as requested */
+          <div style={{ padding: '28px 20px', textAlign: 'center', background: 'var(--surface-muted)', borderRadius: '8px', border: '1px solid var(--border)' }}>
+            <Clock style={{ width: '28px', height: '28px', color: 'var(--slate-400)', margin: '0 auto 8px auto' }} />
+            <h4 style={{ fontSize: '0.875rem', fontWeight: 700, color: 'var(--navy)', margin: '0 0 4px 0' }}>
+              Forecast History Not Available For This District
+            </h4>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', maxWidth: '480px', margin: '0 auto' }}>
+              No historical daily replay records found in the canonical dataset for {districtName}.
+            </p>
+          </div>
+        )}
 
       </section>
 

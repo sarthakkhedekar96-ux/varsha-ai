@@ -334,6 +334,72 @@ def get_district_comparison(district_id: str):
         "observed_reference_mm": fc['observed_reference_mm']
     }
 
+@app.get("/api/forecast/{district_id}/history")
+def get_district_forecast_history(district_id: str, days: int = Query(default=14, ge=1, le=60)):
+    """Returns historical daily replay series for a district: Raw GFS, VARSHA AI V2, and ERA5 reference."""
+    import urllib.parse
+    decoded_id = urllib.parse.unquote(district_id)
+    norm_id = normalize_district_name(decoded_id)
+    meta = get_district_metadata(norm_id)
+    
+    df = load_canonical_data()
+    dist_df = df[df['district_key'] == norm_id].copy()
+    if dist_df.empty:
+        raise HTTPException(status_code=404, detail=f"District {district_id} not found in database.")
+        
+    dist_df['date_dt'] = pd.to_datetime(dist_df['date'])
+    dist_df = dist_df.sort_values('date_dt').tail(days)
+    
+    history_records = []
+    for _, row in dist_df.iterrows():
+        nwp = float(row.get('raw_gfs_rainfall_mm', row.get('raw_forecast_rainfall_mm', 0.0)))
+        observed_ref = float(row.get('era5_land_reference_rainfall_mm', row.get('observed_rainfall_mm', 0.0)))
+        
+        # Build feature dict for v2 inference
+        feat = {
+            'district': meta['name'],
+            'forecast_date': str(row['date'])[:10],
+            'raw_gfs_rainfall_mm': nwp,
+            'previous_1day_rainfall': float(row.get('previous_1day_rainfall', 0.0)),
+            'previous_3day_rainfall': float(row.get('previous_3day_rainfall', 0.0)),
+            'previous_7day_rainfall': float(row.get('previous_7day_rainfall', 0.0)),
+            'rolling_3day_mean': float(row.get('rolling_3day_mean', 0.0)),
+            'rolling_7day_mean': float(row.get('rolling_7day_mean', 0.0)),
+            'latitude': meta['lat'],
+            'longitude': meta['lng'],
+            'elevation': meta['elevation'],
+            'day_of_year': datetime.strptime(str(row['date'])[:10], "%Y-%m-%d").timetuple().tm_yday,
+            'month': datetime.strptime(str(row['date'])[:10], "%Y-%m-%d").month,
+            'terrain': meta['terrain']
+        }
+        pred = v2_service.predict(feat)
+        
+        history_records.append({
+            "date": str(row['date'])[:10],
+            "raw_gfs_rainfall_mm": round(nwp, 1),
+            "corrected_rainfall_mm": round(float(pred['corrected_rainfall_mm']), 1),
+            "observed_reference_mm": round(observed_ref, 1),
+            "regime": pred["regime"],
+            "regime_readable": pred["regime_readable"]
+        })
+        
+    return {
+        "district_id": norm_id,
+        "district_name": meta['name'],
+        "days": len(history_records),
+        "history": history_records
+    }
+
+@app.get("/api/model/feature-importance")
+def get_model_feature_importance():
+    """Returns global feature importance report from training."""
+    fi_path = os.path.join(REPORTS_DIR, "feature_importance.json")
+    if not os.path.exists(fi_path):
+        raise HTTPException(status_code=404, detail="Feature importance report not found.")
+    with open(fi_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
+
 @app.get("/api/regime/current")
 def get_current_regimes():
     return {
