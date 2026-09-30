@@ -747,3 +747,20 @@ h4 { font-size: 0.9rem;  font-weight: 600; color: var(--text-secondary); line-he
   h2 { font-size: 1.1rem; }
   h3 { font-size: 0.95rem; }
 }
+
+/* ============================================================
+   SKELETON LOADER ANIMATIONS
+   ============================================================ */
+@keyframes skeleton-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton-box {
+  display: inline-block;
+  background: linear-gradient(90deg, #E2E8F0 25%, #F1F5F9 37%, #E2E8F0 63%);
+  background-size: 400% 100%;
+  animation: skeleton-shimmer 1.4s ease infinite;
+  border-radius: 4px;
+}
+

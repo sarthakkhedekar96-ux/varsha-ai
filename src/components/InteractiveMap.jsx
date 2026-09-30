@@ -135,6 +135,24 @@ export default function InteractiveMap({ onSelectDistrict }) {
   const [loadingTelemetry, setLoadingTelemetry] = useState(true);
   const [loadError, setLoadError] = useState(null);
   const [loadMetrics, setLoadMetrics] = useState(null);
+  const [showWakeupNotice, setShowWakeupNotice] = useState(false);
+
+  const isMapLoading = loadingBoundaries || loadingTelemetry;
+
+  // 5-second timer for waking up server notice
+  useEffect(() => {
+    let timer = null;
+    if (isMapLoading) {
+      timer = setTimeout(() => {
+        setShowWakeupNotice(true);
+      }, 5000);
+    } else {
+      setShowWakeupNotice(false);
+    }
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [isMapLoading]);
 
   // Search & Filter
   const [searchQuery, setSearchQuery] = useState('');
@@ -418,6 +436,29 @@ export default function InteractiveMap({ onSelectDistrict }) {
   return (
     <div className="portal-container space-y-5" style={{ paddingBottom: '32px' }}>
       
+      {/* 5-Second Server Wakeup Notice */}
+      {showWakeupNotice && (
+        <div className="info-banner" style={{ background: '#EFF6FF', borderColor: '#93C5FD', color: '#1E40AF', display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <RefreshCw style={{ width: '16px', height: '16px', animation: 'spin 1.5s linear infinite', flexShrink: 0 }} />
+          <span style={{ fontSize: '0.8125rem', fontWeight: 600 }}>
+            Waking up the server, this can take up to a minute on first load.
+          </span>
+        </div>
+      )}
+
+      {/* Map Load Error Banner with Retry */}
+      {loadError && (
+        <div className="portal-card" style={{ background: '#FEF2F2', border: '1px solid #F87171', padding: '14px 18px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#991B1B', fontWeight: 600, fontSize: '0.8125rem' }}>
+            <AlertTriangle style={{ width: '16px', height: '16px', color: '#DC2626', flexShrink: 0 }} />
+            <span>Failed to load map telemetry: {loadError}</span>
+          </div>
+          <button onClick={initMapData} className="btn-primary" style={{ fontSize: '0.75rem', padding: '6px 14px' }}>
+            <RefreshCw style={{ width: '12px', height: '12px' }} /> Retry
+          </button>
+        </div>
+      )}
+
       {/* 1. Header with Layer Switcher & Performance Telemetry Badge */}
       <div className="glass-panel p-4" style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '8px', boxShadow: 'var(--shadow-sm)' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -1141,17 +1182,21 @@ export default function InteractiveMap({ onSelectDistrict }) {
               </p>
             </div>
 
-            <span className={`badge ${
-              activeDistrictData.heavy_rain_alert || activeDistrictData.riskLevel === 'CRITICAL'
-                ? 'badge-critical'
-                : activeDistrictData.riskLevel === 'HIGH'
-                  ? 'badge-warning'
-                  : activeDistrictData.riskLevel === 'MODERATE'
-                    ? 'badge-watch'
-                    : 'badge-normal'
-            }`}>
-              {activeDistrictData.heavy_rain_alert ? 'ALERT TRIGGERED' : activeDistrictData.riskLevel}
-            </span>
+            {loadingTelemetry || !telemetryMap[selectedDistrictId.toLowerCase()] ? (
+              <span className="skeleton-box" style={{ width: '70px', height: '20px', borderRadius: '12px' }}></span>
+            ) : (
+              <span className={`badge ${
+                activeDistrictData.heavy_rain_alert || activeDistrictData.riskLevel === 'CRITICAL'
+                  ? 'badge-critical'
+                  : activeDistrictData.riskLevel === 'HIGH'
+                    ? 'badge-warning'
+                    : activeDistrictData.riskLevel === 'MODERATE'
+                      ? 'badge-watch'
+                      : 'badge-normal'
+              }`}>
+                {activeDistrictData.heavy_rain_alert ? 'ALERT TRIGGERED' : activeDistrictData.riskLevel}
+              </span>
+            )}
           </div>
 
           {/* 3 Metric Tiles Grid: Raw GFS | VARSHA AI V2 | Correction Lens Delta */}
@@ -1162,7 +1207,11 @@ export default function InteractiveMap({ onSelectDistrict }) {
                 Raw GFS
               </div>
               <div style={{ fontSize: '1.15rem', fontWeight: 800, fontFamily: 'var(--font-mono)', color: 'var(--text-primary)', marginTop: '2px' }}>
-                {activeDistrictData.nwpForecast.toFixed(1)}
+                {loadingTelemetry || !telemetryMap[selectedDistrictId.toLowerCase()] ? (
+                  <span className="skeleton-box" style={{ width: '45px', height: '18px' }}></span>
+                ) : (
+                  activeDistrictData.nwpForecast.toFixed(1)
+                )}
               </div>
               <div style={{ fontSize: '0.625rem', color: 'var(--text-muted)' }}>mm/24h</div>
             </div>
@@ -1172,7 +1221,11 @@ export default function InteractiveMap({ onSelectDistrict }) {
                 VARSHA AI V2
               </div>
               <div style={{ fontSize: '1.25rem', fontWeight: 800, fontFamily: 'var(--font-mono)', color: 'var(--blue)', marginTop: '2px' }}>
-                {activeDistrictData.aiCorrected.toFixed(1)}
+                {loadingTelemetry || !telemetryMap[selectedDistrictId.toLowerCase()] ? (
+                  <span className="skeleton-box" style={{ width: '45px', height: '18px' }}></span>
+                ) : (
+                  activeDistrictData.aiCorrected.toFixed(1)
+                )}
               </div>
               <div style={{ fontSize: '0.625rem', color: 'var(--blue)', fontWeight: 600 }}>mm/24h</div>
             </div>
@@ -1188,7 +1241,11 @@ export default function InteractiveMap({ onSelectDistrict }) {
                 color: activeDistrictData.delta > 0 ? 'var(--red)' : 'var(--green)', 
                 marginTop: '2px' 
               }}>
-                {activeDistrictData.delta > 0 ? '+' : ''}{activeDistrictData.delta.toFixed(1)}
+                {loadingTelemetry || !telemetryMap[selectedDistrictId.toLowerCase()] ? (
+                  <span className="skeleton-box" style={{ width: '45px', height: '18px' }}></span>
+                ) : (
+                  `${activeDistrictData.delta > 0 ? '+' : ''}${activeDistrictData.delta.toFixed(1)}`
+                )}
               </div>
               <div style={{ fontSize: '0.625rem', color: 'var(--text-muted)' }}>mm</div>
             </div>
@@ -1201,7 +1258,11 @@ export default function InteractiveMap({ onSelectDistrict }) {
               {LAYERS_CONFIG.find(l => l.id === activeLayer)?.label}:
             </span>
             <span style={{ fontFamily: 'var(--font-mono)', fontWeight: 800, fontSize: '0.875rem', color: '#00F2FE' }}>
-              {getLayerValueLabel(activeDistrictData)}
+              {loadingTelemetry || !telemetryMap[selectedDistrictId.toLowerCase()] ? (
+                <span className="skeleton-box" style={{ width: '60px', height: '16px' }}></span>
+              ) : (
+                getLayerValueLabel(activeDistrictData)
+              )}
             </span>
           </div>
 
@@ -1219,7 +1280,11 @@ export default function InteractiveMap({ onSelectDistrict }) {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
               <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>Calibrated Probability:</span>
               <span style={{ fontFamily: 'var(--font-mono)', fontWeight: 800, fontSize: '0.875rem', color: activeDistrictData.heavy_rain_alert ? 'var(--red)' : 'var(--amber)' }}>
-                {(activeDistrictData.heavy_rain_probability * 100).toFixed(1)}%
+                {loadingTelemetry || !telemetryMap[selectedDistrictId.toLowerCase()] ? (
+                  <span className="skeleton-box" style={{ width: '40px', height: '16px' }}></span>
+                ) : (
+                  `${(activeDistrictData.heavy_rain_probability * 100).toFixed(1)}%`
+                )}
               </span>
             </div>
 
@@ -1230,7 +1295,7 @@ export default function InteractiveMap({ onSelectDistrict }) {
                   height: '100%',
                   borderRadius: '4px',
                   background: activeDistrictData.heavy_rain_alert ? 'var(--red)' : 'var(--amber)',
-                  width: `${Math.min(100, Math.max(2, activeDistrictData.heavy_rain_probability * 100))}%`,
+                  width: `${loadingTelemetry || !telemetryMap[selectedDistrictId.toLowerCase()] ? 0 : Math.min(100, Math.max(2, activeDistrictData.heavy_rain_probability * 100))}%`,
                   transition: 'width 0.3s ease'
                 }}
               ></div>

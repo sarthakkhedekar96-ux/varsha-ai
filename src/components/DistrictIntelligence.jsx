@@ -105,6 +105,22 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
   const [apiData, setApiData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [showWakeupNotice, setShowWakeupNotice] = useState(false);
+
+  // 5-second timer for waking up server notice
+  useEffect(() => {
+    let timer = null;
+    if (loading) {
+      timer = setTimeout(() => {
+        setShowWakeupNotice(true);
+      }, 5000);
+    } else {
+      setShowWakeupNotice(false);
+    }
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [loading]);
 
   // Search combobox state
   const [searchQuery, setSearchQuery] = useState('');
@@ -312,6 +328,16 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', maxWidth: '1280px', margin: '0 auto', paddingBottom: '96px' }}>
       
+      {/* 5-Second Server Wakeup Notice */}
+      {showWakeupNotice && (
+        <div className="info-banner" style={{ background: '#EFF6FF', borderColor: '#93C5FD', color: '#1E40AF', display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <RefreshCw style={{ width: '16px', height: '16px', animation: 'spin 1.5s linear infinite', flexShrink: 0 }} />
+          <span style={{ fontSize: '0.8125rem', fontWeight: 600 }}>
+            Waking up the server, this can take up to a minute on first load.
+          </span>
+        </div>
+      )}
+
       {/* =========================================================================
           SECTION 1: DISTRICT HEADER & CONTROLS
           ========================================================================= */}
@@ -589,7 +615,7 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
               Raw GFS 0.25° Forecast
             </span>
             <div className="font-mono" style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1.1 }}>
-              {loading ? '...' : fmtMm(rawGfs)}
+              {loading ? <span className="skeleton-box" style={{ width: '130px', height: '36px' }}></span> : fmtMm(rawGfs)}
             </div>
             <span style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>
               NOAA Operational Guidance
@@ -605,7 +631,7 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
               <Sparkles style={{ width: '16px', height: '16px', color: 'var(--blue)' }} />
             </div>
             <div className="font-mono" style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--blue)', lineHeight: 1.1 }}>
-              {loading ? '...' : fmtMm(aiCorrected)}
+              {loading ? <span className="skeleton-box" style={{ width: '130px', height: '36px' }}></span> : fmtMm(aiCorrected)}
             </div>
             <span style={{ fontSize: '0.6875rem', color: 'var(--navy)', fontWeight: 600 }}>
               Two-Stage Gated ML Output
@@ -635,10 +661,10 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
               )}
             </div>
             <div className="font-mono" style={{ fontSize: '2.25rem', fontWeight: 800, color: delta > 0 ? '#DC2626' : (delta < 0 ? '#2563EB' : 'var(--text-primary)'), lineHeight: 1.1 }}>
-              {loading ? '...' : (delta > 0 ? `+${delta.toFixed(1)} mm` : `${delta.toFixed(1)} mm`)}
+              {loading ? <span className="skeleton-box" style={{ width: '130px', height: '36px' }}></span> : (delta > 0 ? `+${delta.toFixed(1)} mm` : `${delta.toFixed(1)} mm`)}
             </div>
             <span style={{ fontSize: '0.6875rem', fontWeight: 600, color: delta > 0 ? '#991B1B' : '#1E40AF' }}>
-              {delta > 0 ? `+${Math.round(deltaPct)}% uplift over NWP` : `${Math.round(deltaPct)}% adjustment`}
+              {loading ? '' : (delta > 0 ? `+${Math.round(deltaPct)}% uplift over NWP` : `${Math.round(deltaPct)}% adjustment`)}
             </span>
           </div>
 
@@ -736,14 +762,20 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
               <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>Stage 1 Binary Occurrence Gate</div>
             </div>
             <div style={{ position: 'relative', width: '100%', height: '10px', background: '#E2E8F0', borderRadius: '5px' }}>
-              <div style={{ height: '100%', width: `${occurrenceProb}%`, background: occurrenceProb >= 60 ? 'var(--blue)' : 'var(--slate-400)', borderRadius: '5px' }}></div>
+              <div style={{ height: '100%', width: `${loading ? 0 : occurrenceProb}%`, background: occurrenceProb >= 60 ? 'var(--blue)' : 'var(--slate-400)', borderRadius: '5px' }}></div>
               <div style={{ position: 'absolute', left: '60%', top: '-3px', width: '2px', height: '16px', background: 'var(--navy)' }} title="tau = 0.60"></div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', minWidth: '120px', justifyContent: 'flex-end' }}>
-              <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: 'var(--navy)' }}>{fmtPct(occurrenceProb)}</span>
-              <span className={`badge ${occurrenceProb >= 60 ? 'badge-normal' : 'badge-muted'}`} style={{ fontSize: '0.625rem' }}>
-                {occurrenceProb >= 60 ? 'PASSED' : 'BELOW'}
-              </span>
+              {loading ? (
+                <span className="skeleton-box" style={{ width: '45px', height: '18px' }}></span>
+              ) : (
+                <>
+                  <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: 'var(--navy)' }}>{fmtPct(occurrenceProb)}</span>
+                  <span className={`badge ${occurrenceProb >= 60 ? 'badge-normal' : 'badge-muted'}`} style={{ fontSize: '0.625rem' }}>
+                    {occurrenceProb >= 60 ? 'PASSED' : 'BELOW'}
+                  </span>
+                </>
+              )}
             </div>
           </div>
 
@@ -754,15 +786,21 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
               <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>Moderate Surge Condition</div>
             </div>
             <div style={{ position: 'relative', width: '100%', height: '10px', background: '#E2E8F0', borderRadius: '5px' }}>
-              <div style={{ height: '100%', width: `${Math.min(occurrenceProb, Math.round(heavyProb * 1.3))}%`, background: 'var(--blue)', borderRadius: '5px' }}></div>
+              <div style={{ height: '100%', width: `${loading ? 0 : Math.min(occurrenceProb, Math.round(heavyProb * 1.3))}%`, background: 'var(--blue)', borderRadius: '5px' }}></div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', minWidth: '120px', justifyContent: 'flex-end' }}>
-              <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: 'var(--navy)' }}>
-                {fmtPct(Math.min(occurrenceProb, Math.round(heavyProb * 1.3)))}
-              </span>
-              <span className="badge badge-info" style={{ fontSize: '0.625rem' }}>
-                {aiCorrected >= 35.5 ? 'ACTIVE' : 'NOMINAL'}
-              </span>
+              {loading ? (
+                <span className="skeleton-box" style={{ width: '45px', height: '18px' }}></span>
+              ) : (
+                <>
+                  <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: 'var(--navy)' }}>
+                    {fmtPct(Math.min(occurrenceProb, Math.round(heavyProb * 1.3)))}
+                  </span>
+                  <span className="badge badge-info" style={{ fontSize: '0.625rem' }}>
+                    {aiCorrected >= 35.5 ? 'ACTIVE' : 'NOMINAL'}
+                  </span>
+                </>
+              )}
             </div>
           </div>
 
@@ -773,14 +811,20 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
               <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>Heavy Rain Operational Gate (&tau;<sub>heavy</sub> = 0.20)</div>
             </div>
             <div style={{ position: 'relative', width: '100%', height: '10px', background: '#E2E8F0', borderRadius: '5px' }}>
-              <div style={{ height: '100%', width: `${heavyProb}%`, background: heavyAlert ? 'var(--red)' : 'var(--blue)', borderRadius: '5px' }}></div>
+              <div style={{ height: '100%', width: `${loading ? 0 : heavyProb}%`, background: heavyAlert ? 'var(--red)' : 'var(--blue)', borderRadius: '5px' }}></div>
               <div style={{ position: 'absolute', left: '20%', top: '-3px', width: '2px', height: '16px', background: '#DC2626' }} title="tau_heavy = 0.20"></div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', minWidth: '120px', justifyContent: 'flex-end' }}>
-              <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: heavyAlert ? 'var(--red)' : 'var(--navy)' }}>{fmtPct(heavyProb)}</span>
-              <span className={`badge ${heavyAlert ? 'badge-critical' : 'badge-muted'}`} style={{ fontSize: '0.625rem' }}>
-                {heavyAlert ? 'TRIGGERED' : 'BELOW GATE'}
-              </span>
+              {loading ? (
+                <span className="skeleton-box" style={{ width: '45px', height: '18px' }}></span>
+              ) : (
+                <>
+                  <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: heavyAlert ? 'var(--red)' : 'var(--navy)' }}>{fmtPct(heavyProb)}</span>
+                  <span className={`badge ${heavyAlert ? 'badge-critical' : 'badge-muted'}`} style={{ fontSize: '0.625rem' }}>
+                    {heavyAlert ? 'TRIGGERED' : 'BELOW GATE'}
+                  </span>
+                </>
+              )}
             </div>
           </div>
 
@@ -791,15 +835,21 @@ export default function DistrictIntelligence({ selectedDistrictId, onSelectDistr
               <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>Very Heavy Precipitation Envelope</div>
             </div>
             <div style={{ position: 'relative', width: '100%', height: '10px', background: '#E2E8F0', borderRadius: '5px' }}>
-              <div style={{ height: '100%', width: `${Math.max(0, Math.round(heavyProb * 0.4))}%`, background: 'var(--slate-500)', borderRadius: '5px' }}></div>
+              <div style={{ height: '100%', width: `${loading ? 0 : Math.max(0, Math.round(heavyProb * 0.4))}%`, background: 'var(--slate-500)', borderRadius: '5px' }}></div>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', minWidth: '120px', justifyContent: 'flex-end' }}>
-              <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: 'var(--navy)' }}>
-                {fmtPct(Math.max(0, Math.round(heavyProb * 0.4)))}
-              </span>
-              <span className="badge badge-muted" style={{ fontSize: '0.625rem' }}>
-                BELOW GATE
-              </span>
+              {loading ? (
+                <span className="skeleton-box" style={{ width: '45px', height: '18px' }}></span>
+              ) : (
+                <>
+                  <span className="font-mono" style={{ fontWeight: 800, fontSize: '0.9375rem', color: 'var(--navy)' }}>
+                    {fmtPct(Math.max(0, Math.round(heavyProb * 0.4)))}
+                  </span>
+                  <span className="badge badge-muted" style={{ fontSize: '0.625rem' }}>
+                    BELOW GATE
+                  </span>
+                </>
+              )}
             </div>
           </div>
 

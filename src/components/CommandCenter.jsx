@@ -11,11 +11,28 @@ import InteractiveMap from './InteractiveMap';
 
 export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
   const { districts: liveDistricts, loading: districtsLoading, error: districtsError, refresh } = useDistricts();
-  const districts = liveDistricts && liveDistricts.length > 0 ? liveDistricts : INDIA_DISTRICTS_57;
+  const hasLiveDistricts = Array.isArray(liveDistricts) && liveDistricts.length > 0;
+  const districts = hasLiveDistricts ? liveDistricts : [];
 
   const [status, setStatus] = useState(null);
   const [activeAlerts, setActiveAlerts] = useState([]);
   const [isLiveConnected, setIsLiveConnected] = useState(false);
+  const [showWakeupNotice, setShowWakeupNotice] = useState(false);
+
+  // 5-second timer for waking up server notice
+  useEffect(() => {
+    let timer = null;
+    if (districtsLoading) {
+      timer = setTimeout(() => {
+        setShowWakeupNotice(true);
+      }, 5000);
+    } else {
+      setShowWakeupNotice(false);
+    }
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
+  }, [districtsLoading]);
 
   useEffect(() => {
     async function loadData() {
@@ -34,12 +51,12 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
     loadData();
   }, []);
 
-  // Compute live summary statistics
+  // Compute live summary statistics strictly from live data
   const totalMonitored = districts.length;
   const criticalCount = districts.filter(d => d.heavy_rain_alert || (d.heavy_rain_probability != null && d.heavy_rain_probability >= 0.20) || d.riskLevel === 'CRITICAL').length;
   const meanCorrection = districts.length > 0 
     ? (districts.reduce((acc, d) => acc + Math.abs(Number(d.delta || (Number(d.aiCorrected || 0) - Number(d.nwpForecast || 0)))), 0) / districts.length).toFixed(1)
-    : '0.0';
+    : null;
 
   // Sort districts for hotspot table
   const hotspotDistricts = [...districts].sort((a, b) => {
@@ -51,6 +68,29 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
   return (
     <div className="space-y-6" style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
       
+      {/* 5-Second Server Wakeup Notice */}
+      {showWakeupNotice && (
+        <div className="info-banner" style={{ background: '#EFF6FF', borderColor: '#93C5FD', color: '#1E40AF', display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <RefreshCw style={{ width: '16px', height: '16px', animation: 'spin 1.5s linear infinite', flexShrink: 0 }} />
+          <span style={{ fontSize: '0.8125rem', fontWeight: 600 }}>
+            Waking up the server, this can take up to a minute on first load.
+          </span>
+        </div>
+      )}
+
+      {/* API Failure Error Banner with Retry Button */}
+      {districtsError && (
+        <div className="portal-card" style={{ background: '#FEF2F2', border: '1px solid #F87171', padding: '14px 18px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#991B1B', fontWeight: 600, fontSize: '0.8125rem' }}>
+            <AlertTriangle style={{ width: '18px', height: '18px', color: '#DC2626', flexShrink: 0 }} />
+            <span>Failed to load live telemetry from API: {districtsError}</span>
+          </div>
+          <button onClick={refresh} className="btn-primary" style={{ fontSize: '0.75rem', padding: '6px 14px' }}>
+            <RefreshCw style={{ width: '13px', height: '13px' }} /> Retry
+          </button>
+        </div>
+      )}
+
       {/* ============================================================
           1. COMMAND CENTER HERO WITH LIVE TELEMETRY STATUS
           ============================================================ */}
@@ -63,7 +103,7 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '4px 10px', background: 'rgba(255,255,255,0.92)', borderRadius: '20px', border: '1px solid rgba(203,213,225,0.8)', marginBottom: '10px', boxShadow: '0 1px 2px rgba(0,0,0,0.04)' }}>
                 <span className="pulse-indicator" style={{ background: isLiveConnected ? 'var(--green)' : 'var(--amber)' }}></span>
                 <span style={{ fontSize: '0.6875rem', fontWeight: 700, color: isLiveConnected ? 'var(--green)' : 'var(--amber)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                  {isLiveConnected ? 'Operational FastAPI Pipeline Active' : 'Historical Replay Validation'}
+                  {isLiveConnected ? 'Operational FastAPI Pipeline Active' : 'Connecting to Live Telemetry'}
                 </span>
                 <span style={{ color: 'var(--border-strong)' }}>|</span>
                 <span style={{ fontSize: '0.6875rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
@@ -106,7 +146,9 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
               </div>
               <div>
                 <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', fontWeight: 600 }}>MONITORED DIVISIONS</div>
-                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: 'var(--navy)', fontFamily: 'var(--font-mono)' }}>{totalMonitored} Districts</div>
+                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: 'var(--navy)', fontFamily: 'var(--font-mono)' }}>
+                  {districtsLoading ? <span className="skeleton-box" style={{ width: '90px', height: '18px' }} /> : `${totalMonitored} Districts`}
+                </div>
               </div>
             </div>
 
@@ -116,7 +158,9 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
               </div>
               <div>
                 <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', fontWeight: 600 }}>HEAVY RAIN HOTSPOTS</div>
-                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: criticalCount > 0 ? 'var(--red)' : 'var(--green)', fontFamily: 'var(--font-mono)' }}>{criticalCount} Triggered</div>
+                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: criticalCount > 0 ? 'var(--red)' : 'var(--green)', fontFamily: 'var(--font-mono)' }}>
+                  {districtsLoading ? <span className="skeleton-box" style={{ width: '90px', height: '18px' }} /> : `${criticalCount} Triggered`}
+                </div>
               </div>
             </div>
 
@@ -126,7 +170,9 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
               </div>
               <div>
                 <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', fontWeight: 600 }}>AVG MODEL CORRECTION</div>
-                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: 'var(--blue)', fontFamily: 'var(--font-mono)' }}>{meanCorrection} mm</div>
+                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: 'var(--blue)', fontFamily: 'var(--font-mono)' }}>
+                  {districtsLoading || meanCorrection == null ? <span className="skeleton-box" style={{ width: '70px', height: '18px' }} /> : `${meanCorrection} mm`}
+                </div>
               </div>
             </div>
 
@@ -136,7 +182,9 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
               </div>
               <div>
                 <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', fontWeight: 600 }}>ACTIVE WEATHER ALERTS</div>
-                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: 'var(--amber)', fontFamily: 'var(--font-mono)' }}>{activeAlerts.length} Critical Alerts</div>
+                <div style={{ fontSize: '1.125rem', fontWeight: 800, color: 'var(--amber)', fontFamily: 'var(--font-mono)' }}>
+                  {districtsLoading ? <span className="skeleton-box" style={{ width: '90px', height: '18px' }} /> : `${activeAlerts.length} Critical Alerts`}
+                </div>
               </div>
             </div>
           </div>
@@ -223,64 +271,85 @@ export default function CommandCenter({ onSelectDistrict, onNavigateTab }) {
               </tr>
             </thead>
             <tbody>
-              {hotspotDistricts.slice(0, 8).map((district, idx) => {
-                const regInfo = getRegimeInfo(district.regime);
-                const heavyP = district.heavy_rain_probability != null 
-                  ? (district.heavy_rain_probability > 1 ? district.heavy_rain_probability / 100 : Number(district.heavy_rain_probability))
-                  : (district.heavyProb ? district.heavyProb.p64 / 100 : 0.0);
-                const rainP = district.rain_probability != null ? Number(district.rain_probability) : 0.85;
-                const isAlert = district.heavy_rain_alert || heavyP >= 0.20 || district.riskLevel === 'CRITICAL' || district.riskLevel === 'HIGH';
-                const gfsVal = Number(district.nwpForecast || district.raw_gfs_rainfall_mm || 0);
-                const aiVal = Number(district.aiCorrected || district.corrected_rainfall_mm || 0);
-                const deltaVal = Number(district.delta || (aiVal - gfsVal) || 0);
-
-                return (
-                  <tr key={district.id || idx}>
+              {districtsLoading || hotspotDistricts.length === 0 ? (
+                Array.from({ length: 6 }).map((_, idx) => (
+                  <tr key={`skeleton-row-${idx}`}>
                     <td>
-                      <div style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '0.875rem' }}>{district.name}</div>
-                      <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>{district.state}</div>
+                      <div className="skeleton-box" style={{ width: '100px', height: '16px', marginBottom: '4px' }}></div>
+                      <div className="skeleton-box" style={{ width: '60px', height: '12px' }}></div>
                     </td>
-                    <td>
-                      <span className="badge badge-info">
-                        {regInfo.code} &bull; {regInfo.name}
-                      </span>
-                    </td>
-                    <td className="num" style={{ fontSize: '0.875rem' }}>
-                      {gfsVal.toFixed(1)} mm
-                    </td>
-                    <td className="num" style={{ fontWeight: 700, color: 'var(--blue)', fontSize: '0.875rem' }}>
-                      {aiVal.toFixed(1)} mm
-                    </td>
-                    <td className="num">
-                      <span style={{ fontSize: '0.75rem', fontWeight: 700, color: deltaVal > 0 ? 'var(--red)' : (deltaVal < 0 ? 'var(--blue)' : 'var(--text-primary)') }}>
-                        {deltaVal > 0 ? `+${deltaVal.toFixed(1)}` : deltaVal.toFixed(1)} mm
-                      </span>
-                    </td>
-                    <td className="num">
-                      {(rainP * 100).toFixed(0)}%
-                    </td>
-                    <td className="num">
-                      <span style={{ fontWeight: 700, color: heavyP >= 0.20 ? 'var(--red)' : 'var(--text-primary)' }}>
-                        {(heavyP * 100).toFixed(0)}%
-                      </span>
-                    </td>
-                    <td>
-                      <span className={`badge ${isAlert ? 'badge-critical' : 'badge-normal'}`}>
-                        {isAlert ? 'TRIGGERED' : 'NORMAL'}
-                      </span>
-                    </td>
-                    <td>
-                      <button 
-                        onClick={() => onSelectDistrict(district.id)}
-                        className="btn-secondary"
-                        style={{ fontSize: '0.6875rem', padding: '4px 10px', background: 'var(--surface-muted)' }}
-                      >
-                        Inspect District
-                      </button>
-                    </td>
+                    <td><span className="skeleton-box" style={{ width: '120px', height: '20px', borderRadius: '12px' }}></span></td>
+                    <td className="num"><span className="skeleton-box" style={{ width: '45px', height: '14px' }}></span></td>
+                    <td className="num"><span className="skeleton-box" style={{ width: '45px', height: '14px' }}></span></td>
+                    <td className="num"><span className="skeleton-box" style={{ width: '40px', height: '14px' }}></span></td>
+                    <td className="num"><span className="skeleton-box" style={{ width: '35px', height: '14px' }}></span></td>
+                    <td className="num"><span className="skeleton-box" style={{ width: '35px', height: '14px' }}></span></td>
+                    <td><span className="skeleton-box" style={{ width: '70px', height: '18px', borderRadius: '12px' }}></span></td>
+                    <td><span className="skeleton-box" style={{ width: '80px', height: '24px', borderRadius: '4px' }}></span></td>
                   </tr>
-                );
-              })}
+                ))
+              ) : (
+                hotspotDistricts.slice(0, 8).map((district, idx) => {
+                  const regInfo = getRegimeInfo(district.regime);
+                  const heavyP = district.heavy_rain_probability != null 
+                    ? (district.heavy_rain_probability > 1 ? district.heavy_rain_probability / 100 : Number(district.heavy_rain_probability))
+                    : 0.0;
+                  const rainP = district.rain_probability != null ? Number(district.rain_probability) : null;
+                  const isAlert = district.heavy_rain_alert || heavyP >= 0.20 || district.riskLevel === 'CRITICAL' || district.riskLevel === 'HIGH';
+                  const gfsVal = district.nwpForecast != null ? Number(district.nwpForecast) : (district.raw_gfs_rainfall_mm != null ? Number(district.raw_gfs_rainfall_mm) : null);
+                  const aiVal = district.aiCorrected != null ? Number(district.aiCorrected) : (district.corrected_rainfall_mm != null ? Number(district.corrected_rainfall_mm) : null);
+                  const deltaVal = (aiVal != null && gfsVal != null) ? Number((aiVal - gfsVal).toFixed(1)) : null;
+
+                  return (
+                    <tr key={district.id || idx}>
+                      <td>
+                        <div style={{ fontWeight: 700, color: 'var(--navy)', fontSize: '0.875rem' }}>{district.name}</div>
+                        <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>{district.state}</div>
+                      </td>
+                      <td>
+                        <span className="badge badge-info">
+                          {regInfo.code} &bull; {regInfo.name}
+                        </span>
+                      </td>
+                      <td className="num" style={{ fontSize: '0.875rem' }}>
+                        {gfsVal != null ? `${gfsVal.toFixed(1)} mm` : '--'}
+                      </td>
+                      <td className="num" style={{ fontWeight: 700, color: 'var(--blue)', fontSize: '0.875rem' }}>
+                        {aiVal != null ? `${aiVal.toFixed(1)} mm` : '--'}
+                      </td>
+                      <td className="num">
+                        {deltaVal != null ? (
+                          <span style={{ fontSize: '0.75rem', fontWeight: 700, color: deltaVal > 0 ? 'var(--red)' : (deltaVal < 0 ? 'var(--blue)' : 'var(--text-primary)') }}>
+                            {deltaVal > 0 ? `+${deltaVal.toFixed(1)}` : deltaVal.toFixed(1)} mm
+                          </span>
+                        ) : '--'}
+                      </td>
+                      <td className="num">
+                        {rainP != null ? `${(rainP * 100).toFixed(0)}%` : '--'}
+                      </td>
+                      <td className="num">
+                        <span style={{ fontWeight: 700, color: heavyP >= 0.20 ? 'var(--red)' : 'var(--text-primary)' }}>
+                          {(heavyP * 100).toFixed(0)}%
+                        </span>
+                      </td>
+                      <td>
+                        <span className={`badge ${isAlert ? 'badge-critical' : 'badge-normal'}`}>
+                          {isAlert ? 'TRIGGERED' : 'NORMAL'}
+                        </span>
+                      </td>
+                      <td>
+                        <button 
+                          onClick={() => onSelectDistrict(district.id)}
+                          className="btn-secondary"
+                          style={{ fontSize: '0.6875rem', padding: '4px 10px', background: 'var(--surface-muted)' }}
+                        >
+                          Inspect District
+                        </button>
+                      </td>
+                    </tr>
+                  );
+                })
+              )}
             </tbody>
           </table>
         </div>
