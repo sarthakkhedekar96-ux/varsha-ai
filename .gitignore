@@ -34,7 +34,7 @@ __pycache__/
 *.pyc
 .vite/
 
-# Large raw GIS archive files not used in production runtime
-data/geo/india_district_full.geojson
-
+# Ignored raw, geo, and archive data directories
 data/raw/
+data/geo/
+data/archive/contaminated_open_meteo_forecast/
