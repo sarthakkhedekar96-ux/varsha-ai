@@ -11,7 +11,7 @@ import ImdDataExplorer from './components/ImdDataExplorer';
 import RainwiseAssistant from './components/RainwiseAssistant';
 import AlertsPanel from './components/AlertsPanel';
 import ErrorBoundary from './components/ErrorBoundary';
-import { fetchDistricts, fetchSystemStatus, checkApiHealth, fetchActiveAlerts, IS_MOCK_ENABLED } from './api/client';
+import { fetchDistricts, fetchSystemStatus, checkApiHealth, fetchActiveAlerts, IS_MOCK_ENABLED, IS_API_CONFIGURED } from './api/client';
 import { CloudRain, ExternalLink, Bot, ShieldCheck } from 'lucide-react';
 
 export default function App() {
@@ -55,6 +55,14 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col" style={{ background: 'var(--bg)', color: 'var(--text-primary)', fontFamily: 'var(--font-sans)', display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       
+      {/* API Not Configured Warning Banner */}
+      {!IS_API_CONFIGURED && (
+        <div id="api-not-configured-banner" style={{ background: '#FEF2F2', color: '#991B1B', borderBottom: '1px solid #F87171', textAlign: 'center', padding: '10px 16px', fontSize: '0.8125rem', fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+          <span>⚠️</span>
+          <span>API not configured: VITE_API_URL environment variable is not defined. Please set VITE_API_URL (e.g. https://varsha-ai-api.onrender.com/api) in your environment settings.</span>
+        </div>
+      )}
+
       {/* Demo Data Notice if mock mode is explicitly activated via env */}
       {IS_MOCK_ENABLED && (
         <div style={{ background: '#F59E0B', color: '#78350F', textAlign: 'center', padding: '4px', fontSize: '0.6875rem', fontWeight: 800, letterSpacing: '0.05em' }}>
